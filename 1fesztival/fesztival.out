@@ -1,0 +1,52 @@
+Problem:    fesztival
+Rows:       11
+Columns:    7
+Non-zeros:  37
+Status:     OPTIMAL
+Objective:  Fesztival = 3 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Hatijenincs  NL             1             1                           1 
+     2 JustinBieber B              2             1               
+     3 TaylorSwift  B              1             1               
+     4 Skillet      NL             1             1                           1 
+     5 KendrickLamar
+                    B              2             1               
+     6 PaDuDu       B              1             1               
+     7 Hanabie      B              2             1               
+     8 BackstreetBoys
+                    B              1             1               
+     9 Metallica    NL             1             1                           1 
+    10 Tankcsapda   B              3             1               
+    11 Fesztival    B              3                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 xNOV         B              1             0               
+     2 xOZO         B              1             0               
+     3 xSAV         NL             0             0                       < eps
+     4 xBS          NL             0             0                       < eps
+     5 xSZI         B              1             0               
+     6 xEFO         NL             0             0                           1 
+     7 xSEN         NL             0             0                       < eps
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

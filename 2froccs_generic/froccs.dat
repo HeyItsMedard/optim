@@ -1,0 +1,47 @@
+set Froccs:=
+kisfroccs
+nagyfroccs
+hosszulepes
+hazmester
+vicehazmester
+sport
+krudy
+soher
+puskas
+;
+
+set Contents :=
+  soda
+  wine
+;
+
+param prices:=
+kisfroccs 200
+nagyfroccs 380
+hosszulepes 220
+hazmester 550
+vicehazmester 400
+sport 230
+krudy 1600
+soher 300
+puskas 1100
+;
+
+param need :
+                soda  wine  :=
+    kisfroccs     1     1  
+    nagyfroccs    1     2
+    hosszulepes   2     1
+    hazmester     2     3
+    vicehazmester 3     2
+    sport         1     4
+    krudy         1     9
+    soher         9     1
+    puskas        3     6
+;
+
+
+param stock :=
+  soda 1500
+  wine 1000
+;

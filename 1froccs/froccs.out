@@ -1,0 +1,44 @@
+Problem:    froccs
+Rows:       3
+Columns:    9
+Non-zeros:  27
+Status:     OPTIMAL
+Objective:  Income = 210000 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Bor          NU          1000                        1000           180 
+     2 Szoda        NU          1500                        1500            20 
+     3 Income       B         210000                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 xKF          NL             0             0                       < eps
+     2 xNF          B        166.667             0               
+     3 xHL          B        666.667             0               
+     4 xHM          NL             0             0                         -30 
+     5 xVHM         NL             0             0                         -20 
+     6 xSP          NL             0             0                         -30 
+     7 xKR          NL             0             0                         -40 
+     8 xSH          NL             0             0                         -60 
+     9 xPU          NL             0             0                         -40 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
