@@ -10,3 +10,8 @@ TotalChocolatesPerStudent[M] = 3
 TotalChocolatesPerStudent[G] = 2
 Display statement at line 38
 OverallChocolates = 14
+Subjects assigned to each student:
+I: T1 T5 T9 
+K: T2 T4 T7 
+M: T6 T8 
+G: T3 T10 
