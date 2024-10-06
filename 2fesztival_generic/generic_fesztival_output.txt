@@ -1,4 +1,4 @@
-Display statement at line 22
+Display statement at line 20
 x[NOV].val = 1
 x[OZO].val = 1
 x[SAV].val = 0

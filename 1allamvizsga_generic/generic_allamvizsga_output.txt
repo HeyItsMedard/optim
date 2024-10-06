@@ -1,0 +1,12 @@
+Display statement at line 30
+NumTheses[I] = 42
+NumTheses[K] = 41
+NumTheses[M] = 32
+NumTheses[G] = 35
+Display statement at line 34
+TotalChocolatesPerStudent[I] = 4
+TotalChocolatesPerStudent[K] = 5
+TotalChocolatesPerStudent[M] = 3
+TotalChocolatesPerStudent[G] = 2
+Display statement at line 38
+OverallChocolates = 14

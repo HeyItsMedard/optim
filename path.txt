@@ -1,0 +1,1 @@
+#>C:\Users\medav\Downloads\gusek_0-2-24\gusek\glpsol.exe --cover --clique --gomory --mir -m "generic_allamvizsga.mod" -d "allamvizsga.dat" -o "generic_allamvizsga.out" -y "generic_allamvizsga_output.txt"

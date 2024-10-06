@@ -1,22 +1,22 @@
 set Students := I K M G;
+
 set Tantargyak := T1 T2 T3 T4 T5 T6 T7 T8 T9 T10;
 
-
-
-param MilkacsokiAr : 
+param MilkacsokiAr :
         T1 T2 T3 T4 T5 T6 T7 T8 T9 T10 :=
-    I 2 5 4 6 1 2 3 4 1 5
-    K 3 1 6 2 4 5 2 6 3 2
-    M 4 2 3 5 6 1 3 2 4 5
-    G 5 3 1 4 2 6 4 5 2 1;
+    I   2  5  4  6  1  2  3  4  1  5
+    K   3  1  6  2  4  5  2  6  3  2
+    M   4  2  3  5  6  1  3  2  4  5
+    G   5  3  1  4  2  6  4  5  2  1;
 
-
-# param kidolgozott tetel : 
-#         T1 T2 T3 T4 T5 T6 T7 T8 T9 T10 :=
-#     I 0 0 0 0 0 0 0 0 0 0
-#     K 0 0 0 0 0 0 0 0 0 0
-#     M 0 0 0 0 0 0 0 0 0 0
-#     G 0 0 0 0 0 0 0 0 0 0;
-
-
-
+param Tetelek :=
+    T1 10
+    T2 15
+    T3 20
+    T4 12
+    T5 18
+    T6 17
+    T7 14
+    T8 15
+    T9 14
+    T10 15;
