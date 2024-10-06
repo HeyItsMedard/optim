@@ -1,8 +1,15 @@
-set Bands:=
-Hatijenincs ...
-;
+set Bands := Hatijenincs JustinBieber TaylorSwift Skillet KendrickLamar PaDuDu Hanabie BackstreetBoys Metallica Tankcsapda;
 
-set Fests:=
-SEN ...
-;
+set Fests := NOV OZO SAV BS SZI EFO SEN;
 
+param Concerts: NOV OZO SAV BS SZI EFO SEN :=
+Hatijenincs     0   1   0   1   0   0   0
+JustinBieber    1   0   0   1   1   1   1
+TaylorSwift     0   0   1   0   1   1   0
+Skillet         1   0   1   0   0   0   1
+KendrickLamar   0   1   1   0   1   1   0
+PaDuDu          1   0   0   1   0   0   0
+Hanabie         1   1   0   1   0   0   0
+BackstreetBoys  1   0   1   0   0   0   1
+Metallica       0   0   0   0   1   0   0
+Tankcsapda      1   1   0   0   1   1   0;

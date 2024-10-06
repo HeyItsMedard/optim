@@ -1,0 +1,8 @@
+Display statement at line 22
+x[NOV].val = 1
+x[OZO].val = 1
+x[SAV].val = 0
+x[BS].val = 0
+x[SZI].val = 1
+x[EFO].val = 0
+x[SEN].val = 0
