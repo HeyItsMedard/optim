@@ -5,8 +5,12 @@ set Tantargyak;  # Set of all subjects (T1, T2, ..., T10)
 param MilkacsokiAr{Students, Tantargyak} >= 0;  # Cost of chocolate to motivate students for each subject
 param Tetelek{Tantargyak} >= 0;  # Number of theses for each subject
 
+param IgazsagossagArany;
+
 # Decision variables
 var x{Students, Tantargyak} binary;  # 1 if student works on a subject, 0 otherwise
+# Matey nitpick: x helyett valami beszédesebb
+
 
 # minimize the total number of chocolates
 minimize TotalChocolates:

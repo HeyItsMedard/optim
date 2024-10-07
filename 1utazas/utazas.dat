@@ -1,0 +1,30 @@
+set Benzinkutak := s x y z a b c;
+set Varosok := Sopron Debrecen;
+
+param VarosTavolsag:
+            Debrecen  :=
+Sopron	    442
+;
+
+param AutoKapacitas:= 40; #l
+
+param BenzinArak :=
+    s 355
+    x 350
+    y 340
+    z 345
+    a 360
+    b 335
+    c 345
+; #ft/l
+
+param KutTavolsag:
+            Sopron  :=
+    s       0
+    x       150
+    y       200
+    z       250
+    a       300
+    b       350
+    c       400; 
+; #km

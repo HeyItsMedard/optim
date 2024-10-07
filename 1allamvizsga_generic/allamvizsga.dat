@@ -21,3 +21,5 @@ param Tetelek :=
     T8 15
     T9 14
     T10 15;
+
+param IgazsagossagArany := 1.2;
