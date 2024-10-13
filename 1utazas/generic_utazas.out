@@ -1,0 +1,70 @@
+Problem:    generic_utazas
+Rows:       16
+Columns:    7
+Non-zeros:  57
+Status:     OPTIMAL
+Objective:  TotalCost = 10188.75 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 First_fill_at_start
+                    B             13         1e-05               
+     2 Has_to_meet_safety_measure[x]
+                    B            350           250               
+     3 Has_to_meet_safety_measure[y]
+                    NL           200           200                        0.65 
+     4 Has_to_meet_safety_measure[z]
+                    B            350           300               
+     5 Has_to_meet_safety_measure[a]
+                    NL           350           350                       0.325 
+     6 Has_to_meet_safety_measure[b]
+                    B            450           400               
+     7 Has_to_meet_safety_measure[c]
+                    NL           450           450                        22.1 
+     8 Can_not_overfill[s]
+                    B              0                          40 
+     9 Can_not_overfill[x]
+                    B          22.75                          40 
+    10 Can_not_overfill[y]
+                    B             13                          40 
+    11 Can_not_overfill[z]
+                    B          22.75                          40 
+    12 Can_not_overfill[a]
+                    B          22.75                          40 
+    13 Can_not_overfill[b]
+                    B          29.25                          40 
+    14 Can_not_overfill[c]
+                    B          29.25                          40 
+    15 Need_to_reach_final_destination
+                    B            450           442               
+    16 TotalCost    B        10188.8                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 fill[s]      B             13             0               
+     2 fill[y]      B           9.75             0               
+     3 fill[x]      NL             0             0                          15 
+     4 fill[z]      NL             0             0                          10 
+     5 fill[a]      B            6.5             0               
+     6 fill[b]      NL             0             0                           5 
+     7 fill[c]      NL             0             0                         345 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 5.68e-14 on column 2
+        max.rel.err = 8.35e-17 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

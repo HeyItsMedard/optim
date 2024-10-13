@@ -1,30 +1,20 @@
-set Benzinkutak := s x y z a b c;
-set Varosok := Sopron Debrecen;
+param totalDistance := 442;
 
-param VarosTavolsag:
-            Debrecen  :=
-Sopron	    442
-;
+param fuelConsumption := 6.5;
 
-param AutoKapacitas:= 40; #l
+param tankCapacity := 40;
 
-param BenzinArak :=
-    s 355
-    x 350
-    y 340
-    z 345
-    a 360
-    b 335
-    c 345
-; #ft/l
+param initialTank := 0;
 
-param KutTavolsag:
-            Sopron  :=
-    s       0
-    x       150
-    y       200
-    z       250
-    a       300
-    b       350
-    c       400; 
-; #km
+param safetyMeasure := 50; #km
+
+set Stations:= s x y z a b c;
+
+param: distance     fuelPrice:=
+s       0           355                 
+y       150         345
+x       200         360     
+z       250         355
+a       300         340   
+b       350         345    
+c       400         345;     

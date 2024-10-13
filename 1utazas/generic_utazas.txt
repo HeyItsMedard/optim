@@ -1,0 +1,9 @@
+Total cost: 10188.8
+
+             s  (    0 km, 355 Ft/l):    13 l üzemanyag tankolva
+             x  (  200 km, 360 Ft/l):     0 l üzemanyag tankolva
+             y  (  150 km, 345 Ft/l):   9.8 l üzemanyag tankolva
+             z  (  250 km, 355 Ft/l):     0 l üzemanyag tankolva
+             a  (  300 km, 340 Ft/l):   6.5 l üzemanyag tankolva
+             b  (  350 km, 345 Ft/l):     0 l üzemanyag tankolva
+             c  (  400 km, 345 Ft/l):     0 l üzemanyag tankolva

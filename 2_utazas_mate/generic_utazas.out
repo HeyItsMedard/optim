@@ -1,0 +1,162 @@
+Problem:    generic_utazas
+Rows:       46
+Columns:    22
+Non-zeros:  528
+Status:     OPTIMAL
+Objective:  TotalCost = 84572.75 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Has_to_meet_safety_measure[Algeria1]
+                    B              0      -563.333               
+     2 Has_to_meet_safety_measure[Algeria2]
+                    B              0      -43.3333               
+     3 Has_to_meet_safety_measure[Algeria3]
+                    NL       466.667       466.667                         1.5 
+     4 Has_to_meet_safety_measure[Algeria4]
+                    B           1350       1116.67               
+     5 Has_to_meet_safety_measure[Algeria5]
+                    B           2000       1696.67               
+     6 Has_to_meet_safety_measure[Algeria6]
+                    NL       2286.67       2286.67                        0.75 
+     7 Has_to_meet_safety_measure[Niger1]
+                    B           3170       2676.67               
+     8 Has_to_meet_safety_measure[Niger2]
+                    B           3560       3196.67               
+     9 Has_to_meet_safety_measure[Nigeria1]
+                    B           4080       3776.67               
+    10 Has_to_meet_safety_measure[Nigeria2]
+                    NL       4296.67       4296.67                         1.5 
+    11 Has_to_meet_safety_measure[Cameroon]
+                    B           5180       4616.67               
+    12 Has_to_meet_safety_measure[Gabon]
+                    B           5500       5066.67               
+    13 Has_to_meet_safety_measure[Congo1]
+                    NL       5595.67       5595.67                        3.75 
+    14 Has_to_meet_safety_measure[Congo2]
+                    B           6479       6106.67               
+    15 Has_to_meet_safety_measure[Angola1]
+                    NL       6556.67       6556.67                        0.75 
+    16 Has_to_meet_safety_measure[Angola2]
+                    B           7440       7076.67               
+    17 Has_to_meet_safety_measure[Angola3]
+                    NL       7526.67       7526.67                        0.75 
+    18 Has_to_meet_safety_measure[Namibia1]
+                    B           8410       7846.67               
+    19 Has_to_meet_safety_measure[Namibia2]
+                    B           8730       8366.67               
+    20 Has_to_meet_safety_measure[Namibia3]
+                    NL       8886.67       8886.67                         1.5 
+    21 Has_to_meet_safety_measure[SouthAfrica1]
+                    B           9770       9466.67               
+    22 Has_to_meet_safety_measure[SouthAfrica2]
+                    NL       9786.67       9786.67                         1.5 
+    23 Can_not_overfill[Algeria1]
+                    B              0                          24 
+    24 Can_not_overfill[Algeria2]
+                    B             35                          63 
+    25 Can_not_overfill[Algeria3]
+                    NU        101.25                      101.25           -10 
+    26 Can_not_overfill[Algeria4]
+                    NU           150                         150           -20 
+    27 Can_not_overfill[Algeria5]
+                    B          171.5                       193.5 
+    28 Can_not_overfill[Algeria6]
+                    NU        237.75                      237.75           -30 
+    29 Can_not_overfill[Niger1]
+                    NU           267                         267           -10 
+    30 Can_not_overfill[Niger2]
+                    NU           306                         306           -10 
+    31 Can_not_overfill[Nigeria1]
+                    B         322.25                       349.5 
+    32 Can_not_overfill[Nigeria2]
+                    NU         388.5                       388.5           -30 
+    33 Can_not_overfill[Cameroon]
+                    NU         412.5                       412.5           -10 
+    34 Can_not_overfill[Gabon]
+                    B        419.675                      446.25 
+    35 Can_not_overfill[Congo1]
+                    NU       485.925                     485.925           -20 
+    36 Can_not_overfill[Congo2]
+                    B         491.75                      524.25 
+    37 Can_not_overfill[Angola1]
+                    NU           558                         558           -10 
+    38 Can_not_overfill[Angola2]
+                    B          564.5                         597 
+    39 Can_not_overfill[Angola3]
+                    NU        630.75                      630.75           -20 
+    40 Can_not_overfill[Namibia1]
+                    NU        654.75                      654.75           -10 
+    41 Can_not_overfill[Namibia2]
+                    B          666.5                      693.75 
+    42 Can_not_overfill[Namibia3]
+                    NU        732.75                      732.75           -10 
+    43 Can_not_overfill[SouthAfrica1]
+                    B            734                      776.25 
+    44 Can_not_overfill[SouthAfrica2]
+                    B            755                      800.25 
+    45 Need_to_reach_final_destination
+                    NL       10066.7       10066.7                           9 
+    46 TotalCost    B        84572.7                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 fill[Algeria1]
+                    NL             0             0                          10 
+     2 fill[Algeria2]
+                    B             35             0               
+     3 fill[Algeria3]
+                    B          66.25             0               
+     4 fill[Algeria4]
+                    B          48.75             0               
+     5 fill[Algeria5]
+                    B           21.5             0               
+     6 fill[Algeria6]
+                    B          66.25             0               
+     7 fill[Niger1] B          29.25             0               
+     8 fill[Niger2] B             39             0               
+     9 fill[Nigeria1]
+                    B          16.25             0               
+    10 fill[Nigeria2]
+                    B          66.25             0               
+    11 fill[Cameroon]
+                    B             24             0               
+    12 fill[Gabon]  B          7.175             0               
+    13 fill[Congo1] B          66.25             0               
+    14 fill[Congo2] B          5.825             0               
+    15 fill[Angola1]
+                    B          66.25             0               
+    16 fill[Angola2]
+                    B            6.5             0               
+    17 fill[Angola3]
+                    B          66.25             0               
+    18 fill[Namibia1]
+                    B             24             0               
+    19 fill[Namibia2]
+                    B          11.75             0               
+    20 fill[Namibia3]
+                    B          66.25             0               
+    21 fill[SouthAfrica1]
+                    B           1.25             0               
+    22 fill[SouthAfrica2]
+                    B             21             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.82e-12 on row 20
+        max.rel.err = 1.02e-16 on row 20
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
