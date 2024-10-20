@@ -1,0 +1,44 @@
+set Feladatok := F1 F2 F3 F4 F5 F6 F7 F8 F9 F10;
+
+set Orak := 1 2 3;
+
+param ora :=
+F1 1
+F2 1
+F3 2
+F4 2
+F5 3
+F6 3
+F7 1
+F8 2
+F9 3
+F10 2
+;
+
+param suly :=
+F1 5
+F2 4
+F3 7
+F4 6
+F5 1
+F6 3
+F7 8
+F8 9
+F9 3
+F10 10
+;
+
+param ar :=
+F1 100
+F2 200
+F3 450
+F4 300
+F5 550
+F6 600
+F7 120
+F8 240
+F9 60
+F10 350
+;
+
+param sulyhatar := 10;

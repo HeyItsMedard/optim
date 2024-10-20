@@ -1,0 +1,6 @@
+Bringa feladat
+
+Futárok vagyunk, óránként kapunk feladatokat.
+A feladatok bizonyos súlyú csomagokból állnak. 
+Maximum 10 kilós csomagot vihetünk egyszerre (óránként).
+Minden feladatnak van egy meghatározott ára, ezt akarjuk maximalizálni.

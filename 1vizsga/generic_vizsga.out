@@ -1,20 +1,20 @@
 Problem:    generic_vizsga
-Rows:       15
+Rows:       18
 Columns:    36 (3 integer, 3 binary)
-Non-zeros:  58
+Non-zeros:  61
 Status:     INTEGER OPTIMAL
 Objective:  KreditEarned = 4 (MAXimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 StudyTimePerDay[0]
-                                   1                           2 
+                                   2                           2 
      2 StudyTimePerDay[1]
-                                   0                           4 
+                                   4                           4 
      3 StudyTimePerDay[2]
                                    3                           3 
      4 StudyTimePerDay[3]
-                                   8                           8 
+                                   4                           4 
      5 StudyTimePerDay[4]
                                    0                          -0 
      6 StudyTimePerDay[5]
@@ -22,20 +22,26 @@ Objective:  KreditEarned = 4 (MAXimum)
      7 StudyTimePerDay[6]
                                    5                           5 
      8 StudyTimePerDay[7]
-                                   4                           4 
+                                   1                           1 
      9 StudyTimePerDay[8]
-                                   4                           4 
+                                 1.6                           4 
     10 StudyTimePerDay[9]
-                                   0                           6 
+                                   0                           4 
     11 StudyTimePerDay[10]
                                    0                          20 
     12 EnoughStudyBeforeExam[DB]
                                    0            -0               
     13 EnoughStudyBeforeExam[P2]
-                                   0            -0               
+                                 0.6            -0               
     14 EnoughStudyBeforeExam[DO]
                                    0            -0               
-    15 KreditEarned                4                             
+    15 ReducedCostDayBeforeExam[2,DB]
+                                   0                         1.2 
+    16 ReducedCostDayBeforeExam[6,P2]
+                                   0                           2 
+    17 ReducedCostDayBeforeExam[8,DO]
+                                 1.6                         1.6 
+    18 KreditEarned                4                             
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -44,13 +50,13 @@ Objective:  KreditEarned = 4 (MAXimum)
      2 studyTime[0,P2]
                                    0             0               
      3 studyTime[0,DO]
-                                   1             0               
+                                   2             0               
      4 studyTime[1,DB]
                                    0             0               
      5 studyTime[1,P2]
                                    0             0               
      6 studyTime[1,DO]
-                                   0             0               
+                                   4             0               
      7 studyTime[2,DB]
                                    0             0               
      8 studyTime[2,P2]
@@ -60,9 +66,9 @@ Objective:  KreditEarned = 4 (MAXimum)
     10 studyTime[3,DB]
                                    0             0               
     11 studyTime[3,P2]
-                                   0             0               
+                                 0.6             0               
     12 studyTime[3,DO]
-                                   8             0               
+                                 3.4             0               
     13 studyTime[4,DB]
                                    0             0               
     14 studyTime[4,P2]
@@ -86,13 +92,13 @@ Objective:  KreditEarned = 4 (MAXimum)
     23 studyTime[7,P2]
                                    0             0               
     24 studyTime[7,DO]
-                                   4             0               
+                                   1             0               
     25 studyTime[8,DB]
                                    0             0               
     26 studyTime[8,P2]
                                    0             0               
     27 studyTime[8,DO]
-                                   4             0               
+                                 1.6             0               
     28 studyTime[9,DB]
                                    0             0               
     29 studyTime[9,P2]

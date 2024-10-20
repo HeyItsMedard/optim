@@ -5,19 +5,19 @@ param nDays := 10;
 param complexity :=
 DB 20
 P2 15
-DO 35;
+DO 30; # was 35
 
 param availableHours :=
 0   2
 1   4
 2   3
-3   8 # was 2
+3   8 # was 2 # DB exam 4 hours
 4   0
 5   10
 6   5
-7   4
+7   4 # P2 exam 3 hours
 8   4
-9   6
+9   6 # DO exam 2 hours
 10  20;
 
 param daysOfExam :=
@@ -30,7 +30,9 @@ DB 5
 P2 3
 DO 4;
 
-param examLenght :=
+param examLength :=
 DB 4
 P2 3
 DO 2;
+
+param reducedCostFactor := 0.2;

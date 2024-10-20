@@ -67,4 +67,8 @@ Máté új feladata:
 
 - minden tárgyhoz van kreditérték és maximalizálni szeretnénk a kreditet ✔
 
-- minden tárgyhoz tartozik a vizsga hossza, így az elvesz a teljes tanulási időből
+- minden tárgyhoz tartozik a vizsga hossza, így az elvesz a teljes tanulási időből 🆗
+
+Új kitalált constraint:
+
+- egy nappal a vizsga előtt a stressz miatt nem figyelünk, doomscrollolunk. nerfeljük ezt a napot.
