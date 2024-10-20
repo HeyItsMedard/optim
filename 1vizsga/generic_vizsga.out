@@ -1,0 +1,122 @@
+Problem:    generic_vizsga
+Rows:       15
+Columns:    36 (3 integer, 3 binary)
+Non-zeros:  58
+Status:     INTEGER OPTIMAL
+Objective:  KreditEarned = 4 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 StudyTimePerDay[0]
+                                   1                           2 
+     2 StudyTimePerDay[1]
+                                   0                           4 
+     3 StudyTimePerDay[2]
+                                   3                           3 
+     4 StudyTimePerDay[3]
+                                   8                           8 
+     5 StudyTimePerDay[4]
+                                   0                          -0 
+     6 StudyTimePerDay[5]
+                                  10                          10 
+     7 StudyTimePerDay[6]
+                                   5                           5 
+     8 StudyTimePerDay[7]
+                                   4                           4 
+     9 StudyTimePerDay[8]
+                                   4                           4 
+    10 StudyTimePerDay[9]
+                                   0                           6 
+    11 StudyTimePerDay[10]
+                                   0                          20 
+    12 EnoughStudyBeforeExam[DB]
+                                   0            -0               
+    13 EnoughStudyBeforeExam[P2]
+                                   0            -0               
+    14 EnoughStudyBeforeExam[DO]
+                                   0            -0               
+    15 KreditEarned                4                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 studyTime[0,DB]
+                                   0             0               
+     2 studyTime[0,P2]
+                                   0             0               
+     3 studyTime[0,DO]
+                                   1             0               
+     4 studyTime[1,DB]
+                                   0             0               
+     5 studyTime[1,P2]
+                                   0             0               
+     6 studyTime[1,DO]
+                                   0             0               
+     7 studyTime[2,DB]
+                                   0             0               
+     8 studyTime[2,P2]
+                                   0             0               
+     9 studyTime[2,DO]
+                                   3             0               
+    10 studyTime[3,DB]
+                                   0             0               
+    11 studyTime[3,P2]
+                                   0             0               
+    12 studyTime[3,DO]
+                                   8             0               
+    13 studyTime[4,DB]
+                                   0             0               
+    14 studyTime[4,P2]
+                                   0             0               
+    15 studyTime[4,DO]
+                                   0             0               
+    16 studyTime[5,DB]
+                                   0             0               
+    17 studyTime[5,P2]
+                                   0             0               
+    18 studyTime[5,DO]
+                                  10             0               
+    19 studyTime[6,DB]
+                                   0             0               
+    20 studyTime[6,P2]
+                                   0             0               
+    21 studyTime[6,DO]
+                                   5             0               
+    22 studyTime[7,DB]
+                                   0             0               
+    23 studyTime[7,P2]
+                                   0             0               
+    24 studyTime[7,DO]
+                                   4             0               
+    25 studyTime[8,DB]
+                                   0             0               
+    26 studyTime[8,P2]
+                                   0             0               
+    27 studyTime[8,DO]
+                                   4             0               
+    28 studyTime[9,DB]
+                                   0             0               
+    29 studyTime[9,P2]
+                                   0             0               
+    30 studyTime[9,DO]
+                                   0             0               
+    31 studyTime[10,DB]
+                                   0             0               
+    32 studyTime[10,P2]
+                                   0             0               
+    33 studyTime[10,DO]
+                                   0             0               
+    34 done[DB]     *              0             0             1 
+    35 done[P2]     *              0             0             1 
+    36 done[DO]     *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

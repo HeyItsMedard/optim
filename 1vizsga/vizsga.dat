@@ -1,0 +1,36 @@
+set Topics:= DB P2 DO;
+
+param nDays := 10;
+
+param complexity :=
+DB 20
+P2 15
+DO 35;
+
+param availableHours :=
+0   2
+1   4
+2   3
+3   8 # was 2
+4   0
+5   10
+6   5
+7   4
+8   4
+9   6
+10  20;
+
+param daysOfExam :=
+DB 3
+P2 7
+DO 9;
+
+param kredits :=
+DB 5
+P2 3
+DO 4;
+
+param examLenght :=
+DB 4
+P2 3
+DO 2;
