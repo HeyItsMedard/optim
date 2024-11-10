@@ -1,0 +1,200 @@
+Problem:    vizmuvek
+Rows:       51
+Columns:    41 (5 integer, 5 binary)
+Non-zeros:  117
+Status:     INTEGER OPTIMAL
+Objective:  osszkoltseg = 20805 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 osszkoltseg             20805                             
+     2 nincs_kapcsolat[a,1]
+                                   6                          58 
+     3 nincs_kapcsolat[a,2]
+                                   0                          58 
+     4 nincs_kapcsolat[a,3]
+                                   0                          -0 
+     5 nincs_kapcsolat[a,4]
+                                   0                          -0 
+     6 nincs_kapcsolat[b,1]
+                                   0                          -0 
+     7 nincs_kapcsolat[b,2]
+                                   0                          58 
+     8 nincs_kapcsolat[b,3]
+                                   3                          58 
+     9 nincs_kapcsolat[b,4]
+                                   0                          58 
+    10 nincs_kapcsolat[c,1]
+                                   0                          -0 
+    11 nincs_kapcsolat[c,2]
+                                   0                          -0 
+    12 nincs_kapcsolat[c,3]
+                                   4                          58 
+    13 nincs_kapcsolat[c,4]
+                                   0                          58 
+    14 nincs_kapcsolat[d,1]
+                                   0                          -0 
+    15 nincs_kapcsolat[d,2]
+                                   0                          -0 
+    16 nincs_kapcsolat[d,3]
+                                   0                          -0 
+    17 nincs_kapcsolat[d,4]
+                                   5                          58 
+    18 nincs_kapcsolat[e,1]
+                                   0                          -0 
+    19 nincs_kapcsolat[e,2]
+                                   0                          -0 
+    20 nincs_kapcsolat[e,3]
+                                   0                          -0 
+    21 nincs_kapcsolat[e,4]
+                                   2                          58 
+    22 nincs_kapcsolat[f,1]
+                                   0                          -0 
+    23 nincs_kapcsolat[f,2]
+                                   0                          -0 
+    24 nincs_kapcsolat[f,3]
+                                   1                          58 
+    25 nincs_kapcsolat[f,4]
+                                   0                          58 
+    26 nincs_kapcsolat[g,1]
+                                   0                          58 
+    27 nincs_kapcsolat[g,2]
+                                   8                          58 
+    28 nincs_kapcsolat[g,3]
+                                   0                          -0 
+    29 nincs_kapcsolat[g,4]
+                                   0                          -0 
+    30 nincs_kapcsolat[h,1]
+                                   3                          58 
+    31 nincs_kapcsolat[h,2]
+                                   0                          -0 
+    32 nincs_kapcsolat[h,3]
+                                   0                          -0 
+    33 nincs_kapcsolat[h,4]
+                                   0                          -0 
+    34 osszes_transzport_kut[1]
+                                   0            -0             = 
+    35 osszes_transzport_kut[2]
+                                   0            -0             = 
+    36 osszes_transzport_kut[3]
+                                   0            -0             = 
+    37 osszes_transzport_kut[4]
+                                   0            -0             = 
+    38 kapacitas_kotelesseg[1]
+                                   9                          20 
+    39 kapacitas_kotelesseg[2]
+                                   8                           8 
+    40 kapacitas_kotelesseg[3]
+                                   8                          15 
+    41 kapacitas_kotelesseg[4]
+                                   7                          15 
+    42 sajat_kutat_hasznal[a]
+                                   6             6             = 
+    43 sajat_kutat_hasznal[b]
+                                   3             3             = 
+    44 sajat_kutat_hasznal[c]
+                                   4             4             = 
+    45 sajat_kutat_hasznal[d]
+                                   5             5             = 
+    46 sajat_kutat_hasznal[e]
+                                   2             2             = 
+    47 sajat_kutat_hasznal[f]
+                                   1             1             = 
+    48 sajat_kutat_hasznal[g]
+                                   8             8             = 
+    49 sajat_kutat_hasznal[h]
+                                   3             3             = 
+    50 buntetes_1                  9            -0               
+    51 buntetes_4                  7            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 telepites[1] *              0             0             1 
+     2 telepites[2] *              0             0             1 
+     3 telepites[3] *              0             0             1 
+     4 telepites[4] *              0             0             1 
+     5 transzport_per_haz[a,1]
+                                   6             0               
+     6 transzport_per_haz[a,2]
+                                   0             0               
+     7 transzport_per_haz[a,3]
+                                   0             0               
+     8 transzport_per_haz[a,4]
+                                   0             0               
+     9 transzport_per_haz[b,1]
+                                   0             0               
+    10 transzport_per_haz[b,2]
+                                   0             0               
+    11 transzport_per_haz[b,3]
+                                   3             0               
+    12 transzport_per_haz[b,4]
+                                   0             0               
+    13 transzport_per_haz[c,1]
+                                   0             0               
+    14 transzport_per_haz[c,2]
+                                   0             0               
+    15 transzport_per_haz[c,3]
+                                   4             0               
+    16 transzport_per_haz[c,4]
+                                   0             0               
+    17 transzport_per_haz[d,1]
+                                   0             0               
+    18 transzport_per_haz[d,2]
+                                   0             0               
+    19 transzport_per_haz[d,3]
+                                   0             0               
+    20 transzport_per_haz[d,4]
+                                   5             0               
+    21 transzport_per_haz[e,1]
+                                   0             0               
+    22 transzport_per_haz[e,2]
+                                   0             0               
+    23 transzport_per_haz[e,3]
+                                   0             0               
+    24 transzport_per_haz[e,4]
+                                   2             0               
+    25 transzport_per_haz[f,1]
+                                   0             0               
+    26 transzport_per_haz[f,2]
+                                   0             0               
+    27 transzport_per_haz[f,3]
+                                   1             0               
+    28 transzport_per_haz[f,4]
+                                   0             0               
+    29 transzport_per_haz[g,1]
+                                   0             0               
+    30 transzport_per_haz[g,2]
+                                   8             0               
+    31 transzport_per_haz[g,3]
+                                   0             0               
+    32 transzport_per_haz[g,4]
+                                   0             0               
+    33 transzport_per_haz[h,1]
+                                   3             0               
+    34 transzport_per_haz[h,2]
+                                   0             0               
+    35 transzport_per_haz[h,3]
+                                   0             0               
+    36 transzport_per_haz[h,4]
+                                   0             0               
+    37 transzport_kut_ossz[1]
+                                   9             0               
+    38 transzport_kut_ossz[2]
+                                   8             0               
+    39 transzport_kut_ossz[3]
+                                   8             0               
+    40 transzport_kut_ossz[4]
+                                   7             0               
+    41 y            *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

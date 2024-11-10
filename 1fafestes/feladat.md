@@ -32,6 +32,7 @@ változó
 
 korlátozások
 => ne legyünk távol egymástól max: 10 km lehet
+=> minden fázist 45 percig csinál mindenki, aztán 15 perc szünet
 
 8 óra meló
 max: minél több szakasz legyen kész

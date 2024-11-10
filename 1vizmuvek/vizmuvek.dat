@@ -1,0 +1,34 @@
+set Hazak := a b c d e f g h;
+set Kutak := 1 2 3 4;
+
+param: kapacitas   telepkoltseg     uzemelkoltseg:=
+1       20         25               3   
+2       8          20               1
+3       15         10               1
+4       15         30               2;
+
+param igeny:=
+a       6
+b       3
+c       4
+d       5
+e       2
+f       1
+g       8
+h       3;
+
+param buntetoAr:= 15; #$, éves
+
+param M := 58; #össztelepkapacitás Big M
+
+param kapcsolatok: 1 2 3 4 :=
+a 1 1 0 0
+b 0 1 1 1
+c 0 0 1 1
+d 0 0 0 1
+e 0 0 0 1
+f 0 0 1 1
+g 1 1 0 0
+h 1 0 0 0;
+
+end;

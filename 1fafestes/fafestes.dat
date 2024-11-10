@@ -44,3 +44,6 @@ param max_tavolsag := 10;
 
 # Teljes munkaidő (órákban)
 param munkaido_ora := 8;
+
+param szarad_feher := 10; # Fehér festék száradási idő percekben
+param szarad_piros := 5;  # Piros festék száradási idő percekbendfwgu
