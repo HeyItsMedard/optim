@@ -56,6 +56,21 @@ A korlátozások egyenletek vagy egyenlőtlenségek, amelyekkel meghatározhatju
 s.t. Capacity{i in I}: sum{j in J} a[i,j] * x[j] <= b[i];  # Kapacitás korlát
 s.t. Demand{j in J}: sum{i in I} d[i,j] * x[i] >= r[j];    # Kereslet korlát
 ```
+### 6. **Kiiratás**
+
+```glpk
+param OverallChocolates := sum{s in Students, t in Tantargyak} MilkacsokiAr[s, t] * x[s, t];
+display OverallChocolates;
+# vagy egy másik, szebb módszer
+printf "Subjects assigned to each student:\n";
+for {s in Students} {
+    printf "%s: ", s;
+    for {t in Tantargyak: x[s, t] = 1} {
+        printf "%s ", t;
+    }
+    printf "\n";
+}
+```
 
 ### 7. **Adatok Betöltése és Kiíratása**
 Az adatokat külső fájlokból lehet betölteni, vagy fájlba lehet kiírni. Például `.dat` fájlokat használnak a paraméterek értékeinek definiálására.
@@ -70,7 +85,12 @@ end;
 Adatok mentése fájlba:
 ```glpk
 display x > "output.txt"; # x változó értékeinek kiíratása fájlba
-```
+```  
+
+Vagy ahogy én csinálom:
+```bash
+>C:\Users\medav\Downloads\gusek_0-2-24\gusek\glpsol.exe --cover --clique --gomory --mir -m "name.mod" -d "name.dat" -o "name.out" -y "name.txt"
+```  
 
 ### 8. **Conditional (Feltételes) Értékadás**
 ~~GMPL-ben az `if` kifejezést használhatjuk a feltételes értékadáshoz.~~  
