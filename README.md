@@ -57,16 +57,6 @@ s.t. Capacity{i in I}: sum{j in J} a[i,j] * x[j] <= b[i];  # Kapacitás korlát
 s.t. Demand{j in J}: sum{i in I} d[i,j] * x[i] >= r[j];    # Kereslet korlát
 ```
 
-### 6. **Függvények**
-A GMPL támogat néhány beépített matematikai függvényt is.
-
-- **abs(x)** – abszolút érték
-- **max(x, y, ...)** – maximum
-- **min(x, y, ...)** – minimum
-- **floor(x)** – lefelé kerekítés
-- **ceil(x)** – felfelé kerekítés
-- **round(x)** – kerekítés
-
 ### 7. **Adatok Betöltése és Kiíratása**
 Az adatokat külső fájlokból lehet betölteni, vagy fájlba lehet kiírni. Például `.dat` fájlokat használnak a paraméterek értékeinek definiálására.
 
