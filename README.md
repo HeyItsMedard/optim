@@ -138,3 +138,12 @@ solve;
 
 display x;
 ```
+
+## Set Default
+
+![Set Default](default.png)
+
+## Symbolic
+
+set Cities symbolic; # strings
+param Distance{Cities, Cities};

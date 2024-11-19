@@ -1,0 +1,177 @@
+Problem:    erdotuz
+Rows:       55
+Columns:    22 (18 integer, 18 binary)
+Non-zeros:  120
+Status:     INTEGER OPTIMAL
+Objective:  covered_dots = 5 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 covered_dots                5                             
+     2 fire_extingiushing_on_x_bottom[1,1]
+                                  -4                        1000 
+     3 fire_extingiushing_on_x_bottom[1,2]
+                                 998                         999 
+     4 fire_extingiushing_on_x_bottom[2,1]
+                                 996                         997 
+     5 fire_extingiushing_on_x_bottom[2,2]
+                                  -2                         996 
+     6 fire_extingiushing_on_x_bottom[3,1]
+                                  -4                         922 
+     7 fire_extingiushing_on_x_bottom[3,2]
+                                  -2                         921 
+     8 fire_extingiushing_on_x_bottom[4,1]
+                                 996                         996 
+     9 fire_extingiushing_on_x_bottom[4,2]
+                                  -2                         995 
+    10 fire_extingiushing_on_x_bottom[5,1]
+                                  -4                        1001 
+    11 fire_extingiushing_on_x_bottom[5,2]
+                                 998                        1000 
+    12 fire_extingiushing_on_x_bottom[6,1]
+                                  -4                         999 
+    13 fire_extingiushing_on_x_bottom[6,2]
+                                 998                         998 
+    14 fire_extingiushing_on_x_upper[1,1]
+                                  -4         -1003               
+    15 fire_extingiushing_on_x_upper[1,2]
+                               -1002         -1003               
+    16 fire_extingiushing_on_x_upper[2,1]
+                               -1004         -1006               
+    17 fire_extingiushing_on_x_upper[2,2]
+                                  -2         -1006               
+    18 fire_extingiushing_on_x_upper[3,1]
+                                  -4         -1081               
+    19 fire_extingiushing_on_x_upper[3,2]
+                                  -2         -1081               
+    20 fire_extingiushing_on_x_upper[4,1]
+                               -1004         -1007               
+    21 fire_extingiushing_on_x_upper[4,2]
+                                  -2         -1007               
+    22 fire_extingiushing_on_x_upper[5,1]
+                                  -4         -1002               
+    23 fire_extingiushing_on_x_upper[5,2]
+                               -1002         -1002               
+    24 fire_extingiushing_on_x_upper[6,1]
+                                  -4         -1004               
+    25 fire_extingiushing_on_x_upper[6,2]
+                               -1002         -1004               
+    26 fire_extinguishing_on_y_upper[1,1]
+                                  -2         -1001               
+    27 fire_extinguishing_on_y_upper[1,2]
+                               -1000         -1001               
+    28 fire_extinguishing_on_y_upper[2,1]
+                               -1002         -1004               
+    29 fire_extinguishing_on_y_upper[2,2]
+                                   0         -1004               
+    30 fire_extinguishing_on_y_upper[3,1]
+                                  -2         -1019               
+    31 fire_extinguishing_on_y_upper[3,2]
+                                   0         -1019               
+    32 fire_extinguishing_on_y_upper[4,1]
+                               -1002         -1002               
+    33 fire_extinguishing_on_y_upper[4,2]
+                                   0         -1002               
+    34 fire_extinguishing_on_y_upper[5,1]
+                                  -2         -1004               
+    35 fire_extinguishing_on_y_upper[5,2]
+                               -1000         -1004               
+    36 fire_extinguishing_on_y_upper[6,1]
+                                  -2         -1004               
+    37 fire_extinguishing_on_y_upper[6,2]
+                               -1000         -1004               
+    38 fire_extinguishing_on_y_bottom[1,1]
+                                  -2                        1001 
+    39 fire_extinguishing_on_y_bottom[1,2]
+                                1000                        1003 
+    40 fire_extinguishing_on_y_bottom[2,1]
+                                 998                         998 
+    41 fire_extinguishing_on_y_bottom[2,2]
+                                   0                        1000 
+    42 fire_extinguishing_on_y_bottom[3,1]
+                                  -2                         983 
+    43 fire_extinguishing_on_y_bottom[3,2]
+                                   0                         985 
+    44 fire_extinguishing_on_y_bottom[4,1]
+                                 998                        1000 
+    45 fire_extinguishing_on_y_bottom[4,2]
+                                   0                        1002 
+    46 fire_extinguishing_on_y_bottom[5,1]
+                                  -2                         998 
+    47 fire_extinguishing_on_y_bottom[5,2]
+                                1000                        1000 
+    48 fire_extinguishing_on_y_bottom[6,1]
+                                  -2                         998 
+    49 fire_extinguishing_on_y_bottom[6,2]
+                                1000                        1000 
+    50 plane_covers_fire[1]
+                                   0                          -0 
+    51 plane_covers_fire[2]
+                                   0                          -0 
+    52 plane_covers_fire[3]
+                                   0                          -0 
+    53 plane_covers_fire[4]
+                                   0                          -0 
+    54 plane_covers_fire[5]
+                                   0                          -0 
+    55 plane_covers_fire[6]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 is_extinguished[1]
+                    *              1             0             1 
+     2 is_extinguished[2]
+                    *              1             0             1 
+     3 is_extinguished[3]
+                    *              0             0             1 
+     4 is_extinguished[4]
+                    *              1             0             1 
+     5 is_extinguished[5]
+                    *              1             0             1 
+     6 is_extinguished[6]
+                    *              1             0             1 
+     7 plane_covers[1,1]
+                    *              0             0             1 
+     8 plane_covers[2,1]
+                    *              1             0             1 
+     9 plane_covers[1,2]
+                    *              1             0             1 
+    10 plane_covers[2,2]
+                    *              0             0             1 
+    11 plane_covers[1,3]
+                    *              0             0             1 
+    12 plane_covers[2,3]
+                    *              0             0             1 
+    13 plane_covers[1,4]
+                    *              1             0             1 
+    14 plane_covers[2,4]
+                    *              0             0             1 
+    15 plane_covers[1,5]
+                    *              0             0             1 
+    16 plane_covers[2,5]
+                    *              1             0             1 
+    17 plane_covers[1,6]
+                    *              0             0             1 
+    18 plane_covers[2,6]
+                    *              1             0             1 
+    19 planes_corner_x[1]
+                                   4             0               
+    20 planes_corner_x[2]
+                                   2             0               
+    21 planes_corner_y[1]
+                                   2             0               
+    22 planes_corner_y[2]
+                                   0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
