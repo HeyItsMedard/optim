@@ -38,11 +38,10 @@ s.t. sajat_kutat_hasznal{i in Hazak}:
     sum{k in Kutak} transzport_per_haz[i,k] = igeny[i];
 
 # Ha 1 számú és 4 számú kutaknak külön-külön a transzport_kut_ossz nagyobb mint 15, akkor büntetés
-s.t. buntetes_1:
-    transzport_kut_ossz[1] >= 15 * y;
+s.t. buntetes:
+# pl. 3 + 4 <= 15 + M * (1 - y) y = 0 ✅ 10 + 10 <= 15 + M * (1 - y) y = 1 ✅
+    transzport_kut_ossz[1] + transzport_kut_ossz[4] <= 15 + M * (1 - y);
 
-s.t. buntetes_4:
-    transzport_kut_ossz[4] >= 15 * y;
 
 solve;
 #>C:\Users\medav\Downloads\gusek_0-2-24\gusek\glpsol.exe --cover --clique --gomory --mir -m "vizmuvek.mod" -d "vizmuvek.dat" -o "vizmuvek.out" -y "vizmuvek.txt"

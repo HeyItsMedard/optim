@@ -1,15 +1,15 @@
 Problem:    vizmuvek
-Rows:       51
+Rows:       50
 Columns:    41 (5 integer, 5 binary)
-Non-zeros:  117
+Non-zeros:  116
 Status:     INTEGER OPTIMAL
-Objective:  osszkoltseg = 20805 (MINimum)
+Objective:  osszkoltseg = 30660 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 osszkoltseg             20805                             
+     1 osszkoltseg             30660                             
      2 nincs_kapcsolat[a,1]
-                                   6                          58 
+                                  15                          58 
      3 nincs_kapcsolat[a,2]
                                    0                          58 
      4 nincs_kapcsolat[a,3]
@@ -81,7 +81,7 @@ Objective:  osszkoltseg = 20805 (MINimum)
     37 osszes_transzport_kut[4]
                                    0            -0             = 
     38 kapacitas_kotelesseg[1]
-                                   9                          20 
+                                  18                          20 
     39 kapacitas_kotelesseg[2]
                                    8                           8 
     40 kapacitas_kotelesseg[3]
@@ -89,7 +89,7 @@ Objective:  osszkoltseg = 20805 (MINimum)
     41 kapacitas_kotelesseg[4]
                                    7                          15 
     42 sajat_kutat_hasznal[a]
-                                   6             6             = 
+                                  15            15             = 
     43 sajat_kutat_hasznal[b]
                                    3             3             = 
     44 sajat_kutat_hasznal[c]
@@ -104,8 +104,7 @@ Objective:  osszkoltseg = 20805 (MINimum)
                                    8             8             = 
     49 sajat_kutat_hasznal[h]
                                    3             3             = 
-    50 buntetes_1                  9            -0               
-    51 buntetes_4                  7            -0               
+    50 buntetes_1                 25                          73 
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -114,7 +113,7 @@ Objective:  osszkoltseg = 20805 (MINimum)
      3 telepites[3] *              0             0             1 
      4 telepites[4] *              0             0             1 
      5 transzport_per_haz[a,1]
-                                   6             0               
+                                  15             0               
      6 transzport_per_haz[a,2]
                                    0             0               
      7 transzport_per_haz[a,3]
@@ -178,7 +177,7 @@ Objective:  osszkoltseg = 20805 (MINimum)
     36 transzport_per_haz[h,4]
                                    0             0               
     37 transzport_kut_ossz[1]
-                                   9             0               
+                                  18             0               
     38 transzport_kut_ossz[2]
                                    8             0               
     39 transzport_kut_ossz[3]

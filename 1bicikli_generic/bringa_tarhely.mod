@@ -7,15 +7,17 @@ param ar {Feladatok};
 
 param sulyhatar;
 
-var elvegezve {Feladatok} binary;
+# var elvegezve {Feladatok} binary; mivel így elvégzünk mindent
+var extra_tarthely binary;
+
+param M;
 
 # orankent maximum 10 kilo
-s.t. max10kilo {i in Orak}:
-    # 10 >= 3 + 4 + 0 + 0 + 0 + 0 + 0 + 0 + 0 + 0 => megcsinálja, 10 >= 3 + 4 + 7 + 0 + 0 + 0 + 0 + 0 + 0 + 0 nem csinálja meg
-    sum {f in Feladatok: ora[f] == i} suly[f] * elvegezve[f] <= sulyhatar;
+s.t. extra_space_logic:
+    sum {f in Feladatok} suly[f] >= sulyhatar - M * (1 - extra_tarthely);
 
 maximize bevetel:
-    sum {f in Feladatok, i in Orak} ar[f] * elvegezve[f];
+    sum {f in Feladatok, i in Orak} ar[f] - 500 * extra_tarthely;
 
 solve;
 

@@ -8,7 +8,7 @@ param: kapacitas   telepkoltseg     uzemelkoltseg:=
 4       15         30               2;
 
 param igeny:=
-a       6
+a       15
 b       3
 c       4
 d       5
