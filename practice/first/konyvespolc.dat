@@ -1,0 +1,29 @@
+# A könyveket típus szerint egymás mellé muszáj elhelyezni
+set BookSets:= Math IT Sport Music Novel Tolkien Feist HarryPotter Diploma;
+
+param :     bs_width  bs_maxheight:= # cm
+    Math    100         20
+    IT      80          25
+    Sport   30          30
+    Music   50          30
+    Novel   40          20
+    Tolkien 30          25
+    Feist   50          20
+    HarryPotter 90      25
+    Diploma 70          40
+    ;
+
+# Két sín, 50cm magasan kezdődnek
+param firstshelfheight := 50;
+#120cm szélesek mindketten
+param shelfwidth := 120;
+# legmagassabb könyv felett is maradjon 7cm
+param bookgap_height := 7;
+# polcok vastagsága 2cm
+param shelfthickness := 2;
+# összesen 7 lapot vettünk
+param max_shelves := 7;
+
+param M := 1000;
+
+# Cél: minél alacsonyabb legyen a legmagasabb polc (erre kell minimalizálni gondolom)

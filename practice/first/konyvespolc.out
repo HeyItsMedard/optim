@@ -1,0 +1,385 @@
+Problem:    konyvespolc
+Rows:       100
+Columns:    85 (70 integer, 70 binary)
+Non-zeros:  318
+Status:     INTEGER OPTIMAL
+Objective:  height = 181 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 height                    181                             
+     2 BooksetShelfAssignment[Math]
+                                   1             1             = 
+     3 BooksetShelfAssignment[IT]
+                                   1             1             = 
+     4 BooksetShelfAssignment[Sport]
+                                   1             1             = 
+     5 BooksetShelfAssignment[Music]
+                                   1             1             = 
+     6 BooksetShelfAssignment[Novel]
+                                   1             1             = 
+     7 BooksetShelfAssignment[Tolkien]
+                                   1             1             = 
+     8 BooksetShelfAssignment[Feist]
+                                   1             1             = 
+     9 BooksetShelfAssignment[HarryPotter]
+                                   1             1             = 
+    10 BooksetShelfAssignment[Diploma]
+                                   1             1             = 
+    11 Shelfcapacity[1]
+                                 -20                          -0 
+    12 Shelfcapacity[2]
+                                   0                          -0 
+    13 Shelfcapacity[3]
+                                 -10                          -0 
+    14 Shelfcapacity[4]
+                                 -30                          -0 
+    15 Shelfcapacity[5]
+                                   0                          -0 
+    16 Shelfcapacity[6]
+                                   0                          -0 
+    17 Shelfcapacity[7]
+                                   0                          -0 
+    18 MaxShelfHeight[1,Math]
+                                   0            -0               
+    19 MaxShelfHeight[1,IT]
+                                  20            -0               
+    20 MaxShelfHeight[1,Sport]
+                                  20            -0               
+    21 MaxShelfHeight[1,Music]
+                                  20            -0               
+    22 MaxShelfHeight[1,Novel]
+                                  20            -0               
+    23 MaxShelfHeight[1,Tolkien]
+                                  20            -0               
+    24 MaxShelfHeight[1,Feist]
+                                  20            -0               
+    25 MaxShelfHeight[1,HarryPotter]
+                                  20            -0               
+    26 MaxShelfHeight[1,Diploma]
+                                  20            -0               
+    27 MaxShelfHeight[2,Math]
+                                  30            -0               
+    28 MaxShelfHeight[2,IT]
+                                  30            -0               
+    29 MaxShelfHeight[2,Sport]
+                                   0            -0               
+    30 MaxShelfHeight[2,Music]
+                                  30            -0               
+    31 MaxShelfHeight[2,Novel]
+                                  30            -0               
+    32 MaxShelfHeight[2,Tolkien]
+                                  30            -0               
+    33 MaxShelfHeight[2,Feist]
+                                  30            -0               
+    34 MaxShelfHeight[2,HarryPotter]
+                                   5            -0               
+    35 MaxShelfHeight[2,Diploma]
+                                  30            -0               
+    36 MaxShelfHeight[3,Math]
+                                  25            -0               
+    37 MaxShelfHeight[3,IT]
+                                   0            -0               
+    38 MaxShelfHeight[3,Sport]
+                                  25            -0               
+    39 MaxShelfHeight[3,Music]
+                                  25            -0               
+    40 MaxShelfHeight[3,Novel]
+                                  25            -0               
+    41 MaxShelfHeight[3,Tolkien]
+                                   0            -0               
+    42 MaxShelfHeight[3,Feist]
+                                  25            -0               
+    43 MaxShelfHeight[3,HarryPotter]
+                                  25            -0               
+    44 MaxShelfHeight[3,Diploma]
+                                  25            -0               
+    45 MaxShelfHeight[4,Math]
+                                  20            -0               
+    46 MaxShelfHeight[4,IT]
+                                  20            -0               
+    47 MaxShelfHeight[4,Sport]
+                                  20            -0               
+    48 MaxShelfHeight[4,Music]
+                                  20            -0               
+    49 MaxShelfHeight[4,Novel]
+                                   0            -0               
+    50 MaxShelfHeight[4,Tolkien]
+                                  20            -0               
+    51 MaxShelfHeight[4,Feist]
+                                   0            -0               
+    52 MaxShelfHeight[4,HarryPotter]
+                                  20            -0               
+    53 MaxShelfHeight[4,Diploma]
+                                  20            -0               
+    54 MaxShelfHeight[5,Math]
+                                1991            -0               
+    55 MaxShelfHeight[5,IT]
+                                1991            -0               
+    56 MaxShelfHeight[5,Sport]
+                                1991            -0               
+    57 MaxShelfHeight[5,Music]
+                                1961            -0               
+    58 MaxShelfHeight[5,Novel]
+                                1991            -0               
+    59 MaxShelfHeight[5,Tolkien]
+                                1991            -0               
+    60 MaxShelfHeight[5,Feist]
+                                1991            -0               
+    61 MaxShelfHeight[5,HarryPotter]
+                                1991            -0               
+    62 MaxShelfHeight[5,Diploma]
+                                1951            -0               
+    63 MaxShelfHeight[6,Math]
+                                   0            -0               
+    64 MaxShelfHeight[6,IT]
+                                   0            -0               
+    65 MaxShelfHeight[6,Sport]
+                                   0            -0               
+    66 MaxShelfHeight[6,Music]
+                                   0            -0               
+    67 MaxShelfHeight[6,Novel]
+                                   0            -0               
+    68 MaxShelfHeight[6,Tolkien]
+                                   0            -0               
+    69 MaxShelfHeight[6,Feist]
+                                   0            -0               
+    70 MaxShelfHeight[6,HarryPotter]
+                                   0            -0               
+    71 MaxShelfHeight[6,Diploma]
+                                   0            -0               
+    72 MaxShelfHeight[7,Math]
+                                   0            -0               
+    73 MaxShelfHeight[7,IT]
+                                   0            -0               
+    74 MaxShelfHeight[7,Sport]
+                                   0            -0               
+    75 MaxShelfHeight[7,Music]
+                                   0            -0               
+    76 MaxShelfHeight[7,Novel]
+                                   0            -0               
+    77 MaxShelfHeight[7,Tolkien]
+                                   0            -0               
+    78 MaxShelfHeight[7,Feist]
+                                   0            -0               
+    79 MaxShelfHeight[7,HarryPotter]
+                                   0            -0               
+    80 MaxShelfHeight[7,Diploma]
+                                   0            -0               
+    81 FirtsShelf                 50            50             = 
+    82 ShelfDistances[2]
+                                -991          -991               
+    83 ShelfDistances[3]
+                                -991          -991               
+    84 ShelfDistances[4]
+                                -991          -991               
+    85 ShelfDistances[5]
+                                -991          -991               
+    86 ShelfDistances[6]
+                                -991          -991               
+    87 ShelfDistances[7]
+                                   0          -991               
+    88 ShelfUsage[2]
+                                   0                          -0 
+    89 ShelfUsage[3]
+                                   0                          -0 
+    90 ShelfUsage[4]
+                                   0                          -0 
+    91 ShelfUsage[5]
+                                   0                          -0 
+    92 ShelfUsage[6]
+                                  -1                          -0 
+    93 ShelfUsage[7]
+                                   0                          -0 
+    94 set_highest_shelf[1]
+                                -869         -1000               
+    95 set_highest_shelf[2]
+                                -898         -1000               
+    96 set_highest_shelf[3]
+                                -937         -1000               
+    97 set_highest_shelf[4]
+                                -971         -1000               
+    98 set_highest_shelf[5]
+                               -1000         -1000               
+    99 set_highest_shelf[6]
+                               -1000         -1000               
+   100 set_highest_shelf[7]
+                               -1000         -1000               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 shelf_position[1]
+                                  50             0               
+     2 shelf_position[2]
+                                  79             0               
+     3 shelf_position[3]
+                                 118             0               
+     4 shelf_position[4]
+                                 152             0               
+     5 shelf_position[5]
+                                 181             0               
+     6 shelf_position[6]
+                                1181             0               
+     7 shelf_position[7]
+                                1181             0               
+     8 place_books[Math,1]
+                    *              1             0             1 
+     9 place_books[Math,2]
+                    *              0             0             1 
+    10 place_books[Math,3]
+                    *              0             0             1 
+    11 place_books[Math,4]
+                    *              0             0             1 
+    12 place_books[Math,5]
+                    *              0             0             1 
+    13 place_books[Math,6]
+                    *              0             0             1 
+    14 place_books[Math,7]
+                    *              0             0             1 
+    15 place_books[IT,1]
+                    *              0             0             1 
+    16 place_books[IT,2]
+                    *              0             0             1 
+    17 place_books[IT,3]
+                    *              1             0             1 
+    18 place_books[IT,4]
+                    *              0             0             1 
+    19 place_books[IT,5]
+                    *              0             0             1 
+    20 place_books[IT,6]
+                    *              0             0             1 
+    21 place_books[IT,7]
+                    *              0             0             1 
+    22 place_books[Sport,1]
+                    *              0             0             1 
+    23 place_books[Sport,2]
+                    *              1             0             1 
+    24 place_books[Sport,3]
+                    *              0             0             1 
+    25 place_books[Sport,4]
+                    *              0             0             1 
+    26 place_books[Sport,5]
+                    *              0             0             1 
+    27 place_books[Sport,6]
+                    *              0             0             1 
+    28 place_books[Sport,7]
+                    *              0             0             1 
+    29 place_books[Music,1]
+                    *              0             0             1 
+    30 place_books[Music,2]
+                    *              0             0             1 
+    31 place_books[Music,3]
+                    *              0             0             1 
+    32 place_books[Music,4]
+                    *              0             0             1 
+    33 place_books[Music,5]
+                    *              1             0             1 
+    34 place_books[Music,6]
+                    *              0             0             1 
+    35 place_books[Music,7]
+                    *              0             0             1 
+    36 place_books[Novel,1]
+                    *              0             0             1 
+    37 place_books[Novel,2]
+                    *              0             0             1 
+    38 place_books[Novel,3]
+                    *              0             0             1 
+    39 place_books[Novel,4]
+                    *              1             0             1 
+    40 place_books[Novel,5]
+                    *              0             0             1 
+    41 place_books[Novel,6]
+                    *              0             0             1 
+    42 place_books[Novel,7]
+                    *              0             0             1 
+    43 place_books[Tolkien,1]
+                    *              0             0             1 
+    44 place_books[Tolkien,2]
+                    *              0             0             1 
+    45 place_books[Tolkien,3]
+                    *              1             0             1 
+    46 place_books[Tolkien,4]
+                    *              0             0             1 
+    47 place_books[Tolkien,5]
+                    *              0             0             1 
+    48 place_books[Tolkien,6]
+                    *              0             0             1 
+    49 place_books[Tolkien,7]
+                    *              0             0             1 
+    50 place_books[Feist,1]
+                    *              0             0             1 
+    51 place_books[Feist,2]
+                    *              0             0             1 
+    52 place_books[Feist,3]
+                    *              0             0             1 
+    53 place_books[Feist,4]
+                    *              1             0             1 
+    54 place_books[Feist,5]
+                    *              0             0             1 
+    55 place_books[Feist,6]
+                    *              0             0             1 
+    56 place_books[Feist,7]
+                    *              0             0             1 
+    57 place_books[HarryPotter,1]
+                    *              0             0             1 
+    58 place_books[HarryPotter,2]
+                    *              1             0             1 
+    59 place_books[HarryPotter,3]
+                    *              0             0             1 
+    60 place_books[HarryPotter,4]
+                    *              0             0             1 
+    61 place_books[HarryPotter,5]
+                    *              0             0             1 
+    62 place_books[HarryPotter,6]
+                    *              0             0             1 
+    63 place_books[HarryPotter,7]
+                    *              0             0             1 
+    64 place_books[Diploma,1]
+                    *              0             0             1 
+    65 place_books[Diploma,2]
+                    *              0             0             1 
+    66 place_books[Diploma,3]
+                    *              0             0             1 
+    67 place_books[Diploma,4]
+                    *              0             0             1 
+    68 place_books[Diploma,5]
+                    *              1             0             1 
+    69 place_books[Diploma,6]
+                    *              0             0             1 
+    70 place_books[Diploma,7]
+                    *              0             0             1 
+    71 is_used[1]   *              1             0             1 
+    72 is_used[2]   *              1             0             1 
+    73 is_used[3]   *              1             0             1 
+    74 is_used[4]   *              1             0             1 
+    75 is_used[5]   *              1             0             1 
+    76 is_used[6]   *              0             0             1 
+    77 is_used[7]   *              0             0             1 
+    78 shelfheight[1]
+                                  20             0               
+    79 shelfheight[2]
+                                  30             0               
+    80 shelfheight[3]
+                                  25             0               
+    81 shelfheight[4]
+                                  20             0               
+    82 shelfheight[5]
+                                1991             0               
+    83 shelfheight[6]
+                                   0             0               
+    84 shelfheight[7]
+                                   0             0               
+    85 highest_shelf
+                                 181             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.82e-12 on row 84
+        max.rel.err = 1.83e-15 on row 84
+        High quality
+
+End of output
