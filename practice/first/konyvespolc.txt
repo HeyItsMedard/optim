@@ -1,1 +1,7 @@
 Reaching height: 181
+Number of shelves used: 5
+Shelf 1 position: 50
+Shelf 2 position: 79
+Shelf 3 position: 118
+Shelf 4 position: 152
+Shelf 5 position: 181
