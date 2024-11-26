@@ -147,3 +147,32 @@ display x;
 
 set Cities symbolic; # strings
 param Distance{Cities, Cities};
+
+## Transpose
+
+A rookie mistake is to define a 2 dimensional parameter, and mix up its indices. That usually results in "out of domain" error messages. Replacing p[b,t] with p[t,b] everywhere where it was wrongly used in the constraints is a bit tiresome, but can be done swiftly.
+
+A more serious headache will come around if we gave the values in the data section the other way around. That is especially true for huge tables. A small example:
+
+    set A;
+    set B;
+    param p{A,B};
+    ...
+
+    data;
+
+    set A := a1 a2 a3 a4;
+    set B := b1 b2 b3;
+
+    param p :
+          a1  a2  a3  a4 :=
+      b1  12  34  54  12
+      b2  98  87  76  65
+      b3  78  65  67  43
+      ;    
+  
+The several options we have:
+
+Manually (or with an external tool) transpose the matrix in the data section.
+Change the order of the indices in the declaration, and eveywhere in the model
+put (tr) after param p and before the colon in the data section

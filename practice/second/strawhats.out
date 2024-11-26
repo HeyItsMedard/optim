@@ -1,0 +1,1710 @@
+Problem:    strawhats
+Rows:       523
+Columns:    324 (324 integer, 315 binary)
+Non-zeros:  1746
+Status:     INTEGER OPTIMAL
+Objective:  TotalSpent = 78 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 TotalSpent                 78                             
+     2 NoSelfGiving[Luffy]
+                                   0            -0             = 
+     3 NoSelfGiving[Zoro]
+                                   0            -0             = 
+     4 NoSelfGiving[Nami]
+                                   0            -0             = 
+     5 NoSelfGiving[Usopp]
+                                   0            -0             = 
+     6 NoSelfGiving[Sanji]
+                                   0            -0             = 
+     7 NoSelfGiving[Chopper]
+                                   0            -0             = 
+     8 NoSelfGiving[Robin]
+                                   0            -0             = 
+     9 NoSelfGiving[Brook]
+                                   0            -0             = 
+    10 NoSelfGiving[Jinbei]
+                                   0            -0             = 
+    11 EveryoneGivesOnce[Luffy]
+                                   1             1             = 
+    12 EveryoneGivesOnce[Zoro]
+                                   1             1             = 
+    13 EveryoneGivesOnce[Nami]
+                                   1             1             = 
+    14 EveryoneGivesOnce[Usopp]
+                                   1             1             = 
+    15 EveryoneGivesOnce[Sanji]
+                                   1             1             = 
+    16 EveryoneGivesOnce[Chopper]
+                                   1             1             = 
+    17 EveryoneGivesOnce[Robin]
+                                   1             1             = 
+    18 EveryoneGivesOnce[Brook]
+                                   1             1             = 
+    19 EveryoneGivesOnce[Jinbei]
+                                   1             1             = 
+    20 ReceiverGetsOneGift[Luffy]
+                                   1             1             = 
+    21 ReceiverGetsOneGift[Zoro]
+                                   1             1             = 
+    22 ReceiverGetsOneGift[Nami]
+                                   1             1             = 
+    23 ReceiverGetsOneGift[Usopp]
+                                   1             1             = 
+    24 ReceiverGetsOneGift[Sanji]
+                                   1             1             = 
+    25 ReceiverGetsOneGift[Chopper]
+                                   1             1             = 
+    26 ReceiverGetsOneGift[Robin]
+                                   1             1             = 
+    27 ReceiverGetsOneGift[Brook]
+                                   1             1             = 
+    28 ReceiverGetsOneGift[Jinbei]
+                                   1             1             = 
+    29 OnlyOneItemPerPerson[Luffy]
+                                   1             1             = 
+    30 OnlyOneItemPerPerson[Zoro]
+                                   1             1             = 
+    31 OnlyOneItemPerPerson[Nami]
+                                   1             1             = 
+    32 OnlyOneItemPerPerson[Usopp]
+                                   1             1             = 
+    33 OnlyOneItemPerPerson[Sanji]
+                                   1             1             = 
+    34 OnlyOneItemPerPerson[Chopper]
+                                   1             1             = 
+    35 OnlyOneItemPerPerson[Robin]
+                                   1             1             = 
+    36 OnlyOneItemPerPerson[Brook]
+                                   1             1             = 
+    37 OnlyOneItemPerPerson[Jinbei]
+                                   1             1             = 
+    38 OnlyLikedItems[Luffy,Q]
+                                   0                           1 
+    39 OnlyLikedItems[Luffy,W]
+                                   0                          -0 
+    40 OnlyLikedItems[Luffy,E]
+                                   0                          -0 
+    41 OnlyLikedItems[Luffy,R]
+                                   0                          -0 
+    42 OnlyLikedItems[Luffy,T]
+                                   0                          -0 
+    43 OnlyLikedItems[Luffy,Y]
+                                   0                          -0 
+    44 OnlyLikedItems[Luffy,U]
+                                   0                          -0 
+    45 OnlyLikedItems[Luffy,I]
+                                   0                          -0 
+    46 OnlyLikedItems[Luffy,O]
+                                   1                           1 
+    47 OnlyLikedItems[Luffy,P]
+                                   0                          -0 
+    48 OnlyLikedItems[Luffy,A]
+                                   0                          -0 
+    49 OnlyLikedItems[Luffy,S]
+                                   0                          -0 
+    50 OnlyLikedItems[Luffy,D]
+                                   0                          -0 
+    51 OnlyLikedItems[Luffy,F]
+                                   0                           1 
+    52 OnlyLikedItems[Luffy,G]
+                                   0                          -0 
+    53 OnlyLikedItems[Luffy,H]
+                                   0                           1 
+    54 OnlyLikedItems[Luffy,J]
+                                   0                          -0 
+    55 OnlyLikedItems[Luffy,K]
+                                   0                          -0 
+    56 OnlyLikedItems[Luffy,L]
+                                   0                          -0 
+    57 OnlyLikedItems[Luffy,Z]
+                                   0                          -0 
+    58 OnlyLikedItems[Luffy,X]
+                                   0                          -0 
+    59 OnlyLikedItems[Luffy,C]
+                                   0                           1 
+    60 OnlyLikedItems[Luffy,V]
+                                   0                          -0 
+    61 OnlyLikedItems[Luffy,B]
+                                   0                          -0 
+    62 OnlyLikedItems[Luffy,N]
+                                   0                           1 
+    63 OnlyLikedItems[Luffy,M]
+                                   0                          -0 
+    64 OnlyLikedItems[Zoro,Q]
+                                   0                          -0 
+    65 OnlyLikedItems[Zoro,W]
+                                   0                          -0 
+    66 OnlyLikedItems[Zoro,E]
+                                   0                          -0 
+    67 OnlyLikedItems[Zoro,R]
+                                   0                          -0 
+    68 OnlyLikedItems[Zoro,T]
+                                   0                          -0 
+    69 OnlyLikedItems[Zoro,Y]
+                                   1                           1 
+    70 OnlyLikedItems[Zoro,U]
+                                   0                          -0 
+    71 OnlyLikedItems[Zoro,I]
+                                   0                          -0 
+    72 OnlyLikedItems[Zoro,O]
+                                   0                          -0 
+    73 OnlyLikedItems[Zoro,P]
+                                   0                          -0 
+    74 OnlyLikedItems[Zoro,A]
+                                   0                          -0 
+    75 OnlyLikedItems[Zoro,S]
+                                   0                           1 
+    76 OnlyLikedItems[Zoro,D]
+                                   0                          -0 
+    77 OnlyLikedItems[Zoro,F]
+                                   0                          -0 
+    78 OnlyLikedItems[Zoro,G]
+                                   0                          -0 
+    79 OnlyLikedItems[Zoro,H]
+                                   0                          -0 
+    80 OnlyLikedItems[Zoro,J]
+                                   0                          -0 
+    81 OnlyLikedItems[Zoro,K]
+                                   0                          -0 
+    82 OnlyLikedItems[Zoro,L]
+                                   0                          -0 
+    83 OnlyLikedItems[Zoro,Z]
+                                   0                          -0 
+    84 OnlyLikedItems[Zoro,X]
+                                   0                           1 
+    85 OnlyLikedItems[Zoro,C]
+                                   0                          -0 
+    86 OnlyLikedItems[Zoro,V]
+                                   0                          -0 
+    87 OnlyLikedItems[Zoro,B]
+                                   0                          -0 
+    88 OnlyLikedItems[Zoro,N]
+                                   0                          -0 
+    89 OnlyLikedItems[Zoro,M]
+                                   0                          -0 
+    90 OnlyLikedItems[Nami,Q]
+                                   0                          -0 
+    91 OnlyLikedItems[Nami,W]
+                                   0                          -0 
+    92 OnlyLikedItems[Nami,E]
+                                   0                          -0 
+    93 OnlyLikedItems[Nami,R]
+                                   0                          -0 
+    94 OnlyLikedItems[Nami,T]
+                                   0                          -0 
+    95 OnlyLikedItems[Nami,Y]
+                                   0                           1 
+    96 OnlyLikedItems[Nami,U]
+                                   0                          -0 
+    97 OnlyLikedItems[Nami,I]
+                                   0                          -0 
+    98 OnlyLikedItems[Nami,O]
+                                   1                           1 
+    99 OnlyLikedItems[Nami,P]
+                                   0                          -0 
+   100 OnlyLikedItems[Nami,A]
+                                   0                          -0 
+   101 OnlyLikedItems[Nami,S]
+                                   0                          -0 
+   102 OnlyLikedItems[Nami,D]
+                                   0                          -0 
+   103 OnlyLikedItems[Nami,F]
+                                   0                           1 
+   104 OnlyLikedItems[Nami,G]
+                                   0                          -0 
+   105 OnlyLikedItems[Nami,H]
+                                   0                          -0 
+   106 OnlyLikedItems[Nami,J]
+                                   0                          -0 
+   107 OnlyLikedItems[Nami,K]
+                                   0                          -0 
+   108 OnlyLikedItems[Nami,L]
+                                   0                          -0 
+   109 OnlyLikedItems[Nami,Z]
+                                   0                          -0 
+   110 OnlyLikedItems[Nami,X]
+                                   0                          -0 
+   111 OnlyLikedItems[Nami,C]
+                                   0                           1 
+   112 OnlyLikedItems[Nami,V]
+                                   0                          -0 
+   113 OnlyLikedItems[Nami,B]
+                                   0                          -0 
+   114 OnlyLikedItems[Nami,N]
+                                   0                          -0 
+   115 OnlyLikedItems[Nami,M]
+                                   0                           1 
+   116 OnlyLikedItems[Usopp,Q]
+                                   0                          -0 
+   117 OnlyLikedItems[Usopp,W]
+                                   0                           1 
+   118 OnlyLikedItems[Usopp,E]
+                                   0                          -0 
+   119 OnlyLikedItems[Usopp,R]
+                                   0                          -0 
+   120 OnlyLikedItems[Usopp,T]
+                                   0                          -0 
+   121 OnlyLikedItems[Usopp,Y]
+                                   0                          -0 
+   122 OnlyLikedItems[Usopp,U]
+                                   1                           1 
+   123 OnlyLikedItems[Usopp,I]
+                                   0                          -0 
+   124 OnlyLikedItems[Usopp,O]
+                                   0                          -0 
+   125 OnlyLikedItems[Usopp,P]
+                                   0                          -0 
+   126 OnlyLikedItems[Usopp,A]
+                                   0                           1 
+   127 OnlyLikedItems[Usopp,S]
+                                   0                          -0 
+   128 OnlyLikedItems[Usopp,D]
+                                   0                          -0 
+   129 OnlyLikedItems[Usopp,F]
+                                   0                          -0 
+   130 OnlyLikedItems[Usopp,G]
+                                   0                          -0 
+   131 OnlyLikedItems[Usopp,H]
+                                   0                           1 
+   132 OnlyLikedItems[Usopp,J]
+                                   0                          -0 
+   133 OnlyLikedItems[Usopp,K]
+                                   0                          -0 
+   134 OnlyLikedItems[Usopp,L]
+                                   0                           1 
+   135 OnlyLikedItems[Usopp,Z]
+                                   0                          -0 
+   136 OnlyLikedItems[Usopp,X]
+                                   0                          -0 
+   137 OnlyLikedItems[Usopp,C]
+                                   0                          -0 
+   138 OnlyLikedItems[Usopp,V]
+                                   0                          -0 
+   139 OnlyLikedItems[Usopp,B]
+                                   0                          -0 
+   140 OnlyLikedItems[Usopp,N]
+                                   0                          -0 
+   141 OnlyLikedItems[Usopp,M]
+                                   0                           1 
+   142 OnlyLikedItems[Sanji,Q]
+                                   0                          -0 
+   143 OnlyLikedItems[Sanji,W]
+                                   0                          -0 
+   144 OnlyLikedItems[Sanji,E]
+                                   0                          -0 
+   145 OnlyLikedItems[Sanji,R]
+                                   0                          -0 
+   146 OnlyLikedItems[Sanji,T]
+                                   0                          -0 
+   147 OnlyLikedItems[Sanji,Y]
+                                   0                          -0 
+   148 OnlyLikedItems[Sanji,U]
+                                   0                          -0 
+   149 OnlyLikedItems[Sanji,I]
+                                   0                          -0 
+   150 OnlyLikedItems[Sanji,O]
+                                   0                          -0 
+   151 OnlyLikedItems[Sanji,P]
+                                   0                           1 
+   152 OnlyLikedItems[Sanji,A]
+                                   0                          -0 
+   153 OnlyLikedItems[Sanji,S]
+                                   1                           1 
+   154 OnlyLikedItems[Sanji,D]
+                                   0                          -0 
+   155 OnlyLikedItems[Sanji,F]
+                                   0                          -0 
+   156 OnlyLikedItems[Sanji,G]
+                                   0                          -0 
+   157 OnlyLikedItems[Sanji,H]
+                                   0                          -0 
+   158 OnlyLikedItems[Sanji,J]
+                                   0                           1 
+   159 OnlyLikedItems[Sanji,K]
+                                   0                          -0 
+   160 OnlyLikedItems[Sanji,L]
+                                   0                          -0 
+   161 OnlyLikedItems[Sanji,Z]
+                                   0                          -0 
+   162 OnlyLikedItems[Sanji,X]
+                                   0                          -0 
+   163 OnlyLikedItems[Sanji,C]
+                                   0                          -0 
+   164 OnlyLikedItems[Sanji,V]
+                                   0                           1 
+   165 OnlyLikedItems[Sanji,B]
+                                   0                          -0 
+   166 OnlyLikedItems[Sanji,N]
+                                   0                          -0 
+   167 OnlyLikedItems[Sanji,M]
+                                   0                           1 
+   168 OnlyLikedItems[Chopper,Q]
+                                   0                          -0 
+   169 OnlyLikedItems[Chopper,W]
+                                   0                          -0 
+   170 OnlyLikedItems[Chopper,E]
+                                   0                          -0 
+   171 OnlyLikedItems[Chopper,R]
+                                   0                          -0 
+   172 OnlyLikedItems[Chopper,T]
+                                   0                          -0 
+   173 OnlyLikedItems[Chopper,Y]
+                                   0                           1 
+   174 OnlyLikedItems[Chopper,U]
+                                   0                          -0 
+   175 OnlyLikedItems[Chopper,I]
+                                   0                          -0 
+   176 OnlyLikedItems[Chopper,O]
+                                   0                          -0 
+   177 OnlyLikedItems[Chopper,P]
+                                   0                          -0 
+   178 OnlyLikedItems[Chopper,A]
+                                   0                          -0 
+   179 OnlyLikedItems[Chopper,S]
+                                   1                           1 
+   180 OnlyLikedItems[Chopper,D]
+                                   0                          -0 
+   181 OnlyLikedItems[Chopper,F]
+                                   0                          -0 
+   182 OnlyLikedItems[Chopper,G]
+                                   0                          -0 
+   183 OnlyLikedItems[Chopper,H]
+                                   0                          -0 
+   184 OnlyLikedItems[Chopper,J]
+                                   0                          -0 
+   185 OnlyLikedItems[Chopper,K]
+                                   0                          -0 
+   186 OnlyLikedItems[Chopper,L]
+                                   0                           1 
+   187 OnlyLikedItems[Chopper,Z]
+                                   0                          -0 
+   188 OnlyLikedItems[Chopper,X]
+                                   0                          -0 
+   189 OnlyLikedItems[Chopper,C]
+                                   0                          -0 
+   190 OnlyLikedItems[Chopper,V]
+                                   0                          -0 
+   191 OnlyLikedItems[Chopper,B]
+                                   0                           1 
+   192 OnlyLikedItems[Chopper,N]
+                                   0                          -0 
+   193 OnlyLikedItems[Chopper,M]
+                                   0                          -0 
+   194 OnlyLikedItems[Robin,Q]
+                                   0                          -0 
+   195 OnlyLikedItems[Robin,W]
+                                   0                          -0 
+   196 OnlyLikedItems[Robin,E]
+                                   0                          -0 
+   197 OnlyLikedItems[Robin,R]
+                                   0                          -0 
+   198 OnlyLikedItems[Robin,T]
+                                   0                          -0 
+   199 OnlyLikedItems[Robin,Y]
+                                   0                          -0 
+   200 OnlyLikedItems[Robin,U]
+                                   1                           1 
+   201 OnlyLikedItems[Robin,I]
+                                   0                          -0 
+   202 OnlyLikedItems[Robin,O]
+                                   0                          -0 
+   203 OnlyLikedItems[Robin,P]
+                                   0                          -0 
+   204 OnlyLikedItems[Robin,A]
+                                   0                          -0 
+   205 OnlyLikedItems[Robin,S]
+                                   0                          -0 
+   206 OnlyLikedItems[Robin,D]
+                                   0                           1 
+   207 OnlyLikedItems[Robin,F]
+                                   0                          -0 
+   208 OnlyLikedItems[Robin,G]
+                                   0                          -0 
+   209 OnlyLikedItems[Robin,H]
+                                   0                          -0 
+   210 OnlyLikedItems[Robin,J]
+                                   0                          -0 
+   211 OnlyLikedItems[Robin,K]
+                                   0                          -0 
+   212 OnlyLikedItems[Robin,L]
+                                   0                           1 
+   213 OnlyLikedItems[Robin,Z]
+                                   0                          -0 
+   214 OnlyLikedItems[Robin,X]
+                                   0                          -0 
+   215 OnlyLikedItems[Robin,C]
+                                   0                          -0 
+   216 OnlyLikedItems[Robin,V]
+                                   0                          -0 
+   217 OnlyLikedItems[Robin,B]
+                                   0                           1 
+   218 OnlyLikedItems[Robin,N]
+                                   0                          -0 
+   219 OnlyLikedItems[Robin,M]
+                                   0                          -0 
+   220 OnlyLikedItems[Brook,Q]
+                                   0                          -0 
+   221 OnlyLikedItems[Brook,W]
+                                   0                          -0 
+   222 OnlyLikedItems[Brook,E]
+                                   0                          -0 
+   223 OnlyLikedItems[Brook,R]
+                                   0                          -0 
+   224 OnlyLikedItems[Brook,T]
+                                   0                          -0 
+   225 OnlyLikedItems[Brook,Y]
+                                   0                           1 
+   226 OnlyLikedItems[Brook,U]
+                                   0                          -0 
+   227 OnlyLikedItems[Brook,I]
+                                   0                          -0 
+   228 OnlyLikedItems[Brook,O]
+                                   0                          -0 
+   229 OnlyLikedItems[Brook,P]
+                                   0                          -0 
+   230 OnlyLikedItems[Brook,A]
+                                   0                           1 
+   231 OnlyLikedItems[Brook,S]
+                                   0                          -0 
+   232 OnlyLikedItems[Brook,D]
+                                   0                          -0 
+   233 OnlyLikedItems[Brook,F]
+                                   1                           1 
+   234 OnlyLikedItems[Brook,G]
+                                   0                          -0 
+   235 OnlyLikedItems[Brook,H]
+                                   0                          -0 
+   236 OnlyLikedItems[Brook,J]
+                                   0                          -0 
+   237 OnlyLikedItems[Brook,K]
+                                   0                          -0 
+   238 OnlyLikedItems[Brook,L]
+                                   0                          -0 
+   239 OnlyLikedItems[Brook,Z]
+                                   0                           1 
+   240 OnlyLikedItems[Brook,X]
+                                   0                          -0 
+   241 OnlyLikedItems[Brook,C]
+                                   0                          -0 
+   242 OnlyLikedItems[Brook,V]
+                                   0                          -0 
+   243 OnlyLikedItems[Brook,B]
+                                   0                          -0 
+   244 OnlyLikedItems[Brook,N]
+                                   0                          -0 
+   245 OnlyLikedItems[Brook,M]
+                                   0                          -0 
+   246 OnlyLikedItems[Jinbei,Q]
+                                   0                          -0 
+   247 OnlyLikedItems[Jinbei,W]
+                                   0                          -0 
+   248 OnlyLikedItems[Jinbei,E]
+                                   0                          -0 
+   249 OnlyLikedItems[Jinbei,R]
+                                   0                           1 
+   250 OnlyLikedItems[Jinbei,T]
+                                   0                          -0 
+   251 OnlyLikedItems[Jinbei,Y]
+                                   0                          -0 
+   252 OnlyLikedItems[Jinbei,U]
+                                   0                          -0 
+   253 OnlyLikedItems[Jinbei,I]
+                                   0                          -0 
+   254 OnlyLikedItems[Jinbei,O]
+                                   0                           1 
+   255 OnlyLikedItems[Jinbei,P]
+                                   0                          -0 
+   256 OnlyLikedItems[Jinbei,A]
+                                   0                          -0 
+   257 OnlyLikedItems[Jinbei,S]
+                                   1                           1 
+   258 OnlyLikedItems[Jinbei,D]
+                                   0                          -0 
+   259 OnlyLikedItems[Jinbei,F]
+                                   0                          -0 
+   260 OnlyLikedItems[Jinbei,G]
+                                   0                          -0 
+   261 OnlyLikedItems[Jinbei,H]
+                                   0                          -0 
+   262 OnlyLikedItems[Jinbei,J]
+                                   0                          -0 
+   263 OnlyLikedItems[Jinbei,K]
+                                   0                          -0 
+   264 OnlyLikedItems[Jinbei,L]
+                                   0                           1 
+   265 OnlyLikedItems[Jinbei,Z]
+                                   0                          -0 
+   266 OnlyLikedItems[Jinbei,X]
+                                   0                          -0 
+   267 OnlyLikedItems[Jinbei,C]
+                                   0                           1 
+   268 OnlyLikedItems[Jinbei,V]
+                                   0                          -0 
+   269 OnlyLikedItems[Jinbei,B]
+                                   0                          -0 
+   270 OnlyLikedItems[Jinbei,N]
+                                   0                           1 
+   271 OnlyLikedItems[Jinbei,M]
+                                   0                          -0 
+   272 ReceiverLikesGift[Luffy,Q]
+                                   0                          -0 
+   273 ReceiverLikesGift[Luffy,W]
+                                   0                          -0 
+   274 ReceiverLikesGift[Luffy,E]
+                                   0                          -0 
+   275 ReceiverLikesGift[Luffy,R]
+                                  -1                          -0 
+   276 ReceiverLikesGift[Luffy,T]
+                                   0                          -0 
+   277 ReceiverLikesGift[Luffy,Y]
+                                   0                          -0 
+   278 ReceiverLikesGift[Luffy,U]
+                                   0                          -0 
+   279 ReceiverLikesGift[Luffy,I]
+                                   0                          -0 
+   280 ReceiverLikesGift[Luffy,O]
+                                   0                          -0 
+   281 ReceiverLikesGift[Luffy,P]
+                                   0                          -0 
+   282 ReceiverLikesGift[Luffy,A]
+                                   0                          -0 
+   283 ReceiverLikesGift[Luffy,S]
+                                  -1                          -0 
+   284 ReceiverLikesGift[Luffy,D]
+                                   0                          -0 
+   285 ReceiverLikesGift[Luffy,F]
+                                   0                          -0 
+   286 ReceiverLikesGift[Luffy,G]
+                                   0                          -0 
+   287 ReceiverLikesGift[Luffy,H]
+                                   0                          -0 
+   288 ReceiverLikesGift[Luffy,J]
+                                   0                          -0 
+   289 ReceiverLikesGift[Luffy,K]
+                                   0                          -0 
+   290 ReceiverLikesGift[Luffy,L]
+                                  -1                          -0 
+   291 ReceiverLikesGift[Luffy,Z]
+                                   0                          -0 
+   292 ReceiverLikesGift[Luffy,X]
+                                   0                          -0 
+   293 ReceiverLikesGift[Luffy,C]
+                                  -1                          -0 
+   294 ReceiverLikesGift[Luffy,V]
+                                   0                          -0 
+   295 ReceiverLikesGift[Luffy,B]
+                                   0                          -0 
+   296 ReceiverLikesGift[Luffy,N]
+                                  -1                          -0 
+   297 ReceiverLikesGift[Luffy,M]
+                                   0                          -0 
+   298 ReceiverLikesGift[Zoro,Q]
+                                   0                          -0 
+   299 ReceiverLikesGift[Zoro,W]
+                                   0                          -0 
+   300 ReceiverLikesGift[Zoro,E]
+                                   0                          -0 
+   301 ReceiverLikesGift[Zoro,R]
+                                   0                          -0 
+   302 ReceiverLikesGift[Zoro,T]
+                                   0                          -0 
+   303 ReceiverLikesGift[Zoro,Y]
+                                   0                          -0 
+   304 ReceiverLikesGift[Zoro,U]
+                                   0                          -0 
+   305 ReceiverLikesGift[Zoro,I]
+                                   0                          -0 
+   306 ReceiverLikesGift[Zoro,O]
+                                   0                          -0 
+   307 ReceiverLikesGift[Zoro,P]
+                                   0                          -0 
+   308 ReceiverLikesGift[Zoro,A]
+                                  -1                          -0 
+   309 ReceiverLikesGift[Zoro,S]
+                                   0                          -0 
+   310 ReceiverLikesGift[Zoro,D]
+                                   0                          -0 
+   311 ReceiverLikesGift[Zoro,F]
+                                  -1                          -0 
+   312 ReceiverLikesGift[Zoro,G]
+                                   0                          -0 
+   313 ReceiverLikesGift[Zoro,H]
+                                   0                          -0 
+   314 ReceiverLikesGift[Zoro,J]
+                                   0                          -0 
+   315 ReceiverLikesGift[Zoro,K]
+                                   0                          -0 
+   316 ReceiverLikesGift[Zoro,L]
+                                   0                          -0 
+   317 ReceiverLikesGift[Zoro,Z]
+                                  -1                          -0 
+   318 ReceiverLikesGift[Zoro,X]
+                                   0                          -0 
+   319 ReceiverLikesGift[Zoro,C]
+                                   0                          -0 
+   320 ReceiverLikesGift[Zoro,V]
+                                   0                          -0 
+   321 ReceiverLikesGift[Zoro,B]
+                                   0                          -0 
+   322 ReceiverLikesGift[Zoro,N]
+                                   0                          -0 
+   323 ReceiverLikesGift[Zoro,M]
+                                   0                          -0 
+   324 ReceiverLikesGift[Nami,Q]
+                                  -1                          -0 
+   325 ReceiverLikesGift[Nami,W]
+                                   0                          -0 
+   326 ReceiverLikesGift[Nami,E]
+                                   0                          -0 
+   327 ReceiverLikesGift[Nami,R]
+                                   0                          -0 
+   328 ReceiverLikesGift[Nami,T]
+                                   0                          -0 
+   329 ReceiverLikesGift[Nami,Y]
+                                   0                          -0 
+   330 ReceiverLikesGift[Nami,U]
+                                   0                          -0 
+   331 ReceiverLikesGift[Nami,I]
+                                   0                          -0 
+   332 ReceiverLikesGift[Nami,O]
+                                   0                          -0 
+   333 ReceiverLikesGift[Nami,P]
+                                   0                          -0 
+   334 ReceiverLikesGift[Nami,A]
+                                   0                          -0 
+   335 ReceiverLikesGift[Nami,S]
+                                   0                          -0 
+   336 ReceiverLikesGift[Nami,D]
+                                   0                          -0 
+   337 ReceiverLikesGift[Nami,F]
+                                  -1                          -0 
+   338 ReceiverLikesGift[Nami,G]
+                                   0                          -0 
+   339 ReceiverLikesGift[Nami,H]
+                                  -1                          -0 
+   340 ReceiverLikesGift[Nami,J]
+                                   0                          -0 
+   341 ReceiverLikesGift[Nami,K]
+                                   0                          -0 
+   342 ReceiverLikesGift[Nami,L]
+                                   0                          -0 
+   343 ReceiverLikesGift[Nami,Z]
+                                   0                          -0 
+   344 ReceiverLikesGift[Nami,X]
+                                   0                          -0 
+   345 ReceiverLikesGift[Nami,C]
+                                  -1                          -0 
+   346 ReceiverLikesGift[Nami,V]
+                                   0                          -0 
+   347 ReceiverLikesGift[Nami,B]
+                                   0                          -0 
+   348 ReceiverLikesGift[Nami,N]
+                                  -1                          -0 
+   349 ReceiverLikesGift[Nami,M]
+                                   0                          -0 
+   350 ReceiverLikesGift[Usopp,Q]
+                                   0                          -0 
+   351 ReceiverLikesGift[Usopp,W]
+                                   0                          -0 
+   352 ReceiverLikesGift[Usopp,E]
+                                   0                          -0 
+   353 ReceiverLikesGift[Usopp,R]
+                                   0                          -0 
+   354 ReceiverLikesGift[Usopp,T]
+                                   0                          -0 
+   355 ReceiverLikesGift[Usopp,Y]
+                                   0                          -0 
+   356 ReceiverLikesGift[Usopp,U]
+                                   0                          -0 
+   357 ReceiverLikesGift[Usopp,I]
+                                   0                          -0 
+   358 ReceiverLikesGift[Usopp,O]
+                                   0                          -0 
+   359 ReceiverLikesGift[Usopp,P]
+                                   0                          -0 
+   360 ReceiverLikesGift[Usopp,A]
+                                   0                          -0 
+   361 ReceiverLikesGift[Usopp,S]
+                                   0                          -0 
+   362 ReceiverLikesGift[Usopp,D]
+                                  -1                          -0 
+   363 ReceiverLikesGift[Usopp,F]
+                                   0                          -0 
+   364 ReceiverLikesGift[Usopp,G]
+                                   0                          -0 
+   365 ReceiverLikesGift[Usopp,H]
+                                   0                          -0 
+   366 ReceiverLikesGift[Usopp,J]
+                                   0                          -0 
+   367 ReceiverLikesGift[Usopp,K]
+                                   0                          -0 
+   368 ReceiverLikesGift[Usopp,L]
+                                  -1                          -0 
+   369 ReceiverLikesGift[Usopp,Z]
+                                   0                          -0 
+   370 ReceiverLikesGift[Usopp,X]
+                                   0                          -0 
+   371 ReceiverLikesGift[Usopp,C]
+                                   0                          -0 
+   372 ReceiverLikesGift[Usopp,V]
+                                   0                          -0 
+   373 ReceiverLikesGift[Usopp,B]
+                                  -1                          -0 
+   374 ReceiverLikesGift[Usopp,N]
+                                   0                          -0 
+   375 ReceiverLikesGift[Usopp,M]
+                                   0                          -0 
+   376 ReceiverLikesGift[Sanji,Q]
+                                   0                          -0 
+   377 ReceiverLikesGift[Sanji,W]
+                                   0                          -0 
+   378 ReceiverLikesGift[Sanji,E]
+                                   0                          -0 
+   379 ReceiverLikesGift[Sanji,R]
+                                   0                          -0 
+   380 ReceiverLikesGift[Sanji,T]
+                                   0                          -0 
+   381 ReceiverLikesGift[Sanji,Y]
+                                  -1                          -0 
+   382 ReceiverLikesGift[Sanji,U]
+                                   0                          -0 
+   383 ReceiverLikesGift[Sanji,I]
+                                   0                          -0 
+   384 ReceiverLikesGift[Sanji,O]
+                                   0                          -0 
+   385 ReceiverLikesGift[Sanji,P]
+                                   0                          -0 
+   386 ReceiverLikesGift[Sanji,A]
+                                   0                          -0 
+   387 ReceiverLikesGift[Sanji,S]
+                                   0                          -0 
+   388 ReceiverLikesGift[Sanji,D]
+                                   0                          -0 
+   389 ReceiverLikesGift[Sanji,F]
+                                   0                          -0 
+   390 ReceiverLikesGift[Sanji,G]
+                                   0                          -0 
+   391 ReceiverLikesGift[Sanji,H]
+                                   0                          -0 
+   392 ReceiverLikesGift[Sanji,J]
+                                   0                          -0 
+   393 ReceiverLikesGift[Sanji,K]
+                                   0                          -0 
+   394 ReceiverLikesGift[Sanji,L]
+                                  -1                          -0 
+   395 ReceiverLikesGift[Sanji,Z]
+                                   0                          -0 
+   396 ReceiverLikesGift[Sanji,X]
+                                   0                          -0 
+   397 ReceiverLikesGift[Sanji,C]
+                                   0                          -0 
+   398 ReceiverLikesGift[Sanji,V]
+                                   0                          -0 
+   399 ReceiverLikesGift[Sanji,B]
+                                  -1                          -0 
+   400 ReceiverLikesGift[Sanji,N]
+                                   0                          -0 
+   401 ReceiverLikesGift[Sanji,M]
+                                   0                          -0 
+   402 ReceiverLikesGift[Chopper,Q]
+                                   0                          -0 
+   403 ReceiverLikesGift[Chopper,W]
+                                   0                          -0 
+   404 ReceiverLikesGift[Chopper,E]
+                                   0                          -0 
+   405 ReceiverLikesGift[Chopper,R]
+                                   0                          -0 
+   406 ReceiverLikesGift[Chopper,T]
+                                   0                          -0 
+   407 ReceiverLikesGift[Chopper,Y]
+                                  -1                          -0 
+   408 ReceiverLikesGift[Chopper,U]
+                                   0                          -0 
+   409 ReceiverLikesGift[Chopper,I]
+                                   0                          -0 
+   410 ReceiverLikesGift[Chopper,O]
+                                   0                          -0 
+   411 ReceiverLikesGift[Chopper,P]
+                                   0                          -0 
+   412 ReceiverLikesGift[Chopper,A]
+                                   0                          -0 
+   413 ReceiverLikesGift[Chopper,S]
+                                   0                          -0 
+   414 ReceiverLikesGift[Chopper,D]
+                                   0                          -0 
+   415 ReceiverLikesGift[Chopper,F]
+                                   0                          -0 
+   416 ReceiverLikesGift[Chopper,G]
+                                   0                          -0 
+   417 ReceiverLikesGift[Chopper,H]
+                                   0                          -0 
+   418 ReceiverLikesGift[Chopper,J]
+                                   0                          -0 
+   419 ReceiverLikesGift[Chopper,K]
+                                   0                          -0 
+   420 ReceiverLikesGift[Chopper,L]
+                                   0                          -0 
+   421 ReceiverLikesGift[Chopper,Z]
+                                   0                          -0 
+   422 ReceiverLikesGift[Chopper,X]
+                                  -1                          -0 
+   423 ReceiverLikesGift[Chopper,C]
+                                   0                          -0 
+   424 ReceiverLikesGift[Chopper,V]
+                                   0                          -0 
+   425 ReceiverLikesGift[Chopper,B]
+                                   0                          -0 
+   426 ReceiverLikesGift[Chopper,N]
+                                   0                          -0 
+   427 ReceiverLikesGift[Chopper,M]
+                                   0                          -0 
+   428 ReceiverLikesGift[Robin,Q]
+                                   0                          -0 
+   429 ReceiverLikesGift[Robin,W]
+                                  -1                          -0 
+   430 ReceiverLikesGift[Robin,E]
+                                   0                          -0 
+   431 ReceiverLikesGift[Robin,R]
+                                   0                          -0 
+   432 ReceiverLikesGift[Robin,T]
+                                   0                          -0 
+   433 ReceiverLikesGift[Robin,Y]
+                                   0                          -0 
+   434 ReceiverLikesGift[Robin,U]
+                                   0                          -0 
+   435 ReceiverLikesGift[Robin,I]
+                                   0                          -0 
+   436 ReceiverLikesGift[Robin,O]
+                                   0                          -0 
+   437 ReceiverLikesGift[Robin,P]
+                                   0                          -0 
+   438 ReceiverLikesGift[Robin,A]
+                                  -1                          -0 
+   439 ReceiverLikesGift[Robin,S]
+                                   0                          -0 
+   440 ReceiverLikesGift[Robin,D]
+                                   0                          -0 
+   441 ReceiverLikesGift[Robin,F]
+                                   0                          -0 
+   442 ReceiverLikesGift[Robin,G]
+                                   0                          -0 
+   443 ReceiverLikesGift[Robin,H]
+                                  -1                          -0 
+   444 ReceiverLikesGift[Robin,J]
+                                   0                          -0 
+   445 ReceiverLikesGift[Robin,K]
+                                   0                          -0 
+   446 ReceiverLikesGift[Robin,L]
+                                  -1                          -0 
+   447 ReceiverLikesGift[Robin,Z]
+                                   0                          -0 
+   448 ReceiverLikesGift[Robin,X]
+                                   0                          -0 
+   449 ReceiverLikesGift[Robin,C]
+                                   0                          -0 
+   450 ReceiverLikesGift[Robin,V]
+                                   0                          -0 
+   451 ReceiverLikesGift[Robin,B]
+                                   0                          -0 
+   452 ReceiverLikesGift[Robin,N]
+                                   0                          -0 
+   453 ReceiverLikesGift[Robin,M]
+                                  -1                          -0 
+   454 ReceiverLikesGift[Brook,Q]
+                                   0                          -0 
+   455 ReceiverLikesGift[Brook,W]
+                                   0                          -0 
+   456 ReceiverLikesGift[Brook,E]
+                                   0                          -0 
+   457 ReceiverLikesGift[Brook,R]
+                                   0                          -0 
+   458 ReceiverLikesGift[Brook,T]
+                                   0                          -0 
+   459 ReceiverLikesGift[Brook,Y]
+                                  -1                          -0 
+   460 ReceiverLikesGift[Brook,U]
+                                   0                          -0 
+   461 ReceiverLikesGift[Brook,I]
+                                   0                          -0 
+   462 ReceiverLikesGift[Brook,O]
+                                  -1                          -0 
+   463 ReceiverLikesGift[Brook,P]
+                                   0                          -0 
+   464 ReceiverLikesGift[Brook,A]
+                                   0                          -0 
+   465 ReceiverLikesGift[Brook,S]
+                                   0                          -0 
+   466 ReceiverLikesGift[Brook,D]
+                                   0                          -0 
+   467 ReceiverLikesGift[Brook,F]
+                                   0                          -0 
+   468 ReceiverLikesGift[Brook,G]
+                                   0                          -0 
+   469 ReceiverLikesGift[Brook,H]
+                                   0                          -0 
+   470 ReceiverLikesGift[Brook,J]
+                                   0                          -0 
+   471 ReceiverLikesGift[Brook,K]
+                                   0                          -0 
+   472 ReceiverLikesGift[Brook,L]
+                                   0                          -0 
+   473 ReceiverLikesGift[Brook,Z]
+                                   0                          -0 
+   474 ReceiverLikesGift[Brook,X]
+                                   0                          -0 
+   475 ReceiverLikesGift[Brook,C]
+                                  -1                          -0 
+   476 ReceiverLikesGift[Brook,V]
+                                   0                          -0 
+   477 ReceiverLikesGift[Brook,B]
+                                   0                          -0 
+   478 ReceiverLikesGift[Brook,N]
+                                   0                          -0 
+   479 ReceiverLikesGift[Brook,M]
+                                  -1                          -0 
+   480 ReceiverLikesGift[Jinbei,Q]
+                                   0                          -0 
+   481 ReceiverLikesGift[Jinbei,W]
+                                   0                          -0 
+   482 ReceiverLikesGift[Jinbei,E]
+                                   0                          -0 
+   483 ReceiverLikesGift[Jinbei,R]
+                                   0                          -0 
+   484 ReceiverLikesGift[Jinbei,T]
+                                   0                          -0 
+   485 ReceiverLikesGift[Jinbei,Y]
+                                   0                          -0 
+   486 ReceiverLikesGift[Jinbei,U]
+                                   0                          -0 
+   487 ReceiverLikesGift[Jinbei,I]
+                                   0                          -0 
+   488 ReceiverLikesGift[Jinbei,O]
+                                   0                          -0 
+   489 ReceiverLikesGift[Jinbei,P]
+                                  -1                          -0 
+   490 ReceiverLikesGift[Jinbei,A]
+                                   0                          -0 
+   491 ReceiverLikesGift[Jinbei,S]
+                                   0                          -0 
+   492 ReceiverLikesGift[Jinbei,D]
+                                   0                          -0 
+   493 ReceiverLikesGift[Jinbei,F]
+                                   0                          -0 
+   494 ReceiverLikesGift[Jinbei,G]
+                                   0                          -0 
+   495 ReceiverLikesGift[Jinbei,H]
+                                   0                          -0 
+   496 ReceiverLikesGift[Jinbei,J]
+                                  -1                          -0 
+   497 ReceiverLikesGift[Jinbei,K]
+                                   0                          -0 
+   498 ReceiverLikesGift[Jinbei,L]
+                                   0                          -0 
+   499 ReceiverLikesGift[Jinbei,Z]
+                                   0                          -0 
+   500 ReceiverLikesGift[Jinbei,X]
+                                   0                          -0 
+   501 ReceiverLikesGift[Jinbei,C]
+                                   0                          -0 
+   502 ReceiverLikesGift[Jinbei,V]
+                                  -1                          -0 
+   503 ReceiverLikesGift[Jinbei,B]
+                                   0                          -0 
+   504 ReceiverLikesGift[Jinbei,N]
+                                   0                          -0 
+   505 ReceiverLikesGift[Jinbei,M]
+                                  -1                          -0 
+   506 BudgetNotExceeded[Luffy]
+                                   7                          23 
+   507 BudgetNotExceeded[Zoro]
+                                  29                          42 
+   508 BudgetNotExceeded[Nami]
+                                   7                          10 
+   509 BudgetNotExceeded[Usopp]
+                                   2                          75 
+   510 BudgetNotExceeded[Sanji]
+                                   2                          98 
+   511 BudgetNotExceeded[Chopper]
+                                   2                          77 
+   512 BudgetNotExceeded[Robin]
+                                   2                          84 
+   513 BudgetNotExceeded[Brook]
+                                  25                         100 
+   514 BudgetNotExceeded[Jinbei]
+                                   2                          48 
+   515 BuyingItem[Luffy]
+                                   0            -0             = 
+   516 BuyingItem[Zoro]
+                                   0            -0             = 
+   517 BuyingItem[Nami]
+                                   0            -0             = 
+   518 BuyingItem[Usopp]
+                                   0            -0             = 
+   519 BuyingItem[Sanji]
+                                   0            -0             = 
+   520 BuyingItem[Chopper]
+                                   0            -0             = 
+   521 BuyingItem[Robin]
+                                   0            -0             = 
+   522 BuyingItem[Brook]
+                                   0            -0             = 
+   523 BuyingItem[Jinbei]
+                                   0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 who_gives_to_who[Luffy,Luffy]
+                    *              0             0             1 
+     2 who_gives_to_who[Zoro,Zoro]
+                    *              0             0             1 
+     3 who_gives_to_who[Nami,Nami]
+                    *              0             0             1 
+     4 who_gives_to_who[Usopp,Usopp]
+                    *              0             0             1 
+     5 who_gives_to_who[Sanji,Sanji]
+                    *              0             0             1 
+     6 who_gives_to_who[Chopper,Chopper]
+                    *              0             0             1 
+     7 who_gives_to_who[Robin,Robin]
+                    *              0             0             1 
+     8 who_gives_to_who[Brook,Brook]
+                    *              0             0             1 
+     9 who_gives_to_who[Jinbei,Jinbei]
+                    *              0             0             1 
+    10 who_gives_to_who[Luffy,Zoro]
+                    *              0             0             1 
+    11 who_gives_to_who[Luffy,Nami]
+                    *              0             0             1 
+    12 who_gives_to_who[Luffy,Usopp]
+                    *              0             0             1 
+    13 who_gives_to_who[Luffy,Sanji]
+                    *              0             0             1 
+    14 who_gives_to_who[Luffy,Chopper]
+                    *              0             0             1 
+    15 who_gives_to_who[Luffy,Robin]
+                    *              0             0             1 
+    16 who_gives_to_who[Luffy,Brook]
+                    *              0             0             1 
+    17 who_gives_to_who[Luffy,Jinbei]
+                    *              1             0             1 
+    18 who_gives_to_who[Zoro,Luffy]
+                    *              0             0             1 
+    19 who_gives_to_who[Zoro,Nami]
+                    *              0             0             1 
+    20 who_gives_to_who[Zoro,Usopp]
+                    *              0             0             1 
+    21 who_gives_to_who[Zoro,Sanji]
+                    *              0             0             1 
+    22 who_gives_to_who[Zoro,Chopper]
+                    *              0             0             1 
+    23 who_gives_to_who[Zoro,Robin]
+                    *              0             0             1 
+    24 who_gives_to_who[Zoro,Brook]
+                    *              1             0             1 
+    25 who_gives_to_who[Zoro,Jinbei]
+                    *              0             0             1 
+    26 who_gives_to_who[Nami,Luffy]
+                    *              1             0             1 
+    27 who_gives_to_who[Nami,Zoro]
+                    *              0             0             1 
+    28 who_gives_to_who[Nami,Usopp]
+                    *              0             0             1 
+    29 who_gives_to_who[Nami,Sanji]
+                    *              0             0             1 
+    30 who_gives_to_who[Nami,Chopper]
+                    *              0             0             1 
+    31 who_gives_to_who[Nami,Robin]
+                    *              0             0             1 
+    32 who_gives_to_who[Nami,Brook]
+                    *              0             0             1 
+    33 who_gives_to_who[Nami,Jinbei]
+                    *              0             0             1 
+    34 who_gives_to_who[Usopp,Luffy]
+                    *              0             0             1 
+    35 who_gives_to_who[Usopp,Zoro]
+                    *              0             0             1 
+    36 who_gives_to_who[Usopp,Nami]
+                    *              0             0             1 
+    37 who_gives_to_who[Usopp,Sanji]
+                    *              0             0             1 
+    38 who_gives_to_who[Usopp,Chopper]
+                    *              0             0             1 
+    39 who_gives_to_who[Usopp,Robin]
+                    *              1             0             1 
+    40 who_gives_to_who[Usopp,Brook]
+                    *              0             0             1 
+    41 who_gives_to_who[Usopp,Jinbei]
+                    *              0             0             1 
+    42 who_gives_to_who[Sanji,Luffy]
+                    *              0             0             1 
+    43 who_gives_to_who[Sanji,Zoro]
+                    *              0             0             1 
+    44 who_gives_to_who[Sanji,Nami]
+                    *              0             0             1 
+    45 who_gives_to_who[Sanji,Usopp]
+                    *              0             0             1 
+    46 who_gives_to_who[Sanji,Chopper]
+                    *              1             0             1 
+    47 who_gives_to_who[Sanji,Robin]
+                    *              0             0             1 
+    48 who_gives_to_who[Sanji,Brook]
+                    *              0             0             1 
+    49 who_gives_to_who[Sanji,Jinbei]
+                    *              0             0             1 
+    50 who_gives_to_who[Chopper,Luffy]
+                    *              0             0             1 
+    51 who_gives_to_who[Chopper,Zoro]
+                    *              1             0             1 
+    52 who_gives_to_who[Chopper,Nami]
+                    *              0             0             1 
+    53 who_gives_to_who[Chopper,Usopp]
+                    *              0             0             1 
+    54 who_gives_to_who[Chopper,Sanji]
+                    *              0             0             1 
+    55 who_gives_to_who[Chopper,Robin]
+                    *              0             0             1 
+    56 who_gives_to_who[Chopper,Brook]
+                    *              0             0             1 
+    57 who_gives_to_who[Chopper,Jinbei]
+                    *              0             0             1 
+    58 who_gives_to_who[Robin,Luffy]
+                    *              0             0             1 
+    59 who_gives_to_who[Robin,Zoro]
+                    *              0             0             1 
+    60 who_gives_to_who[Robin,Nami]
+                    *              0             0             1 
+    61 who_gives_to_who[Robin,Usopp]
+                    *              1             0             1 
+    62 who_gives_to_who[Robin,Sanji]
+                    *              0             0             1 
+    63 who_gives_to_who[Robin,Chopper]
+                    *              0             0             1 
+    64 who_gives_to_who[Robin,Brook]
+                    *              0             0             1 
+    65 who_gives_to_who[Robin,Jinbei]
+                    *              0             0             1 
+    66 who_gives_to_who[Brook,Luffy]
+                    *              0             0             1 
+    67 who_gives_to_who[Brook,Zoro]
+                    *              0             0             1 
+    68 who_gives_to_who[Brook,Nami]
+                    *              1             0             1 
+    69 who_gives_to_who[Brook,Usopp]
+                    *              0             0             1 
+    70 who_gives_to_who[Brook,Sanji]
+                    *              0             0             1 
+    71 who_gives_to_who[Brook,Chopper]
+                    *              0             0             1 
+    72 who_gives_to_who[Brook,Robin]
+                    *              0             0             1 
+    73 who_gives_to_who[Brook,Jinbei]
+                    *              0             0             1 
+    74 who_gives_to_who[Jinbei,Luffy]
+                    *              0             0             1 
+    75 who_gives_to_who[Jinbei,Zoro]
+                    *              0             0             1 
+    76 who_gives_to_who[Jinbei,Nami]
+                    *              0             0             1 
+    77 who_gives_to_who[Jinbei,Usopp]
+                    *              0             0             1 
+    78 who_gives_to_who[Jinbei,Sanji]
+                    *              1             0             1 
+    79 who_gives_to_who[Jinbei,Chopper]
+                    *              0             0             1 
+    80 who_gives_to_who[Jinbei,Robin]
+                    *              0             0             1 
+    81 who_gives_to_who[Jinbei,Brook]
+                    *              0             0             1 
+    82 who_gives_what[Luffy,Q]
+                    *              0             0             1 
+    83 who_gives_what[Luffy,W]
+                    *              0             0             1 
+    84 who_gives_what[Luffy,E]
+                    *              0             0             1 
+    85 who_gives_what[Luffy,R]
+                    *              0             0             1 
+    86 who_gives_what[Luffy,T]
+                    *              0             0             1 
+    87 who_gives_what[Luffy,Y]
+                    *              0             0             1 
+    88 who_gives_what[Luffy,U]
+                    *              0             0             1 
+    89 who_gives_what[Luffy,I]
+                    *              0             0             1 
+    90 who_gives_what[Luffy,O]
+                    *              1             0             1 
+    91 who_gives_what[Luffy,P]
+                    *              0             0             1 
+    92 who_gives_what[Luffy,A]
+                    *              0             0             1 
+    93 who_gives_what[Luffy,S]
+                    *              0             0             1 
+    94 who_gives_what[Luffy,D]
+                    *              0             0             1 
+    95 who_gives_what[Luffy,F]
+                    *              0             0             1 
+    96 who_gives_what[Luffy,G]
+                    *              0             0             1 
+    97 who_gives_what[Luffy,H]
+                    *              0             0             1 
+    98 who_gives_what[Luffy,J]
+                    *              0             0             1 
+    99 who_gives_what[Luffy,K]
+                    *              0             0             1 
+   100 who_gives_what[Luffy,L]
+                    *              0             0             1 
+   101 who_gives_what[Luffy,Z]
+                    *              0             0             1 
+   102 who_gives_what[Luffy,X]
+                    *              0             0             1 
+   103 who_gives_what[Luffy,C]
+                    *              0             0             1 
+   104 who_gives_what[Luffy,V]
+                    *              0             0             1 
+   105 who_gives_what[Luffy,B]
+                    *              0             0             1 
+   106 who_gives_what[Luffy,N]
+                    *              0             0             1 
+   107 who_gives_what[Luffy,M]
+                    *              0             0             1 
+   108 who_gives_what[Zoro,Q]
+                    *              0             0             1 
+   109 who_gives_what[Zoro,W]
+                    *              0             0             1 
+   110 who_gives_what[Zoro,E]
+                    *              0             0             1 
+   111 who_gives_what[Zoro,R]
+                    *              0             0             1 
+   112 who_gives_what[Zoro,T]
+                    *              0             0             1 
+   113 who_gives_what[Zoro,Y]
+                    *              1             0             1 
+   114 who_gives_what[Zoro,U]
+                    *              0             0             1 
+   115 who_gives_what[Zoro,I]
+                    *              0             0             1 
+   116 who_gives_what[Zoro,O]
+                    *              0             0             1 
+   117 who_gives_what[Zoro,P]
+                    *              0             0             1 
+   118 who_gives_what[Zoro,A]
+                    *              0             0             1 
+   119 who_gives_what[Zoro,S]
+                    *              0             0             1 
+   120 who_gives_what[Zoro,D]
+                    *              0             0             1 
+   121 who_gives_what[Zoro,F]
+                    *              0             0             1 
+   122 who_gives_what[Zoro,G]
+                    *              0             0             1 
+   123 who_gives_what[Zoro,H]
+                    *              0             0             1 
+   124 who_gives_what[Zoro,J]
+                    *              0             0             1 
+   125 who_gives_what[Zoro,K]
+                    *              0             0             1 
+   126 who_gives_what[Zoro,L]
+                    *              0             0             1 
+   127 who_gives_what[Zoro,Z]
+                    *              0             0             1 
+   128 who_gives_what[Zoro,X]
+                    *              0             0             1 
+   129 who_gives_what[Zoro,C]
+                    *              0             0             1 
+   130 who_gives_what[Zoro,V]
+                    *              0             0             1 
+   131 who_gives_what[Zoro,B]
+                    *              0             0             1 
+   132 who_gives_what[Zoro,N]
+                    *              0             0             1 
+   133 who_gives_what[Zoro,M]
+                    *              0             0             1 
+   134 who_gives_what[Nami,Q]
+                    *              0             0             1 
+   135 who_gives_what[Nami,W]
+                    *              0             0             1 
+   136 who_gives_what[Nami,E]
+                    *              0             0             1 
+   137 who_gives_what[Nami,R]
+                    *              0             0             1 
+   138 who_gives_what[Nami,T]
+                    *              0             0             1 
+   139 who_gives_what[Nami,Y]
+                    *              0             0             1 
+   140 who_gives_what[Nami,U]
+                    *              0             0             1 
+   141 who_gives_what[Nami,I]
+                    *              0             0             1 
+   142 who_gives_what[Nami,O]
+                    *              1             0             1 
+   143 who_gives_what[Nami,P]
+                    *              0             0             1 
+   144 who_gives_what[Nami,A]
+                    *              0             0             1 
+   145 who_gives_what[Nami,S]
+                    *              0             0             1 
+   146 who_gives_what[Nami,D]
+                    *              0             0             1 
+   147 who_gives_what[Nami,F]
+                    *              0             0             1 
+   148 who_gives_what[Nami,G]
+                    *              0             0             1 
+   149 who_gives_what[Nami,H]
+                    *              0             0             1 
+   150 who_gives_what[Nami,J]
+                    *              0             0             1 
+   151 who_gives_what[Nami,K]
+                    *              0             0             1 
+   152 who_gives_what[Nami,L]
+                    *              0             0             1 
+   153 who_gives_what[Nami,Z]
+                    *              0             0             1 
+   154 who_gives_what[Nami,X]
+                    *              0             0             1 
+   155 who_gives_what[Nami,C]
+                    *              0             0             1 
+   156 who_gives_what[Nami,V]
+                    *              0             0             1 
+   157 who_gives_what[Nami,B]
+                    *              0             0             1 
+   158 who_gives_what[Nami,N]
+                    *              0             0             1 
+   159 who_gives_what[Nami,M]
+                    *              0             0             1 
+   160 who_gives_what[Usopp,Q]
+                    *              0             0             1 
+   161 who_gives_what[Usopp,W]
+                    *              0             0             1 
+   162 who_gives_what[Usopp,E]
+                    *              0             0             1 
+   163 who_gives_what[Usopp,R]
+                    *              0             0             1 
+   164 who_gives_what[Usopp,T]
+                    *              0             0             1 
+   165 who_gives_what[Usopp,Y]
+                    *              0             0             1 
+   166 who_gives_what[Usopp,U]
+                    *              1             0             1 
+   167 who_gives_what[Usopp,I]
+                    *              0             0             1 
+   168 who_gives_what[Usopp,O]
+                    *              0             0             1 
+   169 who_gives_what[Usopp,P]
+                    *              0             0             1 
+   170 who_gives_what[Usopp,A]
+                    *              0             0             1 
+   171 who_gives_what[Usopp,S]
+                    *              0             0             1 
+   172 who_gives_what[Usopp,D]
+                    *              0             0             1 
+   173 who_gives_what[Usopp,F]
+                    *              0             0             1 
+   174 who_gives_what[Usopp,G]
+                    *              0             0             1 
+   175 who_gives_what[Usopp,H]
+                    *              0             0             1 
+   176 who_gives_what[Usopp,J]
+                    *              0             0             1 
+   177 who_gives_what[Usopp,K]
+                    *              0             0             1 
+   178 who_gives_what[Usopp,L]
+                    *              0             0             1 
+   179 who_gives_what[Usopp,Z]
+                    *              0             0             1 
+   180 who_gives_what[Usopp,X]
+                    *              0             0             1 
+   181 who_gives_what[Usopp,C]
+                    *              0             0             1 
+   182 who_gives_what[Usopp,V]
+                    *              0             0             1 
+   183 who_gives_what[Usopp,B]
+                    *              0             0             1 
+   184 who_gives_what[Usopp,N]
+                    *              0             0             1 
+   185 who_gives_what[Usopp,M]
+                    *              0             0             1 
+   186 who_gives_what[Sanji,Q]
+                    *              0             0             1 
+   187 who_gives_what[Sanji,W]
+                    *              0             0             1 
+   188 who_gives_what[Sanji,E]
+                    *              0             0             1 
+   189 who_gives_what[Sanji,R]
+                    *              0             0             1 
+   190 who_gives_what[Sanji,T]
+                    *              0             0             1 
+   191 who_gives_what[Sanji,Y]
+                    *              0             0             1 
+   192 who_gives_what[Sanji,U]
+                    *              0             0             1 
+   193 who_gives_what[Sanji,I]
+                    *              0             0             1 
+   194 who_gives_what[Sanji,O]
+                    *              0             0             1 
+   195 who_gives_what[Sanji,P]
+                    *              0             0             1 
+   196 who_gives_what[Sanji,A]
+                    *              0             0             1 
+   197 who_gives_what[Sanji,S]
+                    *              1             0             1 
+   198 who_gives_what[Sanji,D]
+                    *              0             0             1 
+   199 who_gives_what[Sanji,F]
+                    *              0             0             1 
+   200 who_gives_what[Sanji,G]
+                    *              0             0             1 
+   201 who_gives_what[Sanji,H]
+                    *              0             0             1 
+   202 who_gives_what[Sanji,J]
+                    *              0             0             1 
+   203 who_gives_what[Sanji,K]
+                    *              0             0             1 
+   204 who_gives_what[Sanji,L]
+                    *              0             0             1 
+   205 who_gives_what[Sanji,Z]
+                    *              0             0             1 
+   206 who_gives_what[Sanji,X]
+                    *              0             0             1 
+   207 who_gives_what[Sanji,C]
+                    *              0             0             1 
+   208 who_gives_what[Sanji,V]
+                    *              0             0             1 
+   209 who_gives_what[Sanji,B]
+                    *              0             0             1 
+   210 who_gives_what[Sanji,N]
+                    *              0             0             1 
+   211 who_gives_what[Sanji,M]
+                    *              0             0             1 
+   212 who_gives_what[Chopper,Q]
+                    *              0             0             1 
+   213 who_gives_what[Chopper,W]
+                    *              0             0             1 
+   214 who_gives_what[Chopper,E]
+                    *              0             0             1 
+   215 who_gives_what[Chopper,R]
+                    *              0             0             1 
+   216 who_gives_what[Chopper,T]
+                    *              0             0             1 
+   217 who_gives_what[Chopper,Y]
+                    *              0             0             1 
+   218 who_gives_what[Chopper,U]
+                    *              0             0             1 
+   219 who_gives_what[Chopper,I]
+                    *              0             0             1 
+   220 who_gives_what[Chopper,O]
+                    *              0             0             1 
+   221 who_gives_what[Chopper,P]
+                    *              0             0             1 
+   222 who_gives_what[Chopper,A]
+                    *              0             0             1 
+   223 who_gives_what[Chopper,S]
+                    *              1             0             1 
+   224 who_gives_what[Chopper,D]
+                    *              0             0             1 
+   225 who_gives_what[Chopper,F]
+                    *              0             0             1 
+   226 who_gives_what[Chopper,G]
+                    *              0             0             1 
+   227 who_gives_what[Chopper,H]
+                    *              0             0             1 
+   228 who_gives_what[Chopper,J]
+                    *              0             0             1 
+   229 who_gives_what[Chopper,K]
+                    *              0             0             1 
+   230 who_gives_what[Chopper,L]
+                    *              0             0             1 
+   231 who_gives_what[Chopper,Z]
+                    *              0             0             1 
+   232 who_gives_what[Chopper,X]
+                    *              0             0             1 
+   233 who_gives_what[Chopper,C]
+                    *              0             0             1 
+   234 who_gives_what[Chopper,V]
+                    *              0             0             1 
+   235 who_gives_what[Chopper,B]
+                    *              0             0             1 
+   236 who_gives_what[Chopper,N]
+                    *              0             0             1 
+   237 who_gives_what[Chopper,M]
+                    *              0             0             1 
+   238 who_gives_what[Robin,Q]
+                    *              0             0             1 
+   239 who_gives_what[Robin,W]
+                    *              0             0             1 
+   240 who_gives_what[Robin,E]
+                    *              0             0             1 
+   241 who_gives_what[Robin,R]
+                    *              0             0             1 
+   242 who_gives_what[Robin,T]
+                    *              0             0             1 
+   243 who_gives_what[Robin,Y]
+                    *              0             0             1 
+   244 who_gives_what[Robin,U]
+                    *              1             0             1 
+   245 who_gives_what[Robin,I]
+                    *              0             0             1 
+   246 who_gives_what[Robin,O]
+                    *              0             0             1 
+   247 who_gives_what[Robin,P]
+                    *              0             0             1 
+   248 who_gives_what[Robin,A]
+                    *              0             0             1 
+   249 who_gives_what[Robin,S]
+                    *              0             0             1 
+   250 who_gives_what[Robin,D]
+                    *              0             0             1 
+   251 who_gives_what[Robin,F]
+                    *              0             0             1 
+   252 who_gives_what[Robin,G]
+                    *              0             0             1 
+   253 who_gives_what[Robin,H]
+                    *              0             0             1 
+   254 who_gives_what[Robin,J]
+                    *              0             0             1 
+   255 who_gives_what[Robin,K]
+                    *              0             0             1 
+   256 who_gives_what[Robin,L]
+                    *              0             0             1 
+   257 who_gives_what[Robin,Z]
+                    *              0             0             1 
+   258 who_gives_what[Robin,X]
+                    *              0             0             1 
+   259 who_gives_what[Robin,C]
+                    *              0             0             1 
+   260 who_gives_what[Robin,V]
+                    *              0             0             1 
+   261 who_gives_what[Robin,B]
+                    *              0             0             1 
+   262 who_gives_what[Robin,N]
+                    *              0             0             1 
+   263 who_gives_what[Robin,M]
+                    *              0             0             1 
+   264 who_gives_what[Brook,Q]
+                    *              0             0             1 
+   265 who_gives_what[Brook,W]
+                    *              0             0             1 
+   266 who_gives_what[Brook,E]
+                    *              0             0             1 
+   267 who_gives_what[Brook,R]
+                    *              0             0             1 
+   268 who_gives_what[Brook,T]
+                    *              0             0             1 
+   269 who_gives_what[Brook,Y]
+                    *              0             0             1 
+   270 who_gives_what[Brook,U]
+                    *              0             0             1 
+   271 who_gives_what[Brook,I]
+                    *              0             0             1 
+   272 who_gives_what[Brook,O]
+                    *              0             0             1 
+   273 who_gives_what[Brook,P]
+                    *              0             0             1 
+   274 who_gives_what[Brook,A]
+                    *              0             0             1 
+   275 who_gives_what[Brook,S]
+                    *              0             0             1 
+   276 who_gives_what[Brook,D]
+                    *              0             0             1 
+   277 who_gives_what[Brook,F]
+                    *              1             0             1 
+   278 who_gives_what[Brook,G]
+                    *              0             0             1 
+   279 who_gives_what[Brook,H]
+                    *              0             0             1 
+   280 who_gives_what[Brook,J]
+                    *              0             0             1 
+   281 who_gives_what[Brook,K]
+                    *              0             0             1 
+   282 who_gives_what[Brook,L]
+                    *              0             0             1 
+   283 who_gives_what[Brook,Z]
+                    *              0             0             1 
+   284 who_gives_what[Brook,X]
+                    *              0             0             1 
+   285 who_gives_what[Brook,C]
+                    *              0             0             1 
+   286 who_gives_what[Brook,V]
+                    *              0             0             1 
+   287 who_gives_what[Brook,B]
+                    *              0             0             1 
+   288 who_gives_what[Brook,N]
+                    *              0             0             1 
+   289 who_gives_what[Brook,M]
+                    *              0             0             1 
+   290 who_gives_what[Jinbei,Q]
+                    *              0             0             1 
+   291 who_gives_what[Jinbei,W]
+                    *              0             0             1 
+   292 who_gives_what[Jinbei,E]
+                    *              0             0             1 
+   293 who_gives_what[Jinbei,R]
+                    *              0             0             1 
+   294 who_gives_what[Jinbei,T]
+                    *              0             0             1 
+   295 who_gives_what[Jinbei,Y]
+                    *              0             0             1 
+   296 who_gives_what[Jinbei,U]
+                    *              0             0             1 
+   297 who_gives_what[Jinbei,I]
+                    *              0             0             1 
+   298 who_gives_what[Jinbei,O]
+                    *              0             0             1 
+   299 who_gives_what[Jinbei,P]
+                    *              0             0             1 
+   300 who_gives_what[Jinbei,A]
+                    *              0             0             1 
+   301 who_gives_what[Jinbei,S]
+                    *              1             0             1 
+   302 who_gives_what[Jinbei,D]
+                    *              0             0             1 
+   303 who_gives_what[Jinbei,F]
+                    *              0             0             1 
+   304 who_gives_what[Jinbei,G]
+                    *              0             0             1 
+   305 who_gives_what[Jinbei,H]
+                    *              0             0             1 
+   306 who_gives_what[Jinbei,J]
+                    *              0             0             1 
+   307 who_gives_what[Jinbei,K]
+                    *              0             0             1 
+   308 who_gives_what[Jinbei,L]
+                    *              0             0             1 
+   309 who_gives_what[Jinbei,Z]
+                    *              0             0             1 
+   310 who_gives_what[Jinbei,X]
+                    *              0             0             1 
+   311 who_gives_what[Jinbei,C]
+                    *              0             0             1 
+   312 who_gives_what[Jinbei,V]
+                    *              0             0             1 
+   313 who_gives_what[Jinbei,B]
+                    *              0             0             1 
+   314 who_gives_what[Jinbei,N]
+                    *              0             0             1 
+   315 who_gives_what[Jinbei,M]
+                    *              0             0             1 
+   316 spent[Luffy] *              7             0               
+   317 spent[Zoro]  *             29             0               
+   318 spent[Nami]  *              7             0               
+   319 spent[Usopp] *              2             0               
+   320 spent[Sanji] *              2             0               
+   321 spent[Chopper]
+                    *              2             0               
+   322 spent[Robin] *              2             0               
+   323 spent[Brook] *             25             0               
+   324 spent[Jinbei]
+                    *              2             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

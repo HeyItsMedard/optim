@@ -1,0 +1,12 @@
+Total cost: 78
+
+Who gives to who:
+Luffy gives (item: O, price: 7, budget: 23) to Jinbei
+Zoro gives (item: Y, price: 29, budget: 42) to Brook
+Nami gives (item: O, price: 7, budget: 10) to Luffy
+Usopp gives (item: U, price: 2, budget: 75) to Robin
+Sanji gives (item: S, price: 2, budget: 98) to Chopper
+Chopper gives (item: S, price: 2, budget: 77) to Zoro
+Robin gives (item: U, price: 2, budget: 84) to Usopp
+Brook gives (item: F, price: 25, budget: 100) to Nami
+Jinbei gives (item: S, price: 2, budget: 48) to Sanji

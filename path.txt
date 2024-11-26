@@ -1,1 +1,2 @@
-#>C:\Users\medav\Downloads\gusek_0-2-24\gusek\glpsol.exe --cover --clique --gomory --mir -m "generic_utazas.mod" -d "utazas.dat" -o "generic_utazas.out" -y "generic_utazas.txt"
+#>C:\Users\medav\Downloads\gusek_0-2-24\gusek\glpsol.exe --cover --clique --gomory --mir -m "strawhats.mod" -d "strawhats.dat" -o "strawhats.out" -y "strawhats.txt"
+glpsol -m Festival.mod -d SummerOf18.dat -o FestivalsSummer18.out
