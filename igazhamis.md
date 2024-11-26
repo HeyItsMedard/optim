@@ -2,21 +2,21 @@
 
 ## I
 
-1. Csak akkor fordulhat elo, hogy egy LP modellnek nincs megoldasa, ha a valtozok szama kevesebb, mint a korlatozasok szama. ❌
-2. A szimplex modszer masodik fazisanak feladata, hogy egy nem bazismegoldasbol bazimsegoldasba keruljunk. ❌
-3. Tulzottan nagy M ertek megvalasztasa eseten a megoldok numberikus hibara futhatnak. ✔
-4. GMPL nyelven egy set elemei csak szimbolikus ertekek lehetnek. ❌
-5. Heurisztikanak az olyan modszereket nevezzuk, melyek a lehetseges donteseket moho modon hozzak meg. ❌
+1. Csak akkor fordulhat elo, hogy egy LP modellnek nincs megoldasa, ha a valtozok szama kevesebb, mint a korlatozasok szama. ❌ hülye korlátozás, rossz adatok
+2. A szimplex modszer masodik fazisanak feladata, hogy egy nem bazismegoldasbol bazimsegoldasba keruljunk. ❌ mindkettő bázismo.
+3. Tulzottan nagy M ertek megvalasztasa eseten a megoldok numberikus hibara futhatnak. ✔ mantissza váltás néha furcsa lehet
+4. GMPL nyelven egy set elemei csak szimbolikus ertekek lehetnek. ❌ numerikus is
+5. Heurisztikanak az olyan modszereket nevezzuk, melyek a lehetseges donteseket moho modon hozzak meg. ❌ nem csak mohó, ez algoritmusokat kisegítő alternatíva szokott lenni
 
 ## II
 
-1. Minden MILP feladatnak van legalább egy optimális megoldása. ❌
-2. A preprocessing a MILP megoldóban az, amikor memóriát foglal a paramétereknek, és kiszámolja az értéküket. ❌
-3. LP modellben nem megengedett két folytonos változó összeszorzása, de MILP modellekben igen. ❌
-4. Egy változónak legfeljebb két alsó indexe lehet. ❌
-5. Halmazok leszükítésében (kapcsoson belül a kettőspont utáni rész) használhatók a paraméterek. ✔
-6. Lehet a modellben olyan korlátozás, melyben a modell összes változója szerepel nem 0 együtthatóval. ✔
-7. A szimplex algoritmus önmagában nem tud MILP feladatokat megoldani. ✔
+1. Minden MILP feladatnak van legalább egy optimális megoldása. ❌ bs
+2. A preprocessing a MILP megoldóban az, amikor memóriát foglal a paramétereknek, és kiszámolja az értéküket. ❌ de glpsol pl ezt csinálja
+3. LP modellben nem megengedett két folytonos változó összeszorzása, de MILP modellekben igen. ❌ bináris és folytonos legfeljebb
+4. Egy változónak legfeljebb két alsó indexe lehet. ❌ (dimenziók száma végtelen lehet)
+5. Halmazok leszükítésében (kapcsoson belül a kettőspont utáni rész) használhatók a paraméterek. ✔ s.t. Foo{f in FooSet: f!=1}
+6. Lehet a modellben olyan korlátozás, melyben a modell összes változója szerepel nem 0 együtthatóval. ✔ 5* xNKF+ 3*xNF + 2 * KF...
+7. A szimplex algoritmus önmagában nem tud MILP feladatokat megoldani. ✔ csak a folytonos változókra alkalmazható, ahhoz már kell hozáz egy Branch and Bound vagy hasonló algoritmus is
 
 ## III
 
@@ -29,7 +29,7 @@
      - Több memória
      - Bonyolultabb
 
-2. Lehet-e egy LP feladatnak pontosan kettő optimális megoldása? ❌
+2. Lehet-e egy LP feladatnak pontosan kettő optimális megoldása? ❌ 0, 1, végtelen
 
 3. Mit fejez ki az alábbi korlátozás? [single selection]
 
@@ -111,10 +111,10 @@
 
 13. Mi a MILP és az LP közti különbség?
 
-    | Jellemző | LP | MILP |
-    | --- |:---:|:---:|
-    | Változók | Folytonos | Folytonos és egész |
-    | Megoldási algoritmusok | Szimplex | B&B, Cutting planes, Szimplex(de nem elég önállóan!) |
+    | Jellemző              |           LP          |           MILP        |
+    |:---------------------:|:---------------------:|:---------------------:|
+    | Változók              | Folytonos             | Folytonos és egész    |
+    | Megoldási algoritmusok| Szimplex              | B&B, Cutting planes, Szimplex(de nem elég önállóan!) |
 
     - Simplex nem képes közvetlenül kezelni az egészértékű változókat.
 
@@ -186,6 +186,17 @@
 
 27. Mit jelent az, hogy `politóp`?
     - Ez egy multidimenziós objektum, ahol (optimalizálásban) éleken haladunk iteratívan optimális mo.-ért. Az opt. mo. nemcsak lokális, globális optimum.
+
+28. Mit jelent a `feasible`?
+    - Minden kikötésnek megfeleltett megoldás
+
+29. Mikor nem kapunk bázismegoldást?
+    - Bázismegoldást nem kapunk, ha:
+      - A probléma nem oldható meg (infeasibility),
+      - A probléma korlátlan (unbounded),
+      - Degenerált problémával találkozunk, ami miatt a módszer nem tud lépni új megoldás felé,
+      - Nem megfelelő kezdő bázis van, vagy
+      - A korlátozások hibásan vannak megfogalmazva.
 
 ## V
 
