@@ -1,0 +1,784 @@
+Problem:    koncert
+Rows:       290
+Columns:    160 (140 integer, 140 binary)
+Non-zeros:  2933
+Status:     INTEGER OPTIMAL
+Objective:  TotalPopularity = 846 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 TotalPopularity
+                                 846                             
+     2 AllMusiciansPlayAllPlayedTracks[FA,1]
+                                   0                          -0 
+     3 AllMusiciansPlayAllPlayedTracks[FA,2]
+                                  -1                          -0 
+     4 AllMusiciansPlayAllPlayedTracks[FA,3]
+                                  -1                          -0 
+     5 AllMusiciansPlayAllPlayedTracks[FA,4]
+                                   0                          -0 
+     6 AllMusiciansPlayAllPlayedTracks[FA,5]
+                                  -1                          -0 
+     7 AllMusiciansPlayAllPlayedTracks[FA,6]
+                                  -1                          -0 
+     8 AllMusiciansPlayAllPlayedTracks[FA,7]
+                                   0                          -0 
+     9 AllMusiciansPlayAllPlayedTracks[FA,8]
+                                   0                          -0 
+    10 AllMusiciansPlayAllPlayedTracks[FA,9]
+                                  -1                          -0 
+    11 AllMusiciansPlayAllPlayedTracks[FA,10]
+                                  -1                          -0 
+    12 AllMusiciansPlayAllPlayedTracks[FA,11]
+                                   0                          -0 
+    13 AllMusiciansPlayAllPlayedTracks[FA,12]
+                                   0                          -0 
+    14 AllMusiciansPlayAllPlayedTracks[FA,13]
+                                   0                          -0 
+    15 AllMusiciansPlayAllPlayedTracks[FA,14]
+                                   0                          -0 
+    16 AllMusiciansPlayAllPlayedTracks[FA,15]
+                                   0                          -0 
+    17 AllMusiciansPlayAllPlayedTracks[FA,16]
+                                  -1                          -0 
+    18 AllMusiciansPlayAllPlayedTracks[FA,17]
+                                  -1                          -0 
+    19 AllMusiciansPlayAllPlayedTracks[FA,18]
+                                  -1                          -0 
+    20 AllMusiciansPlayAllPlayedTracks[FA,19]
+                                  -1                          -0 
+    21 AllMusiciansPlayAllPlayedTracks[FA,20]
+                                   0                          -0 
+    22 AllMusiciansPlayAllPlayedTracks[BL,1]
+                                   0                          -0 
+    23 AllMusiciansPlayAllPlayedTracks[BL,2]
+                                  -1                          -0 
+    24 AllMusiciansPlayAllPlayedTracks[BL,3]
+                                  -1                          -0 
+    25 AllMusiciansPlayAllPlayedTracks[BL,4]
+                                   0                          -0 
+    26 AllMusiciansPlayAllPlayedTracks[BL,5]
+                                  -1                          -0 
+    27 AllMusiciansPlayAllPlayedTracks[BL,6]
+                                  -1                          -0 
+    28 AllMusiciansPlayAllPlayedTracks[BL,7]
+                                   0                          -0 
+    29 AllMusiciansPlayAllPlayedTracks[BL,8]
+                                   0                          -0 
+    30 AllMusiciansPlayAllPlayedTracks[BL,9]
+                                  -1                          -0 
+    31 AllMusiciansPlayAllPlayedTracks[BL,10]
+                                  -1                          -0 
+    32 AllMusiciansPlayAllPlayedTracks[BL,11]
+                                   0                          -0 
+    33 AllMusiciansPlayAllPlayedTracks[BL,12]
+                                   0                          -0 
+    34 AllMusiciansPlayAllPlayedTracks[BL,13]
+                                   0                          -0 
+    35 AllMusiciansPlayAllPlayedTracks[BL,14]
+                                   0                          -0 
+    36 AllMusiciansPlayAllPlayedTracks[BL,15]
+                                   0                          -0 
+    37 AllMusiciansPlayAllPlayedTracks[BL,16]
+                                  -1                          -0 
+    38 AllMusiciansPlayAllPlayedTracks[BL,17]
+                                  -1                          -0 
+    39 AllMusiciansPlayAllPlayedTracks[BL,18]
+                                  -1                          -0 
+    40 AllMusiciansPlayAllPlayedTracks[BL,19]
+                                  -1                          -0 
+    41 AllMusiciansPlayAllPlayedTracks[BL,20]
+                                   0                          -0 
+    42 AllMusiciansPlayAllPlayedTracks[NM,1]
+                                   0                          -0 
+    43 AllMusiciansPlayAllPlayedTracks[NM,2]
+                                  -1                          -0 
+    44 AllMusiciansPlayAllPlayedTracks[NM,3]
+                                  -1                          -0 
+    45 AllMusiciansPlayAllPlayedTracks[NM,4]
+                                   0                          -0 
+    46 AllMusiciansPlayAllPlayedTracks[NM,5]
+                                  -1                          -0 
+    47 AllMusiciansPlayAllPlayedTracks[NM,6]
+                                  -1                          -0 
+    48 AllMusiciansPlayAllPlayedTracks[NM,7]
+                                   0                          -0 
+    49 AllMusiciansPlayAllPlayedTracks[NM,8]
+                                   0                          -0 
+    50 AllMusiciansPlayAllPlayedTracks[NM,9]
+                                  -1                          -0 
+    51 AllMusiciansPlayAllPlayedTracks[NM,10]
+                                  -1                          -0 
+    52 AllMusiciansPlayAllPlayedTracks[NM,11]
+                                   0                          -0 
+    53 AllMusiciansPlayAllPlayedTracks[NM,12]
+                                   0                          -0 
+    54 AllMusiciansPlayAllPlayedTracks[NM,13]
+                                   0                          -0 
+    55 AllMusiciansPlayAllPlayedTracks[NM,14]
+                                   0                          -0 
+    56 AllMusiciansPlayAllPlayedTracks[NM,15]
+                                   0                          -0 
+    57 AllMusiciansPlayAllPlayedTracks[NM,16]
+                                  -1                          -0 
+    58 AllMusiciansPlayAllPlayedTracks[NM,17]
+                                  -1                          -0 
+    59 AllMusiciansPlayAllPlayedTracks[NM,18]
+                                  -1                          -0 
+    60 AllMusiciansPlayAllPlayedTracks[NM,19]
+                                  -1                          -0 
+    61 AllMusiciansPlayAllPlayedTracks[NM,20]
+                                   0                          -0 
+    62 AllMusiciansPlayAllPlayedTracks[MI,1]
+                                   0                          -0 
+    63 AllMusiciansPlayAllPlayedTracks[MI,2]
+                                  -1                          -0 
+    64 AllMusiciansPlayAllPlayedTracks[MI,3]
+                                  -1                          -0 
+    65 AllMusiciansPlayAllPlayedTracks[MI,4]
+                                   0                          -0 
+    66 AllMusiciansPlayAllPlayedTracks[MI,5]
+                                  -1                          -0 
+    67 AllMusiciansPlayAllPlayedTracks[MI,6]
+                                  -1                          -0 
+    68 AllMusiciansPlayAllPlayedTracks[MI,7]
+                                   0                          -0 
+    69 AllMusiciansPlayAllPlayedTracks[MI,8]
+                                   0                          -0 
+    70 AllMusiciansPlayAllPlayedTracks[MI,9]
+                                  -1                          -0 
+    71 AllMusiciansPlayAllPlayedTracks[MI,10]
+                                  -1                          -0 
+    72 AllMusiciansPlayAllPlayedTracks[MI,11]
+                                   0                          -0 
+    73 AllMusiciansPlayAllPlayedTracks[MI,12]
+                                   0                          -0 
+    74 AllMusiciansPlayAllPlayedTracks[MI,13]
+                                   0                          -0 
+    75 AllMusiciansPlayAllPlayedTracks[MI,14]
+                                   0                          -0 
+    76 AllMusiciansPlayAllPlayedTracks[MI,15]
+                                   0                          -0 
+    77 AllMusiciansPlayAllPlayedTracks[MI,16]
+                                  -1                          -0 
+    78 AllMusiciansPlayAllPlayedTracks[MI,17]
+                                  -1                          -0 
+    79 AllMusiciansPlayAllPlayedTracks[MI,18]
+                                  -1                          -0 
+    80 AllMusiciansPlayAllPlayedTracks[MI,19]
+                                  -1                          -0 
+    81 AllMusiciansPlayAllPlayedTracks[MI,20]
+                                   0                          -0 
+    82 AllMusiciansPlayAllPlayedTracks[SG,1]
+                                   0                          -0 
+    83 AllMusiciansPlayAllPlayedTracks[SG,2]
+                                  -1                          -0 
+    84 AllMusiciansPlayAllPlayedTracks[SG,3]
+                                  -1                          -0 
+    85 AllMusiciansPlayAllPlayedTracks[SG,4]
+                                   0                          -0 
+    86 AllMusiciansPlayAllPlayedTracks[SG,5]
+                                  -1                          -0 
+    87 AllMusiciansPlayAllPlayedTracks[SG,6]
+                                  -1                          -0 
+    88 AllMusiciansPlayAllPlayedTracks[SG,7]
+                                   0                          -0 
+    89 AllMusiciansPlayAllPlayedTracks[SG,8]
+                                   0                          -0 
+    90 AllMusiciansPlayAllPlayedTracks[SG,9]
+                                  -1                          -0 
+    91 AllMusiciansPlayAllPlayedTracks[SG,10]
+                                  -1                          -0 
+    92 AllMusiciansPlayAllPlayedTracks[SG,11]
+                                   0                          -0 
+    93 AllMusiciansPlayAllPlayedTracks[SG,12]
+                                   0                          -0 
+    94 AllMusiciansPlayAllPlayedTracks[SG,13]
+                                   0                          -0 
+    95 AllMusiciansPlayAllPlayedTracks[SG,14]
+                                   0                          -0 
+    96 AllMusiciansPlayAllPlayedTracks[SG,15]
+                                   0                          -0 
+    97 AllMusiciansPlayAllPlayedTracks[SG,16]
+                                  -1                          -0 
+    98 AllMusiciansPlayAllPlayedTracks[SG,17]
+                                  -1                          -0 
+    99 AllMusiciansPlayAllPlayedTracks[SG,18]
+                                  -1                          -0 
+   100 AllMusiciansPlayAllPlayedTracks[SG,19]
+                                  -1                          -0 
+   101 AllMusiciansPlayAllPlayedTracks[SG,20]
+                                   0                          -0 
+   102 AllMusiciansPlayAllPlayedTracks[MA,1]
+                                   0                          -0 
+   103 AllMusiciansPlayAllPlayedTracks[MA,2]
+                                  -1                          -0 
+   104 AllMusiciansPlayAllPlayedTracks[MA,3]
+                                  -1                          -0 
+   105 AllMusiciansPlayAllPlayedTracks[MA,4]
+                                   0                          -0 
+   106 AllMusiciansPlayAllPlayedTracks[MA,5]
+                                  -1                          -0 
+   107 AllMusiciansPlayAllPlayedTracks[MA,6]
+                                  -1                          -0 
+   108 AllMusiciansPlayAllPlayedTracks[MA,7]
+                                   0                          -0 
+   109 AllMusiciansPlayAllPlayedTracks[MA,8]
+                                   0                          -0 
+   110 AllMusiciansPlayAllPlayedTracks[MA,9]
+                                  -1                          -0 
+   111 AllMusiciansPlayAllPlayedTracks[MA,10]
+                                  -1                          -0 
+   112 AllMusiciansPlayAllPlayedTracks[MA,11]
+                                   0                          -0 
+   113 AllMusiciansPlayAllPlayedTracks[MA,12]
+                                   0                          -0 
+   114 AllMusiciansPlayAllPlayedTracks[MA,13]
+                                   0                          -0 
+   115 AllMusiciansPlayAllPlayedTracks[MA,14]
+                                   0                          -0 
+   116 AllMusiciansPlayAllPlayedTracks[MA,15]
+                                   0                          -0 
+   117 AllMusiciansPlayAllPlayedTracks[MA,16]
+                                  -1                          -0 
+   118 AllMusiciansPlayAllPlayedTracks[MA,17]
+                                  -1                          -0 
+   119 AllMusiciansPlayAllPlayedTracks[MA,18]
+                                  -1                          -0 
+   120 AllMusiciansPlayAllPlayedTracks[MA,19]
+                                  -1                          -0 
+   121 AllMusiciansPlayAllPlayedTracks[MA,20]
+                                   0                          -0 
+   122 OneTrackPerMusician[FA,1]
+                                   0                           1 
+   123 OneTrackPerMusician[FA,2]
+                                   0                           1 
+   124 OneTrackPerMusician[FA,3]
+                                   0                           1 
+   125 OneTrackPerMusician[FA,4]
+                                   0                           1 
+   126 OneTrackPerMusician[FA,5]
+                                   0                           1 
+   127 OneTrackPerMusician[FA,6]
+                                   0                           1 
+   128 OneTrackPerMusician[FA,7]
+                                   0                           1 
+   129 OneTrackPerMusician[FA,8]
+                                   0                           1 
+   130 OneTrackPerMusician[FA,9]
+                                   0                           1 
+   131 OneTrackPerMusician[FA,10]
+                                   0                           1 
+   132 OneTrackPerMusician[FA,11]
+                                   0                           1 
+   133 OneTrackPerMusician[FA,12]
+                                   0                           1 
+   134 OneTrackPerMusician[FA,13]
+                                   0                           1 
+   135 OneTrackPerMusician[FA,14]
+                                   0                           1 
+   136 OneTrackPerMusician[FA,15]
+                                   0                           1 
+   137 OneTrackPerMusician[FA,16]
+                                   0                           1 
+   138 OneTrackPerMusician[FA,17]
+                                   0                           1 
+   139 OneTrackPerMusician[FA,18]
+                                   0                           1 
+   140 OneTrackPerMusician[FA,19]
+                                   0                           1 
+   141 OneTrackPerMusician[FA,20]
+                                   0                           1 
+   142 OneTrackPerMusician[BL,1]
+                                   0                           1 
+   143 OneTrackPerMusician[BL,2]
+                                   0                           1 
+   144 OneTrackPerMusician[BL,3]
+                                   0                           1 
+   145 OneTrackPerMusician[BL,4]
+                                   0                           1 
+   146 OneTrackPerMusician[BL,5]
+                                   0                           1 
+   147 OneTrackPerMusician[BL,6]
+                                   0                           1 
+   148 OneTrackPerMusician[BL,7]
+                                   0                           1 
+   149 OneTrackPerMusician[BL,8]
+                                   0                           1 
+   150 OneTrackPerMusician[BL,9]
+                                   0                           1 
+   151 OneTrackPerMusician[BL,10]
+                                   0                           1 
+   152 OneTrackPerMusician[BL,11]
+                                   0                           1 
+   153 OneTrackPerMusician[BL,12]
+                                   0                           1 
+   154 OneTrackPerMusician[BL,13]
+                                   0                           1 
+   155 OneTrackPerMusician[BL,14]
+                                   0                           1 
+   156 OneTrackPerMusician[BL,15]
+                                   0                           1 
+   157 OneTrackPerMusician[BL,16]
+                                   0                           1 
+   158 OneTrackPerMusician[BL,17]
+                                   0                           1 
+   159 OneTrackPerMusician[BL,18]
+                                   0                           1 
+   160 OneTrackPerMusician[BL,19]
+                                   0                           1 
+   161 OneTrackPerMusician[BL,20]
+                                   0                           1 
+   162 OneTrackPerMusician[NM,1]
+                                   0                           1 
+   163 OneTrackPerMusician[NM,2]
+                                   0                           1 
+   164 OneTrackPerMusician[NM,3]
+                                   0                           1 
+   165 OneTrackPerMusician[NM,4]
+                                   0                           1 
+   166 OneTrackPerMusician[NM,5]
+                                   0                           1 
+   167 OneTrackPerMusician[NM,6]
+                                   0                           1 
+   168 OneTrackPerMusician[NM,7]
+                                   0                           1 
+   169 OneTrackPerMusician[NM,8]
+                                   0                           1 
+   170 OneTrackPerMusician[NM,9]
+                                   0                           1 
+   171 OneTrackPerMusician[NM,10]
+                                   0                           1 
+   172 OneTrackPerMusician[NM,11]
+                                   0                           1 
+   173 OneTrackPerMusician[NM,12]
+                                   0                           1 
+   174 OneTrackPerMusician[NM,13]
+                                   0                           1 
+   175 OneTrackPerMusician[NM,14]
+                                   0                           1 
+   176 OneTrackPerMusician[NM,15]
+                                   0                           1 
+   177 OneTrackPerMusician[NM,16]
+                                   0                           1 
+   178 OneTrackPerMusician[NM,17]
+                                   0                           1 
+   179 OneTrackPerMusician[NM,18]
+                                   0                           1 
+   180 OneTrackPerMusician[NM,19]
+                                   0                           1 
+   181 OneTrackPerMusician[NM,20]
+                                   0                           1 
+   182 OneTrackPerMusician[MI,1]
+                                   0                           1 
+   183 OneTrackPerMusician[MI,2]
+                                   0                           1 
+   184 OneTrackPerMusician[MI,3]
+                                   0                           1 
+   185 OneTrackPerMusician[MI,4]
+                                   0                           1 
+   186 OneTrackPerMusician[MI,5]
+                                   0                           1 
+   187 OneTrackPerMusician[MI,6]
+                                   0                           1 
+   188 OneTrackPerMusician[MI,7]
+                                   0                           1 
+   189 OneTrackPerMusician[MI,8]
+                                   0                           1 
+   190 OneTrackPerMusician[MI,9]
+                                   0                           1 
+   191 OneTrackPerMusician[MI,10]
+                                   0                           1 
+   192 OneTrackPerMusician[MI,11]
+                                   0                           1 
+   193 OneTrackPerMusician[MI,12]
+                                   0                           1 
+   194 OneTrackPerMusician[MI,13]
+                                   0                           1 
+   195 OneTrackPerMusician[MI,14]
+                                   0                           1 
+   196 OneTrackPerMusician[MI,15]
+                                   0                           1 
+   197 OneTrackPerMusician[MI,16]
+                                   0                           1 
+   198 OneTrackPerMusician[MI,17]
+                                   0                           1 
+   199 OneTrackPerMusician[MI,18]
+                                   0                           1 
+   200 OneTrackPerMusician[MI,19]
+                                   0                           1 
+   201 OneTrackPerMusician[MI,20]
+                                   0                           1 
+   202 OneTrackPerMusician[SG,1]
+                                   0                           1 
+   203 OneTrackPerMusician[SG,2]
+                                   0                           1 
+   204 OneTrackPerMusician[SG,3]
+                                   0                           1 
+   205 OneTrackPerMusician[SG,4]
+                                   0                           1 
+   206 OneTrackPerMusician[SG,5]
+                                   0                           1 
+   207 OneTrackPerMusician[SG,6]
+                                   0                           1 
+   208 OneTrackPerMusician[SG,7]
+                                   0                           1 
+   209 OneTrackPerMusician[SG,8]
+                                   0                           1 
+   210 OneTrackPerMusician[SG,9]
+                                   0                           1 
+   211 OneTrackPerMusician[SG,10]
+                                   0                           1 
+   212 OneTrackPerMusician[SG,11]
+                                   0                           1 
+   213 OneTrackPerMusician[SG,12]
+                                   0                           1 
+   214 OneTrackPerMusician[SG,13]
+                                   0                           1 
+   215 OneTrackPerMusician[SG,14]
+                                   0                           1 
+   216 OneTrackPerMusician[SG,15]
+                                   0                           1 
+   217 OneTrackPerMusician[SG,16]
+                                   0                           1 
+   218 OneTrackPerMusician[SG,17]
+                                   0                           1 
+   219 OneTrackPerMusician[SG,18]
+                                   0                           1 
+   220 OneTrackPerMusician[SG,19]
+                                   0                           1 
+   221 OneTrackPerMusician[SG,20]
+                                   0                           1 
+   222 OneTrackPerMusician[MA,1]
+                                   0                           1 
+   223 OneTrackPerMusician[MA,2]
+                                   0                           1 
+   224 OneTrackPerMusician[MA,3]
+                                   0                           1 
+   225 OneTrackPerMusician[MA,4]
+                                   0                           1 
+   226 OneTrackPerMusician[MA,5]
+                                   0                           1 
+   227 OneTrackPerMusician[MA,6]
+                                   0                           1 
+   228 OneTrackPerMusician[MA,7]
+                                   0                           1 
+   229 OneTrackPerMusician[MA,8]
+                                   0                           1 
+   230 OneTrackPerMusician[MA,9]
+                                   0                           1 
+   231 OneTrackPerMusician[MA,10]
+                                   0                           1 
+   232 OneTrackPerMusician[MA,11]
+                                   0                           1 
+   233 OneTrackPerMusician[MA,12]
+                                   0                           1 
+   234 OneTrackPerMusician[MA,13]
+                                   0                           1 
+   235 OneTrackPerMusician[MA,14]
+                                   0                           1 
+   236 OneTrackPerMusician[MA,15]
+                                   0                           1 
+   237 OneTrackPerMusician[MA,16]
+                                   0                           1 
+   238 OneTrackPerMusician[MA,17]
+                                   0                           1 
+   239 OneTrackPerMusician[MA,18]
+                                   0                           1 
+   240 OneTrackPerMusician[MA,19]
+                                   0                           1 
+   241 OneTrackPerMusician[MA,20]
+                                   0                           1 
+   242 OnePlayPerTrack[1]
+                                   0                           1 
+   243 OnePlayPerTrack[2]
+                                   0                           1 
+   244 OnePlayPerTrack[3]
+                                   0                           1 
+   245 OnePlayPerTrack[4]
+                                   0                           1 
+   246 OnePlayPerTrack[5]
+                                   0                           1 
+   247 OnePlayPerTrack[6]
+                                   0                           1 
+   248 OnePlayPerTrack[7]
+                                   0                           1 
+   249 OnePlayPerTrack[8]
+                                   0                           1 
+   250 OnePlayPerTrack[9]
+                                   0                           1 
+   251 OnePlayPerTrack[10]
+                                   0                           1 
+   252 OnePlayPerTrack[11]
+                                   0                           1 
+   253 OnePlayPerTrack[12]
+                                   0                           1 
+   254 OnePlayPerTrack[13]
+                                   0                           1 
+   255 OnePlayPerTrack[14]
+                                   0                           1 
+   256 OnePlayPerTrack[15]
+                                   0                           1 
+   257 OnePlayPerTrack[16]
+                                   0                           1 
+   258 OnePlayPerTrack[17]
+                                   0                           1 
+   259 OnePlayPerTrack[18]
+                                   0                           1 
+   260 OnePlayPerTrack[19]
+                                   0                           1 
+   261 OnePlayPerTrack[20]
+                                   0                           1 
+   262 NoThreeDifficultTracksInARow[FA]
+                                   0                           2 
+   263 NoThreeDifficultTracksInARow[BL]
+                                   0                           2 
+   264 NoThreeDifficultTracksInARow[NM]
+                                   0                           2 
+   265 NoThreeDifficultTracksInARow[MI]
+                                   0                           2 
+   266 NoThreeDifficultTracksInARow[SG]
+                                   0                           2 
+   267 NoThreeDifficultTracksInARow[MA]
+                                   0                           2 
+   268 ExactlyTenTracks
+                                  10            10             = 
+   269 AtLeastSixtyMinutesWithBreaks
+                               62.57          60.5               
+   270 AtMostEightyMinutesWithBreaks
+                               62.57                        80.5 
+   271 CalculatePopularity[1]
+                                   0            -0             = 
+   272 CalculatePopularity[2]
+                                   0            -0             = 
+   273 CalculatePopularity[3]
+                                   0            -0             = 
+   274 CalculatePopularity[4]
+                                   0            -0             = 
+   275 CalculatePopularity[5]
+                                   0            -0             = 
+   276 CalculatePopularity[6]
+                                   0            -0             = 
+   277 CalculatePopularity[7]
+                                   0            -0             = 
+   278 CalculatePopularity[8]
+                                   0            -0             = 
+   279 CalculatePopularity[9]
+                                   0            -0             = 
+   280 CalculatePopularity[10]
+                                   0            -0             = 
+   281 CalculatePopularity[11]
+                                   0            -0             = 
+   282 CalculatePopularity[12]
+                                   0            -0             = 
+   283 CalculatePopularity[13]
+                                   0            -0             = 
+   284 CalculatePopularity[14]
+                                   0            -0             = 
+   285 CalculatePopularity[15]
+                                   0            -0             = 
+   286 CalculatePopularity[16]
+                                   0            -0             = 
+   287 CalculatePopularity[17]
+                                   0            -0             = 
+   288 CalculatePopularity[18]
+                                   0            -0             = 
+   289 CalculatePopularity[19]
+                                   0            -0             = 
+   290 CalculatePopularity[20]
+                                   0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 play[FA,1]   *              0             0             1 
+     2 play[FA,2]   *              0             0             1 
+     3 play[FA,3]   *              0             0             1 
+     4 play[FA,4]   *              0             0             1 
+     5 play[FA,5]   *              0             0             1 
+     6 play[FA,6]   *              0             0             1 
+     7 play[FA,7]   *              0             0             1 
+     8 play[FA,8]   *              0             0             1 
+     9 play[FA,9]   *              0             0             1 
+    10 play[FA,10]  *              0             0             1 
+    11 play[FA,11]  *              0             0             1 
+    12 play[FA,12]  *              0             0             1 
+    13 play[FA,13]  *              0             0             1 
+    14 play[FA,14]  *              0             0             1 
+    15 play[FA,15]  *              0             0             1 
+    16 play[FA,16]  *              0             0             1 
+    17 play[FA,17]  *              0             0             1 
+    18 play[FA,18]  *              0             0             1 
+    19 play[FA,19]  *              0             0             1 
+    20 play[FA,20]  *              0             0             1 
+    21 play[BL,1]   *              0             0             1 
+    22 play[BL,2]   *              0             0             1 
+    23 play[BL,3]   *              0             0             1 
+    24 play[BL,4]   *              0             0             1 
+    25 play[BL,5]   *              0             0             1 
+    26 play[BL,6]   *              0             0             1 
+    27 play[BL,7]   *              0             0             1 
+    28 play[BL,8]   *              0             0             1 
+    29 play[BL,9]   *              0             0             1 
+    30 play[BL,10]  *              0             0             1 
+    31 play[BL,11]  *              0             0             1 
+    32 play[BL,12]  *              0             0             1 
+    33 play[BL,13]  *              0             0             1 
+    34 play[BL,14]  *              0             0             1 
+    35 play[BL,15]  *              0             0             1 
+    36 play[BL,16]  *              0             0             1 
+    37 play[BL,17]  *              0             0             1 
+    38 play[BL,18]  *              0             0             1 
+    39 play[BL,19]  *              0             0             1 
+    40 play[BL,20]  *              0             0             1 
+    41 play[NM,1]   *              0             0             1 
+    42 play[NM,2]   *              0             0             1 
+    43 play[NM,3]   *              0             0             1 
+    44 play[NM,4]   *              0             0             1 
+    45 play[NM,5]   *              0             0             1 
+    46 play[NM,6]   *              0             0             1 
+    47 play[NM,7]   *              0             0             1 
+    48 play[NM,8]   *              0             0             1 
+    49 play[NM,9]   *              0             0             1 
+    50 play[NM,10]  *              0             0             1 
+    51 play[NM,11]  *              0             0             1 
+    52 play[NM,12]  *              0             0             1 
+    53 play[NM,13]  *              0             0             1 
+    54 play[NM,14]  *              0             0             1 
+    55 play[NM,15]  *              0             0             1 
+    56 play[NM,16]  *              0             0             1 
+    57 play[NM,17]  *              0             0             1 
+    58 play[NM,18]  *              0             0             1 
+    59 play[NM,19]  *              0             0             1 
+    60 play[NM,20]  *              0             0             1 
+    61 play[MI,1]   *              0             0             1 
+    62 play[MI,2]   *              0             0             1 
+    63 play[MI,3]   *              0             0             1 
+    64 play[MI,4]   *              0             0             1 
+    65 play[MI,5]   *              0             0             1 
+    66 play[MI,6]   *              0             0             1 
+    67 play[MI,7]   *              0             0             1 
+    68 play[MI,8]   *              0             0             1 
+    69 play[MI,9]   *              0             0             1 
+    70 play[MI,10]  *              0             0             1 
+    71 play[MI,11]  *              0             0             1 
+    72 play[MI,12]  *              0             0             1 
+    73 play[MI,13]  *              0             0             1 
+    74 play[MI,14]  *              0             0             1 
+    75 play[MI,15]  *              0             0             1 
+    76 play[MI,16]  *              0             0             1 
+    77 play[MI,17]  *              0             0             1 
+    78 play[MI,18]  *              0             0             1 
+    79 play[MI,19]  *              0             0             1 
+    80 play[MI,20]  *              0             0             1 
+    81 play[SG,1]   *              0             0             1 
+    82 play[SG,2]   *              0             0             1 
+    83 play[SG,3]   *              0             0             1 
+    84 play[SG,4]   *              0             0             1 
+    85 play[SG,5]   *              0             0             1 
+    86 play[SG,6]   *              0             0             1 
+    87 play[SG,7]   *              0             0             1 
+    88 play[SG,8]   *              0             0             1 
+    89 play[SG,9]   *              0             0             1 
+    90 play[SG,10]  *              0             0             1 
+    91 play[SG,11]  *              0             0             1 
+    92 play[SG,12]  *              0             0             1 
+    93 play[SG,13]  *              0             0             1 
+    94 play[SG,14]  *              0             0             1 
+    95 play[SG,15]  *              0             0             1 
+    96 play[SG,16]  *              0             0             1 
+    97 play[SG,17]  *              0             0             1 
+    98 play[SG,18]  *              0             0             1 
+    99 play[SG,19]  *              0             0             1 
+   100 play[SG,20]  *              0             0             1 
+   101 play[MA,1]   *              0             0             1 
+   102 play[MA,2]   *              0             0             1 
+   103 play[MA,3]   *              0             0             1 
+   104 play[MA,4]   *              0             0             1 
+   105 play[MA,5]   *              0             0             1 
+   106 play[MA,6]   *              0             0             1 
+   107 play[MA,7]   *              0             0             1 
+   108 play[MA,8]   *              0             0             1 
+   109 play[MA,9]   *              0             0             1 
+   110 play[MA,10]  *              0             0             1 
+   111 play[MA,11]  *              0             0             1 
+   112 play[MA,12]  *              0             0             1 
+   113 play[MA,13]  *              0             0             1 
+   114 play[MA,14]  *              0             0             1 
+   115 play[MA,15]  *              0             0             1 
+   116 play[MA,16]  *              0             0             1 
+   117 play[MA,17]  *              0             0             1 
+   118 play[MA,18]  *              0             0             1 
+   119 play[MA,19]  *              0             0             1 
+   120 play[MA,20]  *              0             0             1 
+   121 played[1]    *              0             0             1 
+   122 played[2]    *              1             0             1 
+   123 played[3]    *              1             0             1 
+   124 played[4]    *              0             0             1 
+   125 played[5]    *              1             0             1 
+   126 played[6]    *              1             0             1 
+   127 played[7]    *              0             0             1 
+   128 played[8]    *              0             0             1 
+   129 played[9]    *              1             0             1 
+   130 played[10]   *              1             0             1 
+   131 played[11]   *              0             0             1 
+   132 played[12]   *              0             0             1 
+   133 played[13]   *              0             0             1 
+   134 played[14]   *              0             0             1 
+   135 played[15]   *              0             0             1 
+   136 played[16]   *              1             0             1 
+   137 played[17]   *              1             0             1 
+   138 played[18]   *              1             0             1 
+   139 played[19]   *              1             0             1 
+   140 played[20]   *              0             0             1 
+   141 maximizePopularity[1]
+                                   0             0               
+   142 maximizePopularity[2]
+                                 100             0               
+   143 maximizePopularity[3]
+                                  87             0               
+   144 maximizePopularity[4]
+                                   0             0               
+   145 maximizePopularity[5]
+                                  70             0               
+   146 maximizePopularity[6]
+                                  87             0               
+   147 maximizePopularity[7]
+                                   0             0               
+   148 maximizePopularity[8]
+                                   0             0               
+   149 maximizePopularity[9]
+                                  91             0               
+   150 maximizePopularity[10]
+                                  71             0               
+   151 maximizePopularity[11]
+                                   0             0               
+   152 maximizePopularity[12]
+                                   0             0               
+   153 maximizePopularity[13]
+                                   0             0               
+   154 maximizePopularity[14]
+                                   0             0               
+   155 maximizePopularity[15]
+                                   0             0               
+   156 maximizePopularity[16]
+                                  86             0               
+   157 maximizePopularity[17]
+                                  90             0               
+   158 maximizePopularity[18]
+                                  77             0               
+   159 maximizePopularity[19]
+                                  87             0               
+   160 maximizePopularity[20]
+                                   0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

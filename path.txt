@@ -1,2 +1,2 @@
 #>C:\Users\medav\Downloads\gusek_0-2-24\gusek\glpsol.exe --cover --clique --gomory --mir -m "strawhats.mod" -d "strawhats.dat" -o "strawhats.out" -y "strawhats.txt"
-glpsol -m Festival.mod -d SummerOf18.dat -o FestivalsSummer18.out
+glpsol -m koncert.mod -d koncert.dat -o koncertPopularity.out -y "playedTracks.txt"

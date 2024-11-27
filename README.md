@@ -109,6 +109,8 @@ if xi > 0, then the constraint is equivalent to yi > 0, that is yi == 1 since yi
 if xi == 0, then the constraint is always verified, and yi will be equal to 0 since your objective is increasing with yi and you are minimizing.
 in both case, the constraint is equivalent to the "if" test.  
 
+vagy ha ismert változók, akkor if then else
+
 ### 9. **Kommentek**
 A kommenteket a `#` jellel lehet megadni. Ezeket a fordító figyelmen kívül hagyja.
 
@@ -343,7 +345,7 @@ put (tr) after param p and before the colon in the data section
 
 23. Mi az a `GUSEK`?
     - grafikus felhazsnálói felület
-
+0
 24. Mi az a `GLPSOL`?
     - parancssoros megoldóeszköz
     - A GLPK része
