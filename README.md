@@ -145,8 +145,8 @@ display x;
 
 ## Symbolic
 
-set Cities symbolic; # strings
-param Distance{Cities, Cities};
+set Cities; # strings
+param lastCity symbolic in Cities;
 
 ## Transpose
 
