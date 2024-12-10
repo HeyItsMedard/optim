@@ -1,0 +1,56 @@
+
+set zeneszamok:=  A_walesi_bardok Teli_enek Hajdutanc Taltos_enek Virraszto Hamu_es_gyasz Agnes_Asszony Napisten_hava Galamb Taltosok_alma Tavaszkoszonto Tuzhozo Kinizsi_mulatsaga Hajnalpir Borivok_eneke Vilagfa Betyar_altato Huszaros A_Dudas Hazateres;
+
+set zeneszek:=Ficzek_Andras Binder_Laura Nemeth_Szabo_Matyas Molnar_Istvan Szabo_Szog_Gergely Monostori_Adam;
+
+param: hossz_perc hossz_masodperc popularitas:=
+A_walesi_bardok  18 40 61
+Teli_enek  5 50 100
+Hajdutanc 4 58 87
+Taltos_enek 4 55 55
+Virraszto  4 50 70
+Hamu_es_gyasz  5 51 87
+Agnes_Asszony  13 21 58
+Napisten_hava 6 44 58
+Galamb  5 41 91
+Taltosok_alma  7 32 71
+Tavaszkoszonto  3 19 54
+Tuzhozo 4 00 66
+Kinizsi_mulatsaga   4 19 40
+Hajnalpir 4 24  65
+Borivok_eneke 4 33 57
+Vilagfa  4 42 86
+Betyar_altato 6 24  90
+Huszaros 6 15  77
+A_Dudas 5 32 87
+Hazateres 4 43 56;
+
+
+
+
+param nehezseg :
+Ficzek_Andras Binder_Laura Nemeth_Szabo_Matyas Molnar_Istvan Szabo_Szog_Gergely Monostori_Adam
+:=
+A_walesi_bardok     1	0	0	1	0	1
+Teli_enek           1	1	1	0	1	0
+Hajdutanc           1	1	0	0	0	1
+Taltos_enek           0	0	0	0	0	1
+Virraszto           0	1	1	0	0	0
+Hamu_es_gyasz       0	0	0	1	0	0
+Agnes_Asszony       0	0	0	0	1	0
+Napisten_hava       0	0	0	1	0	0
+Galamb              1	0	0	0	1	0
+Taltosok_alma       1	0	1	1	0	0
+Tavaszkoszonto      0	0	1	1	1	0
+Tuzhozo             0	1	0	0	1	0
+Kinizsi_mulatsaga   0	1	1	1	1	0
+Hajnalpir           1	0	1	0	1	0
+Borivok_eneke       0	1	0	0	0	0
+Vilagfa             1	1	1	0	0	1
+Betyar_altato       0	0	1	1	0	0
+Huszaros            1	1	0	1	1	1
+A_Dudas             0	0	0	1	1	1
+Hazateres           0	1	1	0	0	0;
+
+
+

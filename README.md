@@ -390,6 +390,8 @@ put (tr) after param p and before the colon in the data section
 
 2. **A nagy M érték túlzottan magas megválasztása hibákhoz vezethet a numerikus számításokban.**  
    **Igaz**. A "Big-M" módszer túlzottan nagy értékei numerikus instabilitást okozhatnak a számítás során, ezért az \( M \) értékének körültekintő megválasztása szükséges.  
+   Ez kerekítési hibákat és rossz oszlop-skálázást eredményezhet.
+   Például: ha egy egyenletben az egyik együttható 1, míg egy másik 10 a hatodikon, akkor a kis együttható "elveszhet" a számítási hibák miatt.
 
 3. **Egy bináris változó és egy folytonos nemnegatív változó szorzata lineárisítással modellezhető.**  
    **Igaz**. Ez egy ismert technika az LP-ben és a vegyes egészértékű programozásban (MILP). Például az \( x \cdot y \) szorzatot (ahol \( x \) bináris) lineáris korlátozásokkal helyettesítjük.  

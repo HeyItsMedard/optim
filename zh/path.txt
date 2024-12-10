@@ -1,0 +1,1 @@
+glpsol -m koncert.mod -d koncert.dat -o koncertPopularity.out -y "playedTracks.txt"

@@ -10,7 +10,7 @@ param minMinutes; # AT LEAST 60 minutes
 param maxMinutes; # AT MOST 80 minutes
 param breakBetweenTracks; # 30 seconds
 
-var play{Musicians, Tracks} binary;
+var play{Musicians, Tracks} binary; # segédváltozó szerepet játszik abban, hogy sorozatban ne játsszon 3 nehezet 
 var played{Tracks} binary;
 var maximizePopularity{Tracks} >= 0;
 
@@ -29,7 +29,7 @@ s.t. OneTrackPerMusician{m in Musicians, t in Tracks}:
 s.t. OnePlayPerTrack{t in Tracks}:
     sum{m in Musicians} play[m,t] <= 1;
 
-# nem követhet egymást három szám úgy, hogy bármelyik zenész/énekes számára mindegyik nehéz legyen (ebben bizonytalan vagyok hogy jó)
+# nem követhet egymást három szám úgy, hogy bármelyik zenész/énekes számára mindegyik nehéz legyen
 s.t. NoThreeDifficultTracksInARow{m in Musicians}:
     sum{t in Tracks} play[m,t]*difficultForMusician[t,m] <= 2;
 
@@ -49,7 +49,6 @@ s.t. AtMostEightyMinutesWithBreaks:
 s.t. CalculatePopularity{t in Tracks}:
     maximizePopularity[t] = played[t]*popularity[t];
 
-# A gondom az, hogy numerikusan sorrendbe veszi a számokat a modellem, jobb lenne, ha a popularity alapján tenné ezt
 solve; #846
 
 printf "A koncert tartalma:\n";
