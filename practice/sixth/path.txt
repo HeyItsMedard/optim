@@ -1,0 +1,1 @@
+glpsol -m gls.mod -d gls.dat -o gls.out -y "glstav.txt"

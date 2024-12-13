@@ -1,0 +1,192 @@
+Problem:    smartwatch
+Rows:       66
+Columns:    21 (21 integer, 21 binary)
+Non-zeros:  143
+Status:     INTEGER OPTIMAL
+Objective:  Income = 3771000 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Income              3.771e+06                             
+     2 ComponentPrice
+                                  60                          80 
+     3 GroupPay[G1]                0            -0             = 
+     4 GroupPay[G2]                0            -0             = 
+     5 GroupPay[G4]                0            -0             = 
+     6 GroupPay[G6]                0            -0             = 
+     7 GroupPay[G8]                0            -0             = 
+     8 GroupPay[G16]
+                                   0            -0             = 
+     9 GroupNeeds[G1,GPS]
+                                  -1                          -0 
+    10 GroupNeeds[G1,HR]
+                                  -1                          -0 
+    11 GroupNeeds[G1,BT]
+                                  -1                          -0 
+    12 GroupNeeds[G1,WIFI]
+                                   0                          -0 
+    13 GroupNeeds[G2,GPS]
+                                  -1                          -0 
+    14 GroupNeeds[G2,HR]
+                                  -1                          -0 
+    15 GroupNeeds[G2,ACC]
+                                  -1                          -0 
+    16 GroupNeeds[G2,BT]
+                                  -1                          -0 
+    17 GroupNeeds[G2,WIFI]
+                                   0                          -0 
+    18 GroupNeeds[G3,GPS]
+                                  -1                          -0 
+    19 GroupNeeds[G3,HR]
+                                  -1                          -0 
+    20 GroupNeeds[G3,ACC]
+                                  -1                          -0 
+    21 GroupNeeds[G3,BT]
+                                  -1                          -0 
+    22 GroupNeeds[G3,WIFI]
+                                   0                          -0 
+    23 GroupNeeds[G4,ACC]
+                                  -1                          -0 
+    24 GroupNeeds[G4,WIFI]
+                                   0                          -0 
+    25 GroupNeeds[G5,GPS]
+                                  -1                          -0 
+    26 GroupNeeds[G5,HR]
+                                  -1                          -0 
+    27 GroupNeeds[G5,ACC]
+                                  -1                          -0 
+    28 GroupNeeds[G5,WIFI]
+                                   0                          -0 
+    29 GroupNeeds[G6,GPS]
+                                  -1                          -0 
+    30 GroupNeeds[G6,HR]
+                                  -1                          -0 
+    31 GroupNeeds[G6,ACC]
+                                  -1                          -0 
+    32 GroupNeeds[G6,BT]
+                                  -1                          -0 
+    33 GroupNeeds[G6,WIFI]
+                                   0                          -0 
+    34 GroupNeeds[G7,ACC]
+                                   0                          -0 
+    35 GroupNeeds[G7,BT]
+                                   0                          -0 
+    36 GroupNeeds[G8,HR]
+                                  -1                          -0 
+    37 GroupNeeds[G8,WIFI]
+                                   0                          -0 
+    38 GroupNeeds[G9,GPS]
+                                   0                          -0 
+    39 GroupNeeds[G9,HR]
+                                   0                          -0 
+    40 GroupNeeds[G9,ACC]
+                                   0                          -0 
+    41 GroupNeeds[G9,BT]
+                                   0                          -0 
+    42 GroupNeeds[G10,GPS]
+                                   0                          -0 
+    43 GroupNeeds[G10,HR]
+                                   0                          -0 
+    44 GroupNeeds[G11,GPS]
+                                  -1                          -0 
+    45 GroupNeeds[G11,HR]
+                                  -1                          -0 
+    46 GroupNeeds[G11,BT]
+                                  -1                          -0 
+    47 GroupNeeds[G11,WIFI]
+                                   0                          -0 
+    48 GroupNeeds[G12,HR]
+                                  -1                          -0 
+    49 GroupNeeds[G12,ACC]
+                                  -1                          -0 
+    50 GroupNeeds[G12,BT]
+                                  -1                          -0 
+    51 GroupNeeds[G12,WIFI]
+                                   0                          -0 
+    52 GroupNeeds[G13,ACC]
+                                  -1                          -0 
+    53 GroupNeeds[G13,BT]
+                                  -1                          -0 
+    54 GroupNeeds[G13,WIFI]
+                                   0                          -0 
+    55 GroupNeeds[G14,GPS]
+                                  -1                          -0 
+    56 GroupNeeds[G14,HR]
+                                  -1                          -0 
+    57 GroupNeeds[G14,ACC]
+                                  -1                          -0 
+    58 GroupNeeds[G14,BT]
+                                  -1                          -0 
+    59 GroupNeeds[G14,WIFI]
+                                   0                          -0 
+    60 GroupNeeds[G15,ACC]
+                                  -1                          -0 
+    61 GroupNeeds[G15,BT]
+                                  -1                          -0 
+    62 GroupNeeds[G15,WIFI]
+                                   0                          -0 
+    63 GroupNeeds[G16,GPS]
+                                  -1                          -0 
+    64 GroupNeeds[G16,ACC]
+                                  -1                          -0 
+    65 GroupNeeds[G16,BT]
+                                  -1                          -0 
+    66 GroupNeeds[G16,WIFI]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 chooseComponent[GPS]
+                    *              1             0             1 
+     2 chooseComponent[HR]
+                    *              1             0             1 
+     3 chooseComponent[ACC]
+                    *              1             0             1 
+     4 chooseComponent[BT]
+                    *              1             0             1 
+     5 chooseComponent[WIFI]
+                    *              0             0             1 
+     6 groupSell[G1]
+                    *              0             0             1 
+     7 groupSell[G2]
+                    *              0             0             1 
+     8 groupSell[G3]
+                    *              0             0             1 
+     9 groupSell[G4]
+                    *              0             0             1 
+    10 groupSell[G5]
+                    *              0             0             1 
+    11 groupSell[G6]
+                    *              0             0             1 
+    12 groupSell[G7]
+                    *              1             0             1 
+    13 groupSell[G8]
+                    *              0             0             1 
+    14 groupSell[G9]
+                    *              1             0             1 
+    15 groupSell[G10]
+                    *              1             0             1 
+    16 groupSell[G11]
+                    *              0             0             1 
+    17 groupSell[G12]
+                    *              0             0             1 
+    18 groupSell[G13]
+                    *              0             0             1 
+    19 groupSell[G14]
+                    *              0             0             1 
+    20 groupSell[G15]
+                    *              0             0             1 
+    21 groupSell[G16]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,29 @@
+set Groups:= 9 10 11 12; # osztályok
+
+param nTeachers:= 12; # tanárok száma
+param nClasses := 7; # órák száma
+
+# tanárok mely osztályokat kell tanítják
+param teachersPerGroup: 
+        9   10  11  12 :=
+    1   1   0   1   1
+    2   1   1   1   0
+    3   0   1   0   0
+    4   1   0   0   1
+    5   0   1   1   1
+    6   1   1   1   1
+    7   0   1   0   0
+    8   0   1   1   0
+    9   1   0   0   1
+    10  0   1   1   0
+    11  1   0   1   1
+    12  1   0   0   1;
+
+param:  startClass   endClass :=
+1       0.0          1.5
+2       2.0          3.5
+3       18.0         19.5
+4       20.0         21.5
+5       24.0         25.5
+6       39.5         41.0
+7       41.25        42.75;

@@ -1,0 +1,14 @@
+4 --  Alma Cili Dani Enci Feri
+	Tancol:  Alma Cili Dani Enci Feri
+	Iszik:
+	Alszik: Bela
+
+
+Alma:	2
+Bela:	1
+Cili:	2
+Dani:	2
+Enci:	2
+Feri:	2
+
+SUM:	11

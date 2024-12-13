@@ -1,0 +1,7 @@
+
+Included components:  GPS HR ACC BT
+Targeted groups:
+	Group  G7, population: 4311
+	Group  G9, population: 2347
+	Group G10, population: 8426
+Sold to a total of 15084 people, making 3771000 income

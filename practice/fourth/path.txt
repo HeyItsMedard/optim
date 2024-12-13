@@ -1,0 +1,1 @@
+glpsol -m partyMate.mod -d partyMate.dat -o partyBevetel.out

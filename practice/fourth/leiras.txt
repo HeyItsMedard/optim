@@ -1,6 +1,5 @@
 # Gyakorlati feladat
-# Feladatunk az éjszakai zenei felhozatal optimális megtervezése a 25. Jubileumi Veszprémi Egyetemi Napok 
-1-es csapatának, a Luck'VEN'Roll-nak a kocsmájában. 
+# Feladatunk az éjszakai zenei felhozatal optimális megtervezése a 25. Jubileumi Veszprémi Egyetemi Napok 1-es csapatának, a Luck'VEN'Roll-nak a kocsmájában. 
 A csapat diákrektor jelöltje, Őkoboldsága Vadpocok meghívott néhány prominens vendéget, 
 akiket célunk minél tovább szórakoztatni, ezért a csapat stílusához illő zenék közül gondosan 
 válogatjuk meg a lejátszási listára kerülő számokat. 

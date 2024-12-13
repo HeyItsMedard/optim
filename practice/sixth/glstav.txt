@@ -1,0 +1,25 @@
+Az 1. átvevőhelyet a(z) 5. lehetséges helyre telepítjük.
+Az 2. átvevőhelyet a(z) 3. lehetséges helyre telepítjük.
+Az 3. átvevőhelyet a(z) 6. lehetséges helyre telepítjük.
+Az 4. átvevőhelyet a(z) 4. lehetséges helyre telepítjük.
+Az átlagos sétálási távolság: 4.593750
+A(z) 1. házhoz 4. átvevőhely tartozik:
+A távolság: 29
+A(z) 2. házhoz 4. átvevőhely tartozik:
+A távolság: 24
+A(z) 3. házhoz 4. átvevőhely tartozik:
+A távolság: 6
+A(z) 4. házhoz 4. átvevőhely tartozik:
+A távolság: 1
+A(z) 5. házhoz 4. átvevőhely tartozik:
+A távolság: 8
+A(z) 6. házhoz 4. átvevőhely tartozik:
+A távolság: 19
+A(z) 7. házhoz 4. átvevőhely tartozik:
+A távolság: 36
+A(z) 8. házhoz 4. átvevőhely tartozik:
+A távolság: 50
+A(z) 9. házhoz 4. átvevőhely tartozik:
+A távolság: 58
+A(z) 10. házhoz 4. átvevőhely tartozik:
+A távolság: 61

@@ -1,0 +1,1 @@
+glpsol -m smartwatch.mod -d smartwatch.dat -o smartwatchBevetel.out -y "analysis.txt"

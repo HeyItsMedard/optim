@@ -1,0 +1,529 @@
+Problem:    gls
+Rows:       119
+Columns:    134 (134 integer, 80 binary)
+Non-zeros:  374
+Status:     INTEGER OPTIMAL
+Objective:  Objective = 31152 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Objective               31152                             
+     2 LocationAssignment[1]
+                                   0            -0             = 
+     3 LocationAssignment[2]
+                                   0            -0             = 
+     4 LocationAssignment[3]
+                                   0            -0             = 
+     5 LocationAssignment[4]
+                                   0            -0             = 
+     6 SingleLocationPerBox[1]
+                                   1             1             = 
+     7 SingleLocationPerBox[2]
+                                   1             1             = 
+     8 SingleLocationPerBox[3]
+                                   1             1             = 
+     9 SingleLocationPerBox[4]
+                                   1             1             = 
+    10 OneDeliveryPointPerHouse[1]
+                                   1             1             = 
+    11 OneDeliveryPointPerHouse[2]
+                                   1             1             = 
+    12 OneDeliveryPointPerHouse[3]
+                                   1             1             = 
+    13 OneDeliveryPointPerHouse[4]
+                                   1             1             = 
+    14 OneDeliveryPointPerHouse[5]
+                                   1             1             = 
+    15 OneDeliveryPointPerHouse[6]
+                                   1             1             = 
+    16 OneDeliveryPointPerHouse[7]
+                                   1             1             = 
+    17 OneDeliveryPointPerHouse[8]
+                                   1             1             = 
+    18 OneDeliveryPointPerHouse[9]
+                                   1             1             = 
+    19 OneDeliveryPointPerHouse[10]
+                                   1             1             = 
+    20 OneBoxPerLocation[1]
+                                   0                           1 
+    21 OneBoxPerLocation[2]
+                                   0                           1 
+    22 OneBoxPerLocation[3]
+                                   1                           1 
+    23 OneBoxPerLocation[4]
+                                   1                           1 
+    24 OneBoxPerLocation[5]
+                                   1                           1 
+    25 OneBoxPerLocation[6]
+                                   1                           1 
+    26 OneBoxPerLocation[7]
+                                   0                           1 
+    27 OneBoxPerLocation[8]
+                                   0                           1 
+    28 OneBoxPerLocation[9]
+                                   0                           1 
+    29 OneBoxPerLocation[10]
+                                   0                           1 
+    30 DistanceCalculation1[1,1]
+                                  91             7               
+    31 DistanceCalculation1[1,2]
+                                  51             7               
+    32 DistanceCalculation1[1,3]
+                                 115             7               
+    33 DistanceCalculation1[1,4]
+                                  65             7               
+    34 DistanceCalculation1[2,1]
+                                  86            12               
+    35 DistanceCalculation1[2,2]
+                                  46            12               
+    36 DistanceCalculation1[2,3]
+                                 110            12               
+    37 DistanceCalculation1[2,4]
+                                  60            12               
+    38 DistanceCalculation1[3,1]
+                                  68            30               
+    39 DistanceCalculation1[3,2]
+                                  30            30               
+    40 DistanceCalculation1[3,3]
+                                  92            30               
+    41 DistanceCalculation1[3,4]
+                                  42            30               
+    42 DistanceCalculation1[4,1]
+                                  63            35               
+    43 DistanceCalculation1[4,2]
+                                  35            35               
+    44 DistanceCalculation1[4,3]
+                                  87            35               
+    45 DistanceCalculation1[4,4]
+                                  37            35               
+    46 DistanceCalculation1[5,1]
+                                  54            44               
+    47 DistanceCalculation1[5,2]
+                                  44            44               
+    48 DistanceCalculation1[5,3]
+                                  78            44               
+    49 DistanceCalculation1[5,4]
+                                  44            44               
+    50 DistanceCalculation1[6,1]
+                                  55            55               
+    51 DistanceCalculation1[6,2]
+                                  55            55               
+    52 DistanceCalculation1[6,3]
+                                  67            55               
+    53 DistanceCalculation1[6,4]
+                                  55            55               
+    54 DistanceCalculation1[7,1]
+                                  72            72               
+    55 DistanceCalculation1[7,2]
+                                  72            72               
+    56 DistanceCalculation1[7,3]
+                                  72            72               
+    57 DistanceCalculation1[7,4]
+                                  72            72               
+    58 DistanceCalculation1[8,1]
+                                  86            86               
+    59 DistanceCalculation1[8,2]
+                                  86            86               
+    60 DistanceCalculation1[8,3]
+                                  86            86               
+    61 DistanceCalculation1[8,4]
+                                  86            86               
+    62 DistanceCalculation1[9,1]
+                                  94            94               
+    63 DistanceCalculation1[9,2]
+                                  94            94               
+    64 DistanceCalculation1[9,3]
+                                  94            94               
+    65 DistanceCalculation1[9,4]
+                                  94            94               
+    66 DistanceCalculation1[10,1]
+                                  97            97               
+    67 DistanceCalculation1[10,2]
+                                  97            97               
+    68 DistanceCalculation1[10,3]
+                                  97            97               
+    69 DistanceCalculation1[10,4]
+                                  97            97               
+    70 DistanceCalculation2[1,1]
+                                  -7            -7               
+    71 DistanceCalculation2[1,2]
+                                  -7            -7               
+    72 DistanceCalculation2[1,3]
+                                  -7            -7               
+    73 DistanceCalculation2[1,4]
+                                  -7            -7               
+    74 DistanceCalculation2[2,1]
+                                 -12           -12               
+    75 DistanceCalculation2[2,2]
+                                 -12           -12               
+    76 DistanceCalculation2[2,3]
+                                 -12           -12               
+    77 DistanceCalculation2[2,4]
+                                 -12           -12               
+    78 DistanceCalculation2[3,1]
+                                 -30           -30               
+    79 DistanceCalculation2[3,2]
+                                 -28           -30               
+    80 DistanceCalculation2[3,3]
+                                 -30           -30               
+    81 DistanceCalculation2[3,4]
+                                 -30           -30               
+    82 DistanceCalculation2[4,1]
+                                 -35           -35               
+    83 DistanceCalculation2[4,2]
+                                 -23           -35               
+    84 DistanceCalculation2[4,3]
+                                 -35           -35               
+    85 DistanceCalculation2[4,4]
+                                 -35           -35               
+    86 DistanceCalculation2[5,1]
+                                 -44           -44               
+    87 DistanceCalculation2[5,2]
+                                 -14           -44               
+    88 DistanceCalculation2[5,3]
+                                 -44           -44               
+    89 DistanceCalculation2[5,4]
+                                 -28           -44               
+    90 DistanceCalculation2[6,1]
+                                 -43           -55               
+    91 DistanceCalculation2[6,2]
+                                  -3           -55               
+    92 DistanceCalculation2[6,3]
+                                 -55           -55               
+    93 DistanceCalculation2[6,4]
+                                 -17           -55               
+    94 DistanceCalculation2[7,1]
+                                 -26           -72               
+    95 DistanceCalculation2[7,2]
+                                  14           -72               
+    96 DistanceCalculation2[7,3]
+                                 -50           -72               
+    97 DistanceCalculation2[7,4]
+                                   0           -72               
+    98 DistanceCalculation2[8,1]
+                                 -12           -86               
+    99 DistanceCalculation2[8,2]
+                                  28           -86               
+   100 DistanceCalculation2[8,3]
+                                 -36           -86               
+   101 DistanceCalculation2[8,4]
+                                  14           -86               
+   102 DistanceCalculation2[9,1]
+                                  -4           -94               
+   103 DistanceCalculation2[9,2]
+                                  36           -94               
+   104 DistanceCalculation2[9,3]
+                                 -28           -94               
+   105 DistanceCalculation2[9,4]
+                                  22           -94               
+   106 DistanceCalculation2[10,1]
+                                  -1           -97               
+   107 DistanceCalculation2[10,2]
+                                  39           -97               
+   108 DistanceCalculation2[10,3]
+                                 -25           -97               
+   109 DistanceCalculation2[10,4]
+                                  25           -97               
+   110 PeopleCountCalculation[1]
+                                 256           256             = 
+   111 PeopleCountCalculation[2]
+                                 256           256             = 
+   112 PeopleCountCalculation[3]
+                                 256           256             = 
+   113 PeopleCountCalculation[4]
+                                 256           256             = 
+   114 PeopleCountCalculation[5]
+                                 256           256             = 
+   115 PeopleCountCalculation[6]
+                                 256           256             = 
+   116 PeopleCountCalculation[7]
+                                 256           256             = 
+   117 PeopleCountCalculation[8]
+                                 256           256             = 
+   118 PeopleCountCalculation[9]
+                                 256           256             = 
+   119 PeopleCountCalculation[10]
+                                 256           256             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 deliveryBoxLocation[1]
+                    *             49             0           100 
+     2 deliveryBoxLocation[2]
+                    *             29             0           100 
+     3 deliveryBoxLocation[3]
+                    *             61             0           100 
+     4 deliveryBoxLocation[4]
+                    *             36             0           100 
+     5 distanceToDeliveryBox[1,1]
+                    *             42             0               
+     6 distanceToDeliveryBox[1,2]
+                    *             22             0               
+     7 distanceToDeliveryBox[1,3]
+                    *             54             0               
+     8 distanceToDeliveryBox[1,4]
+                    *             29             0               
+     9 distanceToDeliveryBox[2,1]
+                    *             37             0               
+    10 distanceToDeliveryBox[2,2]
+                    *             17             0               
+    11 distanceToDeliveryBox[2,3]
+                    *             49             0               
+    12 distanceToDeliveryBox[2,4]
+                    *             24             0               
+    13 distanceToDeliveryBox[3,1]
+                    *             19             0               
+    14 distanceToDeliveryBox[3,2]
+                    *              1             0               
+    15 distanceToDeliveryBox[3,3]
+                    *             31             0               
+    16 distanceToDeliveryBox[3,4]
+                    *              6             0               
+    17 distanceToDeliveryBox[4,1]
+                    *             14             0               
+    18 distanceToDeliveryBox[4,2]
+                    *              6             0               
+    19 distanceToDeliveryBox[4,3]
+                    *             26             0               
+    20 distanceToDeliveryBox[4,4]
+                    *              1             0               
+    21 distanceToDeliveryBox[5,1]
+                    *              5             0               
+    22 distanceToDeliveryBox[5,2]
+                    *             15             0               
+    23 distanceToDeliveryBox[5,3]
+                    *             17             0               
+    24 distanceToDeliveryBox[5,4]
+                    *              8             0               
+    25 distanceToDeliveryBox[6,1]
+                    *              6             0               
+    26 distanceToDeliveryBox[6,2]
+                    *             26             0               
+    27 distanceToDeliveryBox[6,3]
+                    *              6             0               
+    28 distanceToDeliveryBox[6,4]
+                    *             19             0               
+    29 distanceToDeliveryBox[7,1]
+                    *             23             0               
+    30 distanceToDeliveryBox[7,2]
+                    *             43             0               
+    31 distanceToDeliveryBox[7,3]
+                    *             11             0               
+    32 distanceToDeliveryBox[7,4]
+                    *             36             0               
+    33 distanceToDeliveryBox[8,1]
+                    *             37             0               
+    34 distanceToDeliveryBox[8,2]
+                    *             57             0               
+    35 distanceToDeliveryBox[8,3]
+                    *             25             0               
+    36 distanceToDeliveryBox[8,4]
+                    *             50             0               
+    37 distanceToDeliveryBox[9,1]
+                    *             45             0               
+    38 distanceToDeliveryBox[9,2]
+                    *             65             0               
+    39 distanceToDeliveryBox[9,3]
+                    *             33             0               
+    40 distanceToDeliveryBox[9,4]
+                    *             58             0               
+    41 distanceToDeliveryBox[10,1]
+                    *             48             0               
+    42 distanceToDeliveryBox[10,2]
+                    *             68             0               
+    43 distanceToDeliveryBox[10,3]
+                    *             36             0               
+    44 distanceToDeliveryBox[10,4]
+                    *             61             0               
+    45 chosenPossibleLocation[1,1]
+                    *              0             0             1 
+    46 chosenPossibleLocation[1,2]
+                    *              0             0             1 
+    47 chosenPossibleLocation[1,3]
+                    *              0             0             1 
+    48 chosenPossibleLocation[1,4]
+                    *              0             0             1 
+    49 chosenPossibleLocation[1,5]
+                    *              1             0             1 
+    50 chosenPossibleLocation[1,6]
+                    *              0             0             1 
+    51 chosenPossibleLocation[1,7]
+                    *              0             0             1 
+    52 chosenPossibleLocation[1,8]
+                    *              0             0             1 
+    53 chosenPossibleLocation[1,9]
+                    *              0             0             1 
+    54 chosenPossibleLocation[1,10]
+                    *              0             0             1 
+    55 chosenPossibleLocation[2,1]
+                    *              0             0             1 
+    56 chosenPossibleLocation[2,2]
+                    *              0             0             1 
+    57 chosenPossibleLocation[2,3]
+                    *              1             0             1 
+    58 chosenPossibleLocation[2,4]
+                    *              0             0             1 
+    59 chosenPossibleLocation[2,5]
+                    *              0             0             1 
+    60 chosenPossibleLocation[2,6]
+                    *              0             0             1 
+    61 chosenPossibleLocation[2,7]
+                    *              0             0             1 
+    62 chosenPossibleLocation[2,8]
+                    *              0             0             1 
+    63 chosenPossibleLocation[2,9]
+                    *              0             0             1 
+    64 chosenPossibleLocation[2,10]
+                    *              0             0             1 
+    65 chosenPossibleLocation[3,1]
+                    *              0             0             1 
+    66 chosenPossibleLocation[3,2]
+                    *              0             0             1 
+    67 chosenPossibleLocation[3,3]
+                    *              0             0             1 
+    68 chosenPossibleLocation[3,4]
+                    *              0             0             1 
+    69 chosenPossibleLocation[3,5]
+                    *              0             0             1 
+    70 chosenPossibleLocation[3,6]
+                    *              1             0             1 
+    71 chosenPossibleLocation[3,7]
+                    *              0             0             1 
+    72 chosenPossibleLocation[3,8]
+                    *              0             0             1 
+    73 chosenPossibleLocation[3,9]
+                    *              0             0             1 
+    74 chosenPossibleLocation[3,10]
+                    *              0             0             1 
+    75 chosenPossibleLocation[4,1]
+                    *              0             0             1 
+    76 chosenPossibleLocation[4,2]
+                    *              0             0             1 
+    77 chosenPossibleLocation[4,3]
+                    *              0             0             1 
+    78 chosenPossibleLocation[4,4]
+                    *              1             0             1 
+    79 chosenPossibleLocation[4,5]
+                    *              0             0             1 
+    80 chosenPossibleLocation[4,6]
+                    *              0             0             1 
+    81 chosenPossibleLocation[4,7]
+                    *              0             0             1 
+    82 chosenPossibleLocation[4,8]
+                    *              0             0             1 
+    83 chosenPossibleLocation[4,9]
+                    *              0             0             1 
+    84 chosenPossibleLocation[4,10]
+                    *              0             0             1 
+    85 chosenDeliveryPoint[1,1]
+                    *              0             0             1 
+    86 chosenDeliveryPoint[1,2]
+                    *              0             0             1 
+    87 chosenDeliveryPoint[1,3]
+                    *              0             0             1 
+    88 chosenDeliveryPoint[1,4]
+                    *              1             0             1 
+    89 chosenDeliveryPoint[2,1]
+                    *              0             0             1 
+    90 chosenDeliveryPoint[2,2]
+                    *              0             0             1 
+    91 chosenDeliveryPoint[2,3]
+                    *              0             0             1 
+    92 chosenDeliveryPoint[2,4]
+                    *              1             0             1 
+    93 chosenDeliveryPoint[3,1]
+                    *              0             0             1 
+    94 chosenDeliveryPoint[3,2]
+                    *              0             0             1 
+    95 chosenDeliveryPoint[3,3]
+                    *              0             0             1 
+    96 chosenDeliveryPoint[3,4]
+                    *              1             0             1 
+    97 chosenDeliveryPoint[4,1]
+                    *              0             0             1 
+    98 chosenDeliveryPoint[4,2]
+                    *              0             0             1 
+    99 chosenDeliveryPoint[4,3]
+                    *              0             0             1 
+   100 chosenDeliveryPoint[4,4]
+                    *              1             0             1 
+   101 chosenDeliveryPoint[5,1]
+                    *              0             0             1 
+   102 chosenDeliveryPoint[5,2]
+                    *              0             0             1 
+   103 chosenDeliveryPoint[5,3]
+                    *              0             0             1 
+   104 chosenDeliveryPoint[5,4]
+                    *              1             0             1 
+   105 chosenDeliveryPoint[6,1]
+                    *              0             0             1 
+   106 chosenDeliveryPoint[6,2]
+                    *              0             0             1 
+   107 chosenDeliveryPoint[6,3]
+                    *              0             0             1 
+   108 chosenDeliveryPoint[6,4]
+                    *              1             0             1 
+   109 chosenDeliveryPoint[7,1]
+                    *              0             0             1 
+   110 chosenDeliveryPoint[7,2]
+                    *              0             0             1 
+   111 chosenDeliveryPoint[7,3]
+                    *              0             0             1 
+   112 chosenDeliveryPoint[7,4]
+                    *              1             0             1 
+   113 chosenDeliveryPoint[8,1]
+                    *              0             0             1 
+   114 chosenDeliveryPoint[8,2]
+                    *              0             0             1 
+   115 chosenDeliveryPoint[8,3]
+                    *              0             0             1 
+   116 chosenDeliveryPoint[8,4]
+                    *              1             0             1 
+   117 chosenDeliveryPoint[9,1]
+                    *              0             0             1 
+   118 chosenDeliveryPoint[9,2]
+                    *              0             0             1 
+   119 chosenDeliveryPoint[9,3]
+                    *              0             0             1 
+   120 chosenDeliveryPoint[9,4]
+                    *              1             0             1 
+   121 chosenDeliveryPoint[10,1]
+                    *              0             0             1 
+   122 chosenDeliveryPoint[10,2]
+                    *              0             0             1 
+   123 chosenDeliveryPoint[10,3]
+                    *              0             0             1 
+   124 chosenDeliveryPoint[10,4]
+                    *              1             0             1 
+   125 sumAllPeople[1]
+                    *            256             0               
+   126 sumAllPeople[2]
+                    *            256             0               
+   127 sumAllPeople[3]
+                    *            256             0               
+   128 sumAllPeople[4]
+                    *            256             0               
+   129 sumAllPeople[5]
+                    *            256             0               
+   130 sumAllPeople[6]
+                    *            256             0               
+   131 sumAllPeople[7]
+                    *            256             0               
+   132 sumAllPeople[8]
+                    *            256             0               
+   133 sumAllPeople[9]
+                    *            256             0               
+   134 sumAllPeople[10]
+                    *            256             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

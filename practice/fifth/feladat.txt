@@ -1,0 +1,20 @@
+
+# Az orat 250 dollarert tervezzuk arulni. 
+# Amit el kell dontenunk, az az, hogy milyen funkciokat, hardware-t tegyunk bele. 
+# Ismert ezeknek az opcioknak a darabonkenti beepitesi koltsege / liszenszdija, stb. 
+✅ Az ezekre szant keret nem lepheti at a 80 dollart. OK
+# Felfogadtunk egy kozvelemenykutato ceget, aki azonositott szamunkra nehany (diszjunkt) vevokort az igenyeikkel, valamint a maximalis penzzel, amit egy ilyen okosorara szannanak.
+# A megbizott ceg megsaccolta azt is, hogy ezek a korok hany vasarlot jelentenek. 
+
+# Az alabbi adatok alapjan keszitsen modellt, mely megmondja, hogy hogyan tervezzuk meg az orankat, hogy maximalis legyen a bevetelunk. 
+# Megjegyzesek:
+#  - Bevetelt maximalizalunk, nem profitot, igy nem kell foglalkozni azzal, hogy mennyibe kerulnek a komponensek egy oraban, csak a megadott limitbe ferjenek bele.
+
+# Pelda kimenet:
+#
+#Included components:  GPS HR ACC BT
+#Targeted groups:
+#	Group  G7, population: 4311
+#	Group  G9, population: 2347
+#	Group G10, population: 8426
+#Sold to a total of 15084 people, making 3771000 income

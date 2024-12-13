@@ -1,0 +1,46 @@
+param streetLength := 100;
+param nHouses := 10;
+
+param : 
+        locationOnStreet  personPerHouse := 
+    1	7                 45
+    2	12                25
+    3	30                16
+    4	35                36
+    5	44                18
+    6	55                29
+    7	72                11
+    8	86                13
+    9	94                47
+    10	97                16
+    ; 
+
+param maxDeliveryBoxes := 4;
+
+param M := 1000;
+
+param possibilities :=
+1     17
+2     20
+3     29
+4     36
+5     49
+6     61
+7     78
+8     82
+9     95
+10    99
+    ;
+
+/* az utolsó szám a távolság átvevőhelytől minden sorban
+1	7  22
+2	12 17
+3	30      3     29 1
+4	35      4     36 1
+5	44      5     49 5
+6	55      6     61 6
+7	72 11
+8	86 25
+9	94 33
+10	97 36
+*/

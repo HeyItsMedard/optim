@@ -1,0 +1,1124 @@
+Problem:    partyMate
+Rows:       317
+Columns:    238 (238 integer, 238 binary)
+Non-zeros:  1096
+Status:     INTEGER OPTIMAL
+Objective:  Sorfogyasztas = 26 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 MindenkiTancolvaKezd[Alma]
+                                   1             1             = 
+     2 MindenkiTancolvaKezd[Bela]
+                                   1             1             = 
+     3 MindenkiTancolvaKezd[Cili]
+                                   1             1             = 
+     4 MindenkiTancolvaKezd[Dani]
+                                   1             1             = 
+     5 MindenkiTancolvaKezd[Enci]
+                                   1             1             = 
+     6 MindenkiTancolvaKezd[Feri]
+                                   1             1             = 
+     7 EgySzam[1]                  1             1             = 
+     8 EgySzam[2]                  1             1             = 
+     9 EgySzam[3]                  1             1             = 
+    10 EgySzam[4]                  1             1             = 
+    11 EgySzam[5]                  1             1             = 
+    12 EgySzam[6]                  1             1             = 
+    13 EgySzam[7]                  1             1             = 
+    14 EgySzam[8]                  1             1             = 
+    15 EgySzam[9]                  1             1             = 
+    16 EgySzam[10]                 1             1             = 
+    17 EgyDolgotCSinal[1,Alma]
+                                   1             1             = 
+    18 EgyDolgotCSinal[1,Bela]
+                                   1             1             = 
+    19 EgyDolgotCSinal[1,Cili]
+                                   1             1             = 
+    20 EgyDolgotCSinal[1,Dani]
+                                   1             1             = 
+    21 EgyDolgotCSinal[1,Enci]
+                                   1             1             = 
+    22 EgyDolgotCSinal[1,Feri]
+                                   1             1             = 
+    23 EgyDolgotCSinal[2,Alma]
+                                   1             1             = 
+    24 EgyDolgotCSinal[2,Bela]
+                                   1             1             = 
+    25 EgyDolgotCSinal[2,Cili]
+                                   1             1             = 
+    26 EgyDolgotCSinal[2,Dani]
+                                   1             1             = 
+    27 EgyDolgotCSinal[2,Enci]
+                                   1             1             = 
+    28 EgyDolgotCSinal[2,Feri]
+                                   1             1             = 
+    29 EgyDolgotCSinal[3,Alma]
+                                   1             1             = 
+    30 EgyDolgotCSinal[3,Bela]
+                                   1             1             = 
+    31 EgyDolgotCSinal[3,Cili]
+                                   1             1             = 
+    32 EgyDolgotCSinal[3,Dani]
+                                   1             1             = 
+    33 EgyDolgotCSinal[3,Enci]
+                                   1             1             = 
+    34 EgyDolgotCSinal[3,Feri]
+                                   1             1             = 
+    35 EgyDolgotCSinal[4,Alma]
+                                   1             1             = 
+    36 EgyDolgotCSinal[4,Bela]
+                                   1             1             = 
+    37 EgyDolgotCSinal[4,Cili]
+                                   1             1             = 
+    38 EgyDolgotCSinal[4,Dani]
+                                   1             1             = 
+    39 EgyDolgotCSinal[4,Enci]
+                                   1             1             = 
+    40 EgyDolgotCSinal[4,Feri]
+                                   1             1             = 
+    41 EgyDolgotCSinal[5,Alma]
+                                   1             1             = 
+    42 EgyDolgotCSinal[5,Bela]
+                                   1             1             = 
+    43 EgyDolgotCSinal[5,Cili]
+                                   1             1             = 
+    44 EgyDolgotCSinal[5,Dani]
+                                   1             1             = 
+    45 EgyDolgotCSinal[5,Enci]
+                                   1             1             = 
+    46 EgyDolgotCSinal[5,Feri]
+                                   1             1             = 
+    47 EgyDolgotCSinal[6,Alma]
+                                   1             1             = 
+    48 EgyDolgotCSinal[6,Bela]
+                                   1             1             = 
+    49 EgyDolgotCSinal[6,Cili]
+                                   1             1             = 
+    50 EgyDolgotCSinal[6,Dani]
+                                   1             1             = 
+    51 EgyDolgotCSinal[6,Enci]
+                                   1             1             = 
+    52 EgyDolgotCSinal[6,Feri]
+                                   1             1             = 
+    53 EgyDolgotCSinal[7,Alma]
+                                   1             1             = 
+    54 EgyDolgotCSinal[7,Bela]
+                                   1             1             = 
+    55 EgyDolgotCSinal[7,Cili]
+                                   1             1             = 
+    56 EgyDolgotCSinal[7,Dani]
+                                   1             1             = 
+    57 EgyDolgotCSinal[7,Enci]
+                                   1             1             = 
+    58 EgyDolgotCSinal[7,Feri]
+                                   1             1             = 
+    59 EgyDolgotCSinal[8,Alma]
+                                   1             1             = 
+    60 EgyDolgotCSinal[8,Bela]
+                                   1             1             = 
+    61 EgyDolgotCSinal[8,Cili]
+                                   1             1             = 
+    62 EgyDolgotCSinal[8,Dani]
+                                   1             1             = 
+    63 EgyDolgotCSinal[8,Enci]
+                                   1             1             = 
+    64 EgyDolgotCSinal[8,Feri]
+                                   1             1             = 
+    65 EgyDolgotCSinal[9,Alma]
+                                   1             1             = 
+    66 EgyDolgotCSinal[9,Bela]
+                                   1             1             = 
+    67 EgyDolgotCSinal[9,Cili]
+                                   1             1             = 
+    68 EgyDolgotCSinal[9,Dani]
+                                   1             1             = 
+    69 EgyDolgotCSinal[9,Enci]
+                                   1             1             = 
+    70 EgyDolgotCSinal[9,Feri]
+                                   1             1             = 
+    71 EgyDolgotCSinal[10,Alma]
+                                   1             1             = 
+    72 EgyDolgotCSinal[10,Bela]
+                                   1             1             = 
+    73 EgyDolgotCSinal[10,Cili]
+                                   1             1             = 
+    74 EgyDolgotCSinal[10,Dani]
+                                   1             1             = 
+    75 EgyDolgotCSinal[10,Enci]
+                                   1             1             = 
+    76 EgyDolgotCSinal[10,Feri]
+                                   1             1             = 
+    77 Haszeretiesnemaludtakkortnacol[Alma,1]
+                                   0            -1               
+    78 Haszeretiesnemaludtakkortnacol[Alma,2]
+                                  -1            -1               
+    79 Haszeretiesnemaludtakkortnacol[Alma,3]
+                                   0            -1               
+    80 Haszeretiesnemaludtakkortnacol[Alma,4]
+                                  -1            -1               
+    81 Haszeretiesnemaludtakkortnacol[Alma,5]
+                                   0            -1               
+    82 Haszeretiesnemaludtakkortnacol[Alma,6]
+                                  -1            -1               
+    83 Haszeretiesnemaludtakkortnacol[Alma,7]
+                                   0            -1               
+    84 Haszeretiesnemaludtakkortnacol[Alma,8]
+                                  -1            -1               
+    85 Haszeretiesnemaludtakkortnacol[Alma,9]
+                                   0            -1               
+    86 Haszeretiesnemaludtakkortnacol[Alma,10]
+                                  -1            -1               
+    87 Haszeretiesnemaludtakkortnacol[Bela,1]
+                                  -1            -1               
+    88 Haszeretiesnemaludtakkortnacol[Bela,2]
+                                   0            -1               
+    89 Haszeretiesnemaludtakkortnacol[Bela,3]
+                                  -1            -1               
+    90 Haszeretiesnemaludtakkortnacol[Bela,4]
+                                   0            -1               
+    91 Haszeretiesnemaludtakkortnacol[Bela,5]
+                                  -1            -1               
+    92 Haszeretiesnemaludtakkortnacol[Bela,6]
+                                   0            -1               
+    93 Haszeretiesnemaludtakkortnacol[Bela,7]
+                                  -1            -1               
+    94 Haszeretiesnemaludtakkortnacol[Bela,8]
+                                   0            -1               
+    95 Haszeretiesnemaludtakkortnacol[Bela,9]
+                                  -1            -1               
+    96 Haszeretiesnemaludtakkortnacol[Bela,10]
+                                   0            -1               
+    97 Haszeretiesnemaludtakkortnacol[Cili,1]
+                                   0            -1               
+    98 Haszeretiesnemaludtakkortnacol[Cili,2]
+                                  -1            -1               
+    99 Haszeretiesnemaludtakkortnacol[Cili,3]
+                                   0            -1               
+   100 Haszeretiesnemaludtakkortnacol[Cili,4]
+                                  -1            -1               
+   101 Haszeretiesnemaludtakkortnacol[Cili,5]
+                                   0            -1               
+   102 Haszeretiesnemaludtakkortnacol[Cili,6]
+                                  -1            -1               
+   103 Haszeretiesnemaludtakkortnacol[Cili,7]
+                                   0            -1               
+   104 Haszeretiesnemaludtakkortnacol[Cili,8]
+                                  -1            -1               
+   105 Haszeretiesnemaludtakkortnacol[Cili,9]
+                                   0            -1               
+   106 Haszeretiesnemaludtakkortnacol[Cili,10]
+                                   0            -1               
+   107 Haszeretiesnemaludtakkortnacol[Dani,1]
+                                  -1            -1               
+   108 Haszeretiesnemaludtakkortnacol[Dani,2]
+                                  -1            -1               
+   109 Haszeretiesnemaludtakkortnacol[Dani,3]
+                                  -1            -1               
+   110 Haszeretiesnemaludtakkortnacol[Dani,4]
+                                  -1            -1               
+   111 Haszeretiesnemaludtakkortnacol[Dani,5]
+                                  -1            -1               
+   112 Haszeretiesnemaludtakkortnacol[Dani,6]
+                                  -1            -1               
+   113 Haszeretiesnemaludtakkortnacol[Dani,7]
+                                  -1            -1               
+   114 Haszeretiesnemaludtakkortnacol[Dani,8]
+                                  -1            -1               
+   115 Haszeretiesnemaludtakkortnacol[Dani,9]
+                                  -1            -1               
+   116 Haszeretiesnemaludtakkortnacol[Dani,10]
+                                   0            -1               
+   117 Haszeretiesnemaludtakkortnacol[Enci,1]
+                                   0            -1               
+   118 Haszeretiesnemaludtakkortnacol[Enci,2]
+                                  -1            -1               
+   119 Haszeretiesnemaludtakkortnacol[Enci,3]
+                                   0            -1               
+   120 Haszeretiesnemaludtakkortnacol[Enci,4]
+                                  -1            -1               
+   121 Haszeretiesnemaludtakkortnacol[Enci,5]
+                                   0            -1               
+   122 Haszeretiesnemaludtakkortnacol[Enci,6]
+                                  -1            -1               
+   123 Haszeretiesnemaludtakkortnacol[Enci,7]
+                                   0            -1               
+   124 Haszeretiesnemaludtakkortnacol[Enci,8]
+                                  -1            -1               
+   125 Haszeretiesnemaludtakkortnacol[Enci,9]
+                                   0            -1               
+   126 Haszeretiesnemaludtakkortnacol[Enci,10]
+                                   0            -1               
+   127 Haszeretiesnemaludtakkortnacol[Feri,1]
+                                   0            -1               
+   128 Haszeretiesnemaludtakkortnacol[Feri,2]
+                                  -1            -1               
+   129 Haszeretiesnemaludtakkortnacol[Feri,3]
+                                   0            -1               
+   130 Haszeretiesnemaludtakkortnacol[Feri,4]
+                                  -1            -1               
+   131 Haszeretiesnemaludtakkortnacol[Feri,5]
+                                   0            -1               
+   132 Haszeretiesnemaludtakkortnacol[Feri,6]
+                                  -1            -1               
+   133 Haszeretiesnemaludtakkortnacol[Feri,7]
+                                   0            -1               
+   134 Haszeretiesnemaludtakkortnacol[Feri,8]
+                                  -1            -1               
+   135 Haszeretiesnemaludtakkortnacol[Feri,9]
+                                   0            -1               
+   136 Haszeretiesnemaludtakkortnacol[Feri,10]
+                                   0            -1               
+   137 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,1]
+                                  -1            -1               
+   138 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,2]
+                                   2            -1               
+   139 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,3]
+                                  -1            -1               
+   140 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,4]
+                                   2            -1               
+   141 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,5]
+                                  -1            -1               
+   142 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,6]
+                                   2            -1               
+   143 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,7]
+                                  -1            -1               
+   144 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,8]
+                                   2            -1               
+   145 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,9]
+                                  -1            -1               
+   146 Haelobbtancoltmostiszikfeltvehogynemszereti[Alma,10]
+                                   2            -1               
+   147 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,1]
+                                   0            -1               
+   148 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,2]
+                                  -1            -1               
+   149 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,3]
+                                   2            -1               
+   150 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,4]
+                                  -1            -1               
+   151 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,5]
+                                   2            -1               
+   152 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,6]
+                                  -1            -1               
+   153 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,7]
+                                   2            -1               
+   154 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,8]
+                                  -1            -1               
+   155 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,9]
+                                   2            -1               
+   156 Haelobbtancoltmostiszikfeltvehogynemszereti[Bela,10]
+                                  -1            -1               
+   157 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,1]
+                                  -1            -1               
+   158 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,2]
+                                   2            -1               
+   159 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,3]
+                                  -1            -1               
+   160 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,4]
+                                   2            -1               
+   161 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,5]
+                                  -1            -1               
+   162 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,6]
+                                   2            -1               
+   163 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,7]
+                                  -1            -1               
+   164 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,8]
+                                   2            -1               
+   165 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,9]
+                                  -1            -1               
+   166 Haelobbtancoltmostiszikfeltvehogynemszereti[Cili,10]
+                                   0            -1               
+   167 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,1]
+                                   0            -1               
+   168 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,2]
+                                   0            -1               
+   169 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,3]
+                                   0            -1               
+   170 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,4]
+                                   0            -1               
+   171 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,5]
+                                   0            -1               
+   172 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,6]
+                                   0            -1               
+   173 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,7]
+                                   0            -1               
+   174 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,8]
+                                   0            -1               
+   175 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,9]
+                                   0            -1               
+   176 Haelobbtancoltmostiszikfeltvehogynemszereti[Dani,10]
+                                  -1            -1               
+   177 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,1]
+                                  -1            -1               
+   178 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,2]
+                                   2            -1               
+   179 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,3]
+                                  -1            -1               
+   180 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,4]
+                                   2            -1               
+   181 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,5]
+                                  -1            -1               
+   182 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,6]
+                                   2            -1               
+   183 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,7]
+                                  -1            -1               
+   184 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,8]
+                                   2            -1               
+   185 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,9]
+                                  -1            -1               
+   186 Haelobbtancoltmostiszikfeltvehogynemszereti[Enci,10]
+                                   0            -1               
+   187 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,1]
+                                  -1            -1               
+   188 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,2]
+                                   2            -1               
+   189 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,3]
+                                  -1            -1               
+   190 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,4]
+                                   2            -1               
+   191 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,5]
+                                  -1            -1               
+   192 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,6]
+                                   2            -1               
+   193 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,7]
+                                  -1            -1               
+   194 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,8]
+                                   2            -1               
+   195 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,9]
+                                  -1            -1               
+   196 Haelobbtancoltmostiszikfeltvehogynemszereti[Feri,10]
+                                   0            -1               
+   197 Haelobbivottmostalszikfeltvehogynemszereti[Alma,1]
+                                   0            -1               
+   198 Haelobbivottmostalszikfeltvehogynemszereti[Alma,2]
+                                   0            -1               
+   199 Haelobbivottmostalszikfeltvehogynemszereti[Alma,3]
+                                   0            -1               
+   200 Haelobbivottmostalszikfeltvehogynemszereti[Alma,4]
+                                   0            -1               
+   201 Haelobbivottmostalszikfeltvehogynemszereti[Alma,5]
+                                   0            -1               
+   202 Haelobbivottmostalszikfeltvehogynemszereti[Alma,6]
+                                   0            -1               
+   203 Haelobbivottmostalszikfeltvehogynemszereti[Alma,7]
+                                   0            -1               
+   204 Haelobbivottmostalszikfeltvehogynemszereti[Alma,8]
+                                   0            -1               
+   205 Haelobbivottmostalszikfeltvehogynemszereti[Alma,9]
+                                   0            -1               
+   206 Haelobbivottmostalszikfeltvehogynemszereti[Alma,10]
+                                   0            -1               
+   207 Haelobbivottmostalszikfeltvehogynemszereti[Bela,1]
+                                   2            -1               
+   208 Haelobbivottmostalszikfeltvehogynemszereti[Bela,2]
+                                   0            -1               
+   209 Haelobbivottmostalszikfeltvehogynemszereti[Bela,3]
+                                   0            -1               
+   210 Haelobbivottmostalszikfeltvehogynemszereti[Bela,4]
+                                   0            -1               
+   211 Haelobbivottmostalszikfeltvehogynemszereti[Bela,5]
+                                   0            -1               
+   212 Haelobbivottmostalszikfeltvehogynemszereti[Bela,6]
+                                   0            -1               
+   213 Haelobbivottmostalszikfeltvehogynemszereti[Bela,7]
+                                   0            -1               
+   214 Haelobbivottmostalszikfeltvehogynemszereti[Bela,8]
+                                   0            -1               
+   215 Haelobbivottmostalszikfeltvehogynemszereti[Bela,9]
+                                   0            -1               
+   216 Haelobbivottmostalszikfeltvehogynemszereti[Bela,10]
+                                   0            -1               
+   217 Haelobbivottmostalszikfeltvehogynemszereti[Cili,1]
+                                   0            -1               
+   218 Haelobbivottmostalszikfeltvehogynemszereti[Cili,2]
+                                   0            -1               
+   219 Haelobbivottmostalszikfeltvehogynemszereti[Cili,3]
+                                   0            -1               
+   220 Haelobbivottmostalszikfeltvehogynemszereti[Cili,4]
+                                   0            -1               
+   221 Haelobbivottmostalszikfeltvehogynemszereti[Cili,5]
+                                   0            -1               
+   222 Haelobbivottmostalszikfeltvehogynemszereti[Cili,6]
+                                   0            -1               
+   223 Haelobbivottmostalszikfeltvehogynemszereti[Cili,7]
+                                   0            -1               
+   224 Haelobbivottmostalszikfeltvehogynemszereti[Cili,8]
+                                   0            -1               
+   225 Haelobbivottmostalszikfeltvehogynemszereti[Cili,9]
+                                   0            -1               
+   226 Haelobbivottmostalszikfeltvehogynemszereti[Cili,10]
+                                  -1            -1               
+   227 Haelobbivottmostalszikfeltvehogynemszereti[Dani,1]
+                                   2            -1               
+   228 Haelobbivottmostalszikfeltvehogynemszereti[Dani,2]
+                                   2            -1               
+   229 Haelobbivottmostalszikfeltvehogynemszereti[Dani,3]
+                                   2            -1               
+   230 Haelobbivottmostalszikfeltvehogynemszereti[Dani,4]
+                                   2            -1               
+   231 Haelobbivottmostalszikfeltvehogynemszereti[Dani,5]
+                                   2            -1               
+   232 Haelobbivottmostalszikfeltvehogynemszereti[Dani,6]
+                                   2            -1               
+   233 Haelobbivottmostalszikfeltvehogynemszereti[Dani,7]
+                                   2            -1               
+   234 Haelobbivottmostalszikfeltvehogynemszereti[Dani,8]
+                                   2            -1               
+   235 Haelobbivottmostalszikfeltvehogynemszereti[Dani,9]
+                                   2            -1               
+   236 Haelobbivottmostalszikfeltvehogynemszereti[Dani,10]
+                                   0            -1               
+   237 Haelobbivottmostalszikfeltvehogynemszereti[Enci,1]
+                                   0            -1               
+   238 Haelobbivottmostalszikfeltvehogynemszereti[Enci,2]
+                                   0            -1               
+   239 Haelobbivottmostalszikfeltvehogynemszereti[Enci,3]
+                                   0            -1               
+   240 Haelobbivottmostalszikfeltvehogynemszereti[Enci,4]
+                                   0            -1               
+   241 Haelobbivottmostalszikfeltvehogynemszereti[Enci,5]
+                                   0            -1               
+   242 Haelobbivottmostalszikfeltvehogynemszereti[Enci,6]
+                                   0            -1               
+   243 Haelobbivottmostalszikfeltvehogynemszereti[Enci,7]
+                                   0            -1               
+   244 Haelobbivottmostalszikfeltvehogynemszereti[Enci,8]
+                                   0            -1               
+   245 Haelobbivottmostalszikfeltvehogynemszereti[Enci,9]
+                                   0            -1               
+   246 Haelobbivottmostalszikfeltvehogynemszereti[Enci,10]
+                                  -1            -1               
+   247 Haelobbivottmostalszikfeltvehogynemszereti[Feri,1]
+                                   0            -1               
+   248 Haelobbivottmostalszikfeltvehogynemszereti[Feri,2]
+                                   0            -1               
+   249 Haelobbivottmostalszikfeltvehogynemszereti[Feri,3]
+                                   0            -1               
+   250 Haelobbivottmostalszikfeltvehogynemszereti[Feri,4]
+                                   0            -1               
+   251 Haelobbivottmostalszikfeltvehogynemszereti[Feri,5]
+                                   0            -1               
+   252 Haelobbivottmostalszikfeltvehogynemszereti[Feri,6]
+                                   0            -1               
+   253 Haelobbivottmostalszikfeltvehogynemszereti[Feri,7]
+                                   0            -1               
+   254 Haelobbivottmostalszikfeltvehogynemszereti[Feri,8]
+                                   0            -1               
+   255 Haelobbivottmostalszikfeltvehogynemszereti[Feri,9]
+                                   0            -1               
+   256 Haelobbivottmostalszikfeltvehogynemszereti[Feri,10]
+                                  -1            -1               
+   257 Nemkelfel[Alma,1]
+                                   0            -0               
+   258 Nemkelfel[Alma,2]
+                                   0            -0               
+   259 Nemkelfel[Alma,3]
+                                   0            -0               
+   260 Nemkelfel[Alma,4]
+                                   0            -0               
+   261 Nemkelfel[Alma,5]
+                                   0            -0               
+   262 Nemkelfel[Alma,6]
+                                   0            -0               
+   263 Nemkelfel[Alma,7]
+                                   0            -0               
+   264 Nemkelfel[Alma,8]
+                                   0            -0               
+   265 Nemkelfel[Alma,9]
+                                   0            -0               
+   266 Nemkelfel[Alma,10]
+                                   0            -0               
+   267 Nemkelfel[Bela,1]
+                                   0            -0               
+   268 Nemkelfel[Bela,2]
+                                   0            -0               
+   269 Nemkelfel[Bela,3]
+                                   0            -0               
+   270 Nemkelfel[Bela,4]
+                                   0            -0               
+   271 Nemkelfel[Bela,5]
+                                   0            -0               
+   272 Nemkelfel[Bela,6]
+                                   0            -0               
+   273 Nemkelfel[Bela,7]
+                                   0            -0               
+   274 Nemkelfel[Bela,8]
+                                   0            -0               
+   275 Nemkelfel[Bela,9]
+                                   0            -0               
+   276 Nemkelfel[Bela,10]
+                                   0            -0               
+   277 Nemkelfel[Cili,1]
+                                   0            -0               
+   278 Nemkelfel[Cili,2]
+                                   0            -0               
+   279 Nemkelfel[Cili,3]
+                                   0            -0               
+   280 Nemkelfel[Cili,4]
+                                   0            -0               
+   281 Nemkelfel[Cili,5]
+                                   0            -0               
+   282 Nemkelfel[Cili,6]
+                                   0            -0               
+   283 Nemkelfel[Cili,7]
+                                   0            -0               
+   284 Nemkelfel[Cili,8]
+                                   0            -0               
+   285 Nemkelfel[Cili,9]
+                                   0            -0               
+   286 Nemkelfel[Cili,10]
+                                   1            -0               
+   287 Nemkelfel[Dani,1]
+                                   0            -0               
+   288 Nemkelfel[Dani,2]
+                                   0            -0               
+   289 Nemkelfel[Dani,3]
+                                   0            -0               
+   290 Nemkelfel[Dani,4]
+                                   0            -0               
+   291 Nemkelfel[Dani,5]
+                                   0            -0               
+   292 Nemkelfel[Dani,6]
+                                   0            -0               
+   293 Nemkelfel[Dani,7]
+                                   0            -0               
+   294 Nemkelfel[Dani,8]
+                                   0            -0               
+   295 Nemkelfel[Dani,9]
+                                   0            -0               
+   296 Nemkelfel[Dani,10]
+                                   0            -0               
+   297 Nemkelfel[Enci,1]
+                                   0            -0               
+   298 Nemkelfel[Enci,2]
+                                   0            -0               
+   299 Nemkelfel[Enci,3]
+                                   0            -0               
+   300 Nemkelfel[Enci,4]
+                                   0            -0               
+   301 Nemkelfel[Enci,5]
+                                   0            -0               
+   302 Nemkelfel[Enci,6]
+                                   0            -0               
+   303 Nemkelfel[Enci,7]
+                                   0            -0               
+   304 Nemkelfel[Enci,8]
+                                   0            -0               
+   305 Nemkelfel[Enci,9]
+                                   0            -0               
+   306 Nemkelfel[Enci,10]
+                                   1            -0               
+   307 Nemkelfel[Feri,1]
+                                   0            -0               
+   308 Nemkelfel[Feri,2]
+                                   0            -0               
+   309 Nemkelfel[Feri,3]
+                                   0            -0               
+   310 Nemkelfel[Feri,4]
+                                   0            -0               
+   311 Nemkelfel[Feri,5]
+                                   0            -0               
+   312 Nemkelfel[Feri,6]
+                                   0            -0               
+   313 Nemkelfel[Feri,7]
+                                   0            -0               
+   314 Nemkelfel[Feri,8]
+                                   0            -0               
+   315 Nemkelfel[Feri,9]
+                                   0            -0               
+   316 Nemkelfel[Feri,10]
+                                   1            -0               
+   317 Sorfogyasztas
+                                  26                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 jatszik[szam1,1]
+                    *              0             0             1 
+     2 jatszik[szam2,1]
+                    *              1             0             1 
+     3 jatszik[szam3,1]
+                    *              0             0             1 
+     4 jatszik[szam4,1]
+                    *              0             0             1 
+     5 jatszik[szam1,2]
+                    *              0             0             1 
+     6 jatszik[szam2,2]
+                    *              0             0             1 
+     7 jatszik[szam3,2]
+                    *              0             0             1 
+     8 jatszik[szam4,2]
+                    *              1             0             1 
+     9 jatszik[szam1,3]
+                    *              0             0             1 
+    10 jatszik[szam2,3]
+                    *              1             0             1 
+    11 jatszik[szam3,3]
+                    *              0             0             1 
+    12 jatszik[szam4,3]
+                    *              0             0             1 
+    13 jatszik[szam1,4]
+                    *              0             0             1 
+    14 jatszik[szam2,4]
+                    *              0             0             1 
+    15 jatszik[szam3,4]
+                    *              0             0             1 
+    16 jatszik[szam4,4]
+                    *              1             0             1 
+    17 jatszik[szam1,5]
+                    *              0             0             1 
+    18 jatszik[szam2,5]
+                    *              1             0             1 
+    19 jatszik[szam3,5]
+                    *              0             0             1 
+    20 jatszik[szam4,5]
+                    *              0             0             1 
+    21 jatszik[szam1,6]
+                    *              0             0             1 
+    22 jatszik[szam2,6]
+                    *              0             0             1 
+    23 jatszik[szam3,6]
+                    *              0             0             1 
+    24 jatszik[szam4,6]
+                    *              1             0             1 
+    25 jatszik[szam1,7]
+                    *              0             0             1 
+    26 jatszik[szam2,7]
+                    *              1             0             1 
+    27 jatszik[szam3,7]
+                    *              0             0             1 
+    28 jatszik[szam4,7]
+                    *              0             0             1 
+    29 jatszik[szam1,8]
+                    *              0             0             1 
+    30 jatszik[szam2,8]
+                    *              0             0             1 
+    31 jatszik[szam3,8]
+                    *              0             0             1 
+    32 jatszik[szam4,8]
+                    *              1             0             1 
+    33 jatszik[szam1,9]
+                    *              0             0             1 
+    34 jatszik[szam2,9]
+                    *              1             0             1 
+    35 jatszik[szam3,9]
+                    *              0             0             1 
+    36 jatszik[szam4,9]
+                    *              0             0             1 
+    37 jatszik[szam1,10]
+                    *              0             0             1 
+    38 jatszik[szam2,10]
+                    *              0             0             1 
+    39 jatszik[szam3,10]
+                    *              1             0             1 
+    40 jatszik[szam4,10]
+                    *              0             0             1 
+    41 tancol[Alma,0]
+                    *              1             0             1 
+    42 tancol[Bela,0]
+                    *              1             0             1 
+    43 tancol[Cili,0]
+                    *              1             0             1 
+    44 tancol[Dani,0]
+                    *              1             0             1 
+    45 tancol[Enci,0]
+                    *              1             0             1 
+    46 tancol[Feri,0]
+                    *              1             0             1 
+    47 tancol[Alma,1]
+                    *              0             0             1 
+    48 tancol[Bela,1]
+                    *              1             0             1 
+    49 tancol[Cili,1]
+                    *              0             0             1 
+    50 tancol[Dani,1]
+                    *              1             0             1 
+    51 tancol[Enci,1]
+                    *              0             0             1 
+    52 tancol[Feri,1]
+                    *              0             0             1 
+    53 tancol[Alma,2]
+                    *              1             0             1 
+    54 tancol[Bela,2]
+                    *              0             0             1 
+    55 tancol[Cili,2]
+                    *              1             0             1 
+    56 tancol[Dani,2]
+                    *              1             0             1 
+    57 tancol[Enci,2]
+                    *              1             0             1 
+    58 tancol[Feri,2]
+                    *              1             0             1 
+    59 tancol[Alma,3]
+                    *              0             0             1 
+    60 tancol[Bela,3]
+                    *              1             0             1 
+    61 tancol[Cili,3]
+                    *              0             0             1 
+    62 tancol[Dani,3]
+                    *              1             0             1 
+    63 tancol[Enci,3]
+                    *              0             0             1 
+    64 tancol[Feri,3]
+                    *              0             0             1 
+    65 tancol[Alma,4]
+                    *              1             0             1 
+    66 tancol[Bela,4]
+                    *              0             0             1 
+    67 tancol[Cili,4]
+                    *              1             0             1 
+    68 tancol[Dani,4]
+                    *              1             0             1 
+    69 tancol[Enci,4]
+                    *              1             0             1 
+    70 tancol[Feri,4]
+                    *              1             0             1 
+    71 tancol[Alma,5]
+                    *              0             0             1 
+    72 tancol[Bela,5]
+                    *              1             0             1 
+    73 tancol[Cili,5]
+                    *              0             0             1 
+    74 tancol[Dani,5]
+                    *              1             0             1 
+    75 tancol[Enci,5]
+                    *              0             0             1 
+    76 tancol[Feri,5]
+                    *              0             0             1 
+    77 tancol[Alma,6]
+                    *              1             0             1 
+    78 tancol[Bela,6]
+                    *              0             0             1 
+    79 tancol[Cili,6]
+                    *              1             0             1 
+    80 tancol[Dani,6]
+                    *              1             0             1 
+    81 tancol[Enci,6]
+                    *              1             0             1 
+    82 tancol[Feri,6]
+                    *              1             0             1 
+    83 tancol[Alma,7]
+                    *              0             0             1 
+    84 tancol[Bela,7]
+                    *              1             0             1 
+    85 tancol[Cili,7]
+                    *              0             0             1 
+    86 tancol[Dani,7]
+                    *              1             0             1 
+    87 tancol[Enci,7]
+                    *              0             0             1 
+    88 tancol[Feri,7]
+                    *              0             0             1 
+    89 tancol[Alma,8]
+                    *              1             0             1 
+    90 tancol[Bela,8]
+                    *              0             0             1 
+    91 tancol[Cili,8]
+                    *              1             0             1 
+    92 tancol[Dani,8]
+                    *              1             0             1 
+    93 tancol[Enci,8]
+                    *              1             0             1 
+    94 tancol[Feri,8]
+                    *              1             0             1 
+    95 tancol[Alma,9]
+                    *              0             0             1 
+    96 tancol[Bela,9]
+                    *              1             0             1 
+    97 tancol[Cili,9]
+                    *              0             0             1 
+    98 tancol[Dani,9]
+                    *              1             0             1 
+    99 tancol[Enci,9]
+                    *              0             0             1 
+   100 tancol[Feri,9]
+                    *              0             0             1 
+   101 tancol[Alma,10]
+                    *              1             0             1 
+   102 tancol[Bela,10]
+                    *              0             0             1 
+   103 tancol[Cili,10]
+                    *              0             0             1 
+   104 tancol[Dani,10]
+                    *              0             0             1 
+   105 tancol[Enci,10]
+                    *              0             0             1 
+   106 tancol[Feri,10]
+                    *              0             0             1 
+   107 iszik[Alma,1]
+                    *              1             0             1 
+   108 iszik[Bela,1]
+                    *              0             0             1 
+   109 iszik[Cili,1]
+                    *              1             0             1 
+   110 iszik[Dani,1]
+                    *              0             0             1 
+   111 iszik[Enci,1]
+                    *              1             0             1 
+   112 iszik[Feri,1]
+                    *              1             0             1 
+   113 iszik[Alma,2]
+                    *              0             0             1 
+   114 iszik[Bela,2]
+                    *              1             0             1 
+   115 iszik[Cili,2]
+                    *              0             0             1 
+   116 iszik[Dani,2]
+                    *              0             0             1 
+   117 iszik[Enci,2]
+                    *              0             0             1 
+   118 iszik[Feri,2]
+                    *              0             0             1 
+   119 iszik[Alma,3]
+                    *              1             0             1 
+   120 iszik[Bela,3]
+                    *              0             0             1 
+   121 iszik[Cili,3]
+                    *              1             0             1 
+   122 iszik[Dani,3]
+                    *              0             0             1 
+   123 iszik[Enci,3]
+                    *              1             0             1 
+   124 iszik[Feri,3]
+                    *              1             0             1 
+   125 iszik[Alma,4]
+                    *              0             0             1 
+   126 iszik[Bela,4]
+                    *              1             0             1 
+   127 iszik[Cili,4]
+                    *              0             0             1 
+   128 iszik[Dani,4]
+                    *              0             0             1 
+   129 iszik[Enci,4]
+                    *              0             0             1 
+   130 iszik[Feri,4]
+                    *              0             0             1 
+   131 iszik[Alma,5]
+                    *              1             0             1 
+   132 iszik[Bela,5]
+                    *              0             0             1 
+   133 iszik[Cili,5]
+                    *              1             0             1 
+   134 iszik[Dani,5]
+                    *              0             0             1 
+   135 iszik[Enci,5]
+                    *              1             0             1 
+   136 iszik[Feri,5]
+                    *              1             0             1 
+   137 iszik[Alma,6]
+                    *              0             0             1 
+   138 iszik[Bela,6]
+                    *              1             0             1 
+   139 iszik[Cili,6]
+                    *              0             0             1 
+   140 iszik[Dani,6]
+                    *              0             0             1 
+   141 iszik[Enci,6]
+                    *              0             0             1 
+   142 iszik[Feri,6]
+                    *              0             0             1 
+   143 iszik[Alma,7]
+                    *              1             0             1 
+   144 iszik[Bela,7]
+                    *              0             0             1 
+   145 iszik[Cili,7]
+                    *              1             0             1 
+   146 iszik[Dani,7]
+                    *              0             0             1 
+   147 iszik[Enci,7]
+                    *              1             0             1 
+   148 iszik[Feri,7]
+                    *              1             0             1 
+   149 iszik[Alma,8]
+                    *              0             0             1 
+   150 iszik[Bela,8]
+                    *              1             0             1 
+   151 iszik[Cili,8]
+                    *              0             0             1 
+   152 iszik[Dani,8]
+                    *              0             0             1 
+   153 iszik[Enci,8]
+                    *              0             0             1 
+   154 iszik[Feri,8]
+                    *              0             0             1 
+   155 iszik[Alma,9]
+                    *              1             0             1 
+   156 iszik[Bela,9]
+                    *              0             0             1 
+   157 iszik[Cili,9]
+                    *              1             0             1 
+   158 iszik[Dani,9]
+                    *              0             0             1 
+   159 iszik[Enci,9]
+                    *              1             0             1 
+   160 iszik[Feri,9]
+                    *              1             0             1 
+   161 iszik[Alma,10]
+                    *              0             0             1 
+   162 iszik[Bela,10]
+                    *              1             0             1 
+   163 iszik[Cili,10]
+                    *              0             0             1 
+   164 iszik[Dani,10]
+                    *              1             0             1 
+   165 iszik[Enci,10]
+                    *              0             0             1 
+   166 iszik[Feri,10]
+                    *              0             0             1 
+   167 iszik[Alma,0]
+                    *              0             0             1 
+   168 iszik[Bela,0]
+                    *              0             0             1 
+   169 iszik[Cili,0]
+                    *              0             0             1 
+   170 iszik[Dani,0]
+                    *              0             0             1 
+   171 iszik[Enci,0]
+                    *              0             0             1 
+   172 iszik[Feri,0]
+                    *              0             0             1 
+   173 alszik[Alma,1]
+                    *              0             0             1 
+   174 alszik[Bela,1]
+                    *              0             0             1 
+   175 alszik[Cili,1]
+                    *              0             0             1 
+   176 alszik[Dani,1]
+                    *              0             0             1 
+   177 alszik[Enci,1]
+                    *              0             0             1 
+   178 alszik[Feri,1]
+                    *              0             0             1 
+   179 alszik[Alma,2]
+                    *              0             0             1 
+   180 alszik[Bela,2]
+                    *              0             0             1 
+   181 alszik[Cili,2]
+                    *              0             0             1 
+   182 alszik[Dani,2]
+                    *              0             0             1 
+   183 alszik[Enci,2]
+                    *              0             0             1 
+   184 alszik[Feri,2]
+                    *              0             0             1 
+   185 alszik[Alma,3]
+                    *              0             0             1 
+   186 alszik[Bela,3]
+                    *              0             0             1 
+   187 alszik[Cili,3]
+                    *              0             0             1 
+   188 alszik[Dani,3]
+                    *              0             0             1 
+   189 alszik[Enci,3]
+                    *              0             0             1 
+   190 alszik[Feri,3]
+                    *              0             0             1 
+   191 alszik[Alma,4]
+                    *              0             0             1 
+   192 alszik[Bela,4]
+                    *              0             0             1 
+   193 alszik[Cili,4]
+                    *              0             0             1 
+   194 alszik[Dani,4]
+                    *              0             0             1 
+   195 alszik[Enci,4]
+                    *              0             0             1 
+   196 alszik[Feri,4]
+                    *              0             0             1 
+   197 alszik[Alma,5]
+                    *              0             0             1 
+   198 alszik[Bela,5]
+                    *              0             0             1 
+   199 alszik[Cili,5]
+                    *              0             0             1 
+   200 alszik[Dani,5]
+                    *              0             0             1 
+   201 alszik[Enci,5]
+                    *              0             0             1 
+   202 alszik[Feri,5]
+                    *              0             0             1 
+   203 alszik[Alma,6]
+                    *              0             0             1 
+   204 alszik[Bela,6]
+                    *              0             0             1 
+   205 alszik[Cili,6]
+                    *              0             0             1 
+   206 alszik[Dani,6]
+                    *              0             0             1 
+   207 alszik[Enci,6]
+                    *              0             0             1 
+   208 alszik[Feri,6]
+                    *              0             0             1 
+   209 alszik[Alma,7]
+                    *              0             0             1 
+   210 alszik[Bela,7]
+                    *              0             0             1 
+   211 alszik[Cili,7]
+                    *              0             0             1 
+   212 alszik[Dani,7]
+                    *              0             0             1 
+   213 alszik[Enci,7]
+                    *              0             0             1 
+   214 alszik[Feri,7]
+                    *              0             0             1 
+   215 alszik[Alma,8]
+                    *              0             0             1 
+   216 alszik[Bela,8]
+                    *              0             0             1 
+   217 alszik[Cili,8]
+                    *              0             0             1 
+   218 alszik[Dani,8]
+                    *              0             0             1 
+   219 alszik[Enci,8]
+                    *              0             0             1 
+   220 alszik[Feri,8]
+                    *              0             0             1 
+   221 alszik[Alma,9]
+                    *              0             0             1 
+   222 alszik[Bela,9]
+                    *              0             0             1 
+   223 alszik[Cili,9]
+                    *              0             0             1 
+   224 alszik[Dani,9]
+                    *              0             0             1 
+   225 alszik[Enci,9]
+                    *              0             0             1 
+   226 alszik[Feri,9]
+                    *              0             0             1 
+   227 alszik[Alma,10]
+                    *              0             0             1 
+   228 alszik[Bela,10]
+                    *              0             0             1 
+   229 alszik[Cili,10]
+                    *              1             0             1 
+   230 alszik[Dani,10]
+                    *              0             0             1 
+   231 alszik[Enci,10]
+                    *              1             0             1 
+   232 alszik[Feri,10]
+                    *              1             0             1 
+   233 alszik[Alma,0]
+                    *              0             0             1 
+   234 alszik[Bela,0]
+                    *              0             0             1 
+   235 alszik[Cili,0]
+                    *              0             0             1 
+   236 alszik[Dani,0]
+                    *              0             0             1 
+   237 alszik[Enci,0]
+                    *              0             0             1 
+   238 alszik[Feri,0]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
