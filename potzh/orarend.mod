@@ -42,6 +42,10 @@ s.t. EndClassForTeacher{t in Teachers, c in Classes, g in Groups}:
     # pl 14.0 = megkeresett utolsó óra class alapján ami ki lett osztva, különben akármennyi
     endTime[t] >= endClass[c] - M * (1 - sessionAssignment[t,c,g]);
 
+# Ha rossz lenne az adat (valahogy ezzel már pozitív nálam, de magától is az kéne legyen)
+s.t. EnsureNonNegativeTime{t in Teachers}:
+    endTime[t] >= startTime[t];
+
 solve;
 
 # Kiírjuk az órarendet
