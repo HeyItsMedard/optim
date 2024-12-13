@@ -25,6 +25,10 @@ var endTime{Teachers}, >=0;
 minimize TotalTime:
     sum{t in Teachers} (endTime[t] - startTime[t]);
 
+# A tanárok csak azokon az órákon tarthatnak órát, amikre be vannak osztva
+s.t. TeacherSpecialization{t in Teachers, g in Groups, c in Classes}:
+    sessionAssignment[t, c, g] <= teachersPerGroup[t, g];
+
 # Egy tanár egy adott időpontban egy órát tarthat és egy csoport nem lehet több órán egyszerre
 s.t. SingleSessionPerTeacher{t in Teachers, c in Classes}:
     sum{g in Groups} sessionAssignment[t,c,g] <= 1;
